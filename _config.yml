@@ -22,7 +22,7 @@ repository               : "sousekil/sousekil.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/avatar.png"
+  avatar           : "avatar.png"
   name             : "Felix Liu"
   pronouns         : "he/his" # example: "she/her"  
   bio              : "Data Scientist / Aspiring Actuary"
