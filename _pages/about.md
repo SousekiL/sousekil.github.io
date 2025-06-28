@@ -35,9 +35,9 @@ SOA Exams Progress:
 - How Social Capital Influenced Women’s Literary Recognition in Imperial China
   - Project summary [Slides](http://dx.doi.org/10.2139/ssrn.5126209)
   - Project paper [Preprint version](http://dx.doi.org/10.2139/ssrn.5072945)
-- [Why does it feel like everywhere is far away in Beijing?](/portfolio/2023-08-29-beijing.md)
-- [College Entrance Exam Major Selection: A Case Study of Shandong Province](/portfolio/2024-07-04-gaokao2.md)
-- ["Zhang Xuefeng Effect" on Major Selection - An Analysis Based on the 2023 Shandong Province College Entrance Examination Data](/portfolio/2023-08-10-gaokao.md)
+- [Why does it feel like everywhere is far away in Beijing?](/portfolio/2023-08-29-beijing/)
+- [College Entrance Exam Major Selection: A Case Study of Shandong Province](/portfolio/2024-07-04-gaokao2/)
+- ["Zhang Xuefeng Effect" on Major Selection - An Analysis Based on the 2023 Shandong Province College Entrance Examination Data](/portfolio/2023-08-10-gaokao/)
 
 ## Copyright Notice
 
