@@ -75,6 +75,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  weixin           : "https://mp.weixin.qq.com/s/uPWBLQgdtARjceNhtRWKJg"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
