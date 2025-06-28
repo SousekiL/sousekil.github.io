@@ -38,6 +38,7 @@ SOA Exams Progress:
 - [Why does it feel like everywhere is far away in Beijing?](/portfolio/2023-08-29-beijing/)
 - [College Entrance Exam Major Selection: A Case Study of Shandong Province](/portfolio/2024-07-04-gaokao2/)
 - ["Zhang Xuefeng Effect" on Major Selection - An Analysis Based on the 2023 Shandong Province College Entrance Examination Data](/portfolio/2023-08-10-gaokao/)
+- [The Women's Names in Ancient China](/portfolio/2022-03-06-women/)
 
 ## Copyright Notice
 
