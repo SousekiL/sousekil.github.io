@@ -37,3 +37,21 @@ Skills
   * GLM
   * A/B Testing
   * ETL workflows
+
+Relevant Courses
+======
+* STAT 431 Applied Bayesian Analysis
+* STAT 432 Basics of Statistical Learning
+* STAT 480 Big Data Analytics
+* ASRM 441 Statistics for Risk Modeling I
+* ASRM 442 Statistics for Risk Modeling II
+* ASRM 461 Loss Models
+* ASRM 471 Life Contingencies I
+* ASRM 561 Loss Data Analyt & Credibility
+* ASRM 410 Investments and Fin Markets
+* ASRM 455 Predictive Analytics
+* ASRM 490 Actuarial Research
+* ASRM 598 Literature Seminar
+* ASRM 595 Advanced Topics in Quantitative Risk Management
+* IE 410 Advanced Stochastic Process & Application
+* IE 405 Computing for ISE
