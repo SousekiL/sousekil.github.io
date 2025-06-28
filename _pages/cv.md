@@ -28,13 +28,14 @@ Skills
 * Programming & Tools
   * Advanced R
   * SQL (MySQL, Hive)
+  * Advanced Tableau
   * Python
   * Basic: C++, Java
-  * Advanced Tableau
 * Modeling & Analytics
   * Statistical Learning
   * Time Series Modeling
-  * GLM
+  * Generalized Linear Models
+  * Bayesian Methods
   * A/B Testing
   * ETL workflows
 
