@@ -15,50 +15,31 @@ Education
 * M.S. in Jekyll, GitHub University, 2014
 * B.S. in GitHub, GitHub University, 2012
 
-Work experience
+Education
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* M.S. in University of Illinois at Urbana-Champaign (ongoing)
+* M.A. in Nanjing University
+* B.A. in Xi'an Jiaotong University
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Certifications
+======
+SOA Exams Progress:
+* P: Passed in Jan 2025
+* FM: Passed in Jun 2025
+* SRM: Passed, in May 2025
+* FAM: In Progress, expected for Oct 2025
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Programming & Tools
+  * Advanced R
+  * SQL (MySQL, Hive)
+  * Python
+  * Basic: C++, Java
+  * Advanced Tableau
+* Modeling & Analytics
+  * Statistical Learning
+  * Time Series Modeling
+  * GLM
+  * A/B Testing
+  * ETL workflows
