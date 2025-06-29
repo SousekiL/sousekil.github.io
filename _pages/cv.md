@@ -25,19 +25,12 @@ SOA Exams Progress:
 
 Skills
 ======
-* Programming & Tools
-  * Advanced R
-  * SQL (MySQL, Hive)
-  * Advanced Tableau
-  * Python
-  * Basic: C++, Java
-* Modeling & Analytics
-  * Statistical Learning
-  * Time Series Modeling
-  * Generalized Linear Models
-  * Bayesian Methods
-  * A/B Testing
-  * ETL workflows
+Programming & Tools:
+  * Advanced R, SQL (MySQL, Hive), Python, Basic: C++, Java
+  * Advanced Tableau, PowerBI
+Modeling & Analytics:
+  * Statistical Learning, Time Series Modeling, Generalized Linear Models, Bayesian Methods (MCMC)
+  * A/B Testing, ETL workflows
 
 Relevant Courses
 ======
