@@ -19,8 +19,8 @@ Education
   * M.S. in Predictive Analytics & Risk Management, Department of Mathematics
   * GPA: 3.93/4.0
   * Expected Dec 2025
-* [Nanjing University](https://www.nju.edu.cn/en/About.htm), Master of Arts, GPA: 3.95/4.0
-* [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm), Bachelor of Arts, GPA: 3.68/4.0
+* [Nanjing University](https://www.nju.edu.cn/en/About.htm), M.A., GPA: 3.95/4.0
+* [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm), B.A., GPA: 3.68/4.0
 
 Actuarial Exams (Society of Actuaries)
 ======
