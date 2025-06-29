@@ -21,6 +21,13 @@ M.A. in [Nanjing University](https://www.nju.edu.cn/en/About.htm)
 B.A. in [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm)
 * GPA: 3.68/4.0
 
+Actuarial Exams
+======
+**P**: Passed in Jan 2025
+**FM**: Passed in Jun 2025
+**SRM**: Passed, in May 2025
+**FAM**: In Progress, expected for Oct 2025
+
 Work Experience
 ======
 **[TikTok (ByteDance Ltd.)](https://www.douyin.com)**
@@ -39,13 +46,14 @@ Data Scientist (Jun 2020 – May 2022)
 * Increased e-commerce GMV by 7% using RFM-based segmentation of sellers and consumers.
 * Created Tableau dashboards and metric systems using SQL to enhance business monitoring and decisions.
 
-Certifications
+Research Experience
 ======
-SOA Exams Progress:
-* P: Passed in Jan 2025
-* FM: Passed in Jun 2025
-* SRM: Passed, in May 2025
-* FAM: In Progress, expected for Oct 2025
+**The IRisk Lab**
+
+Actuarial Research Assistant (Aug 2024 -- Jan 2025)
+
+* Explored data science techniques to reverse engineer long-term traditional valuation approaches.
+* Modeled extreme rainfall risk for Beijing by applying GEV/GPD Models to derive return periods and assess tail risk.
 
 Skills
 ======
