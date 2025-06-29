@@ -23,9 +23,9 @@ Education
 
 Actuarial Exams (Society of Actuaries)
 ======
-* Exam P – Passed (Jan 2025)
-* Exam FM – Passed (Jun 2025)
-* Exam SRM – Passed (May 2025)
+* Exam **P** – Passed (Jan 2025)
+* Exam **FM** – Passed (Jun 2025)
+* Exam **SRM** – Passed (May 2025)
 * Exam FAM – In Progress (Oct 2025)
 * Exam ASTAM – In Progress (Dec 2025)
 
