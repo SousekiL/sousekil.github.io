@@ -11,7 +11,10 @@ redirect_from:
 
 Education
 ======
-M.S. in [University of Illinois at Urbana-Champaign](https://illinois.edu/)
+M.S. in Predictive Analytics & Risk Management 
+
+[University of Illinois at Urbana-Champaign](https://illinois.edu/)
+
 * GPA: 3.93/4.0
 * Expected Dec 2025
   
@@ -23,10 +26,11 @@ B.A. in [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.h
 
 Actuarial Exams
 ======
-**P**: Passed in Jan 2025
-**FM**: Passed in Jun 2025
-**SRM**: Passed, in May 2025
-**FAM**: In Progress, expected for Oct 2025
+* **P**: Passed in Jan 2025
+* **FM**: Passed in Jun 2025
+* **SRM**: Passed, in May 2025
+* FAM: In Progress, expected for Oct 2025
+* ASTAM: In Progress, expected for Dec 2025
 
 Work Experience
 ======
