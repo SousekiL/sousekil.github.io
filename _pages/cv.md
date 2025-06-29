@@ -22,10 +22,10 @@ Master of Science in Predictive Analytics & Risk Management
 * GPA: 3.93/4.0
 * Expected Dec 2025
   
-Master of Arts in [Nanjing University](https://www.nju.edu.cn/en/About.htm)
+Master of Arts, [Nanjing University](https://www.nju.edu.cn/en/About.htm)
 * GPA: 3.95/4.0
   
-Bachelor of Arts in [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm)
+Bachelor of Arts, [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm)
 * GPA: 3.68/4.0
 
 Actuarial Exams (Society of Actuaries)
