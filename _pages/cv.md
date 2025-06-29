@@ -38,9 +38,9 @@ Relevant Courses
 Statistical Methods & Theory
 * STAT 431 Applied Bayesian Analysis
 * STAT 480 Big Data Analytics
-* IE 410 Advanced Stochastic Processes & Applications
 * ASRM 441 Statistics for Risk Modeling I
 * ASRM 442 Statistics for Risk Modeling II
+* IE 410 Advanced Stochastic Processes & Applications
   
 Machine Learning & Data Science
 * STAT 432 Basics of Statistical Learning
