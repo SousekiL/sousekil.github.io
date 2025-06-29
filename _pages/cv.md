@@ -28,6 +28,7 @@ Skills
 Programming & Tools:
   * Advanced R, SQL (MySQL, Hive), Python, Basic: C++, Java
   * Advanced Tableau, PowerBI
+
 Modeling & Analytics:
   * Statistical Learning, Time Series Modeling, Generalized Linear Models, Bayesian Methods (MCMC)
   * A/B Testing, ETL workflows
