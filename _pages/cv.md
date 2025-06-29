@@ -41,24 +41,29 @@ Skills
 
 Relevant Courses
 ======
-* Statistical Methods & Theory
-  * Applied Bayesian Analysis
-  * Big Data Analytics
-  * Advanced Stochastic Process & Application
-  * Statistics for Risk Modeling 
-* Machine Learning & Data Science
-  * Computing Programming and Algorithm
-  * Predictive Analytics
-  * Statistical Learning
-* Actuarial Science & Insurance Analytics
-  * Loss Models
-  * Loss Data Analyt & Credibility
-  * Life Contingencies I
-  * Actuarial Research & Literature Seminar 
-* Finance & Risk Management 
-  * Foundation in Risk Management
-  * Risk Analytics and Decision Making
-  * Advanced Topics in Quantitative Risk Management
+Statistical Methods & Theory
+* STAT 431 Applied Bayesian Analysis
+* STAT 480 Big Data Analytics
+* IE 410 Advanced Stochastic Processes & Applications
+* ASRM 441 Statistics for Risk Modeling I
+* ASRM 442 Statistics for Risk Modeling II
+  
+Machine Learning & Data Science
+* STAT 432 Basics of Statistical Learning
+* ASRM 455 Predictive Analytics
+* IE 405 Computing for ISE
+  
+Actuarial Science & Insurance Analytics
+* ASRM 461 Loss Models
+* ASRM 471 Life Contingencies I
+* ASRM 561 Loss Data Analytics & Credibility
+* ASRM 490 Actuarial Research
+* ASRM 598 Literature Seminar
+  
+Finance & Risk Management
+* FIN 530 Foundations of Risk Management
+* ASRM 539 Risk Analytics and Decision Making
+* ASRM 595 Advanced Topics in Quantitative Risk Management
   
 
 
