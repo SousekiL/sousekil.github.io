@@ -15,17 +15,17 @@ Graduate student in Actuarial Science & Risk Management with prior experience at
 
 Education
 ======
-M.S. in Predictive Analytics & Risk Management 
+Master of Science in Predictive Analytics & Risk Management 
 
-[University of Illinois at Urbana-Champaign](https://illinois.edu/), Department of Mathematics
+[University of Illinois at Urbana-Champaign, Department of Mathematics](https://asrm.illinois.edu/)
 
 * GPA: 3.93/4.0
 * Expected Dec 2025
   
-M.A. in [Nanjing University](https://www.nju.edu.cn/en/About.htm)
+Master of Arts in [Nanjing University](https://www.nju.edu.cn/en/About.htm)
 * GPA: 3.95/4.0
   
-B.A. in [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm)
+Bachelor of Arts in [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm)
 * GPA: 3.68/4.0
 
 Actuarial Exams (Society of Actuaries)
