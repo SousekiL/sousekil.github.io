@@ -12,17 +12,18 @@ redirect_from:
 Education
 ======
 M.S. in [University of Illinois at Urbana-Champaign](https://illinois.edu/)
-* GPA: 3.93/4.0, Expected Dec 2025
+* GPA: 3.93/4.0
+* Expected Dec 2025
   
-M.A. in Nanjing University
+M.A. in [Nanjing University](https://www.nju.edu.cn/en/About.htm)
 * GPA: 3.95/4.0
   
-B.A. in Xi'an Jiaotong University
+B.A. in [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm)
 * GPA: 3.68/4.0
 
 Work Experience
 ======
-**TikTok (ByteDance Ltd.)**
+**[TikTok (ByteDance Ltd.)](https://www.douyin.com)**
 
 Data Scientist at Douyin (May 2022 – May 2023)
 
@@ -30,7 +31,7 @@ Data Scientist at Douyin (May 2022 – May 2023)
 * Applied causal inference (DID, PSM) to analyze marketing incidents and uncover drivers of user retention.
 * Built real-time monitoring systems to detect misleading content, reducing user negative feedback by 10%.
 
-**Kuaishou Tech.**
+**[Kuaishou Tech.](https://www.kuaishou.com)**
 
 Data Scientist (Jun 2020 – May 2022)
 
