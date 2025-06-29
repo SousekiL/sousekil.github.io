@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+Summary
+======
+Graduate student in Actuarial Science & Risk Management with prior experience at TikTok and Kuaishou. Skilled in statistical modeling, causal inference, and data visualization. Currently pursuing SOA exams and seeking full-time jobs in data science, actuarial analytics, or quantitative research.
+
 Education
 ======
 M.S. in Predictive Analytics & Risk Management 
@@ -24,13 +28,13 @@ M.A. in [Nanjing University](https://www.nju.edu.cn/en/About.htm)
 B.A. in [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm)
 * GPA: 3.68/4.0
 
-Actuarial Exams
+Actuarial Exams (Society of Actuaries)
 ======
-* **P**: Passed in Jan 2025
-* **FM**: Passed in Jun 2025
-* **SRM**: Passed, in May 2025
-* FAM: In Progress, expected for Oct 2025
-* ASTAM: In Progress, expected for Dec 2025
+* Exam P – Passed (Jan 2025)
+* Exam FM – Passed (Jun 2025)
+* Exam SRM – Passed (May 2025)
+* Exam FAM – In Progress (Oct 2025)
+* Exam ASTAM – In Progress (Dec 2025)
 
 Work Experience
 ======
@@ -61,13 +65,11 @@ Actuarial Research Assistant, Aug 2024 -- Jan 2025
 
 Skills
 ======
-Programming & Tools:
-  * Advanced R, SQL (MySQL, Hive), Python, Basic: C++, Java
-  * Advanced Tableau, PowerBI
-
-Modeling & Analytics:
-  * Statistical Learning, Time Series Modeling, Generalized Linear Models, Bayesian Methods (MCMC)
-  * A/B Testing, ETL workflows
+* Programming: R, SQL (MySQL, Hive), Python; basic C++, Java
+* Tools: Tableau, PowerBI, Excel
+* Statistical Modeling: GLMs, Time Series, Bayesian MCMC, A/B Testing
+* Machine Learning: Tree-based models, Regularization, Model evaluation
+* Data Workflow: ETL, data cleaning, dashboard building
 
 Relevant Courses
 ======
