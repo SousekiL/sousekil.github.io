@@ -11,9 +11,28 @@ redirect_from:
 
 Education
 ======
-* M.S. in University of Illinois at Urbana-Champaign (GPA: 3.93/4.0, Expected Dec 2025)
-* M.A. in Nanjing University (GPA: 3.95/4.0)
-* B.A. in Xi'an Jiaotong University (GPA: 3.68/4.0)
+* M.S. in University of Illinois at Urbana-Champaign
+  * GPA: 3.93/4.0, Expected Dec 2025
+* M.A. in Nanjing University
+  * GPA: 3.95/4.0
+* B.A. in Xi'an Jiaotong University
+  * GPA: 3.68/4.0
+
+Work Experience
+======
+**TikTok (ByteDance Ltd.)**
+
+Data Scientist at Douyin (May 2022 – May 2023)
+	•	Reduced low-quality video content by 0.22% through misinformation detection strategies, improving user LTV by 0.014%.
+	•	Applied causal inference (DID, PSM) to analyze marketing incidents and uncover drivers of user retention.
+	•	Built real-time monitoring systems to detect misleading content, reducing user negative feedback by 10%.
+
+**Kuaishou Tech.**
+
+Data Scientist (Jun 2020 – May 2022)
+	•	Improved private domain traffic by 3% via targeted public domain follower strategies.
+	•	Increased e-commerce GMV by 7% using RFM-based segmentation of sellers and consumers.
+	•	Created Tableau dashboards and metric systems using SQL to enhance business monitoring and decisions.
 
 Certifications
 ======
