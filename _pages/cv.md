@@ -13,7 +13,7 @@ Education
 ======
 M.S. in Predictive Analytics & Risk Management 
 
-[University of Illinois at Urbana-Champaign](https://illinois.edu/)
+[University of Illinois at Urbana-Champaign](https://illinois.edu/), Department of Mathematics
 
 * GPA: 3.93/4.0
 * Expected Dec 2025
