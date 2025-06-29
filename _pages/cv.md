@@ -73,25 +73,10 @@ Skills
 
 Relevant Courses
 ======
-Statistical Methods & Theory
-* Applied Bayesian Analysis
-* Big Data Analytics
-* Statistics for Risk Modeling
-* Advanced Stochastic Processes & Applications
-  
-Machine Learning & Data Science
-* Statistical Learning
-* Predictive Analytics
-* Computing Programming & Algorithm
-  
-Actuarial Science & Insurance Analytics
-* Loss Models & Credibility Theory
-* Life Contingencies Mathematics
-* Actuarial Research & Literature Seminar
-  
-Finance & Risk Management
-* Foundations of Risk Management
-* Quantitative Risk Management
+* **Statistical Methods & Theory**: Applied Bayesian Analysis, Big Data Analytics, Statistics for Risk Modeling, Advanced Stochastic Processes & Applications
+* **Machine Learning & Data Science**: Statistical Learning, Predictive Analytics, Computing Programming & Algorithm
+* **Actuarial Science & Insurance Analytics**: Loss Models & Credibility Theory (Short-term Actuarial Mathematics), Life Contingencies (Long-term Actuarial Mathematics)), Actuarial Research & Literature Seminar
+* **Finance & Risk Management**: Foundations of Risk Management, Quantitative Risk Management
   
 
 
