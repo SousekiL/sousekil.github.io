@@ -58,7 +58,7 @@ Research Experience
 ======
 **[IRisk Lab](https://asrm.illinois.edu/illinois-risk-lab/illinois-risk-lab-home)**
 
-Actuarial Research Assistant, Aug 2024 -- Jan 2025
+Actuarial Research Assistant, Aug 2024 - Jan 2025
 
 * Explored data science techniques to reverse engineer long-term traditional valuation approaches.
 * Modeled extreme rainfall risk for Beijing by applying GEV/GPD Models to derive return periods and assess tail risk.
