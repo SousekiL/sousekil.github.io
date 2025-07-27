@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Liu, Felix">
+
+<title>Extreme Precipitation Risk in Beijing (1960–2024): An EVT-Based Assessment</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="ASRM595_Html_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ASRM595_Html_files/libs/quarto-html/quarto.js"></script>
+<script src="ASRM595_Html_files/libs/quarto-html/popper.min.js"></script>
+<script src="ASRM595_Html_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="ASRM595_Html_files/libs/quarto-html/anchor.min.js"></script>
+<link href="ASRM595_Html_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ASRM595_Html_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="ASRM595_Html_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="ASRM595_Html_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="ASRM595_Html_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#sec-introduction" id="toc-sec-introduction" class="nav-link active" data-scroll-target="#sec-introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#sec-literature" id="toc-sec-literature" class="nav-link" data-scroll-target="#sec-literature"><span class="header-section-number">2</span> Literature Review</a></li>
+  <li><a href="#sec-data" id="toc-sec-data" class="nav-link" data-scroll-target="#sec-data"><span class="header-section-number">3</span> Data and Description Analysis</a></li>
+  <li><a href="#climate-risk-assessment" id="toc-climate-risk-assessment" class="nav-link" data-scroll-target="#climate-risk-assessment"><span class="header-section-number">4</span> Climate Risk Assessment</a></li>
+  <li><a href="#sec-discussion" id="toc-sec-discussion" class="nav-link" data-scroll-target="#sec-discussion"><span class="header-section-number">5</span> Discussion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Extreme Precipitation Risk in Beijing (1960–2024): An EVT-Based Assessment</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Liu, Felix </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div style="page-break-after: always;"></div>
+<section id="sec-introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="sec-introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>In recent years, Beijing has experienced several severe flooding events, highlighting its vulnerability to extreme summer rainfall. These disasters are closely tied to the city’s seasonal climate pattern, where a large portion of annual precipitation is concentrated in just a few months.</p>
+<p>Notable events include the torrential rain on August 16, 2021, which caused fatal underpass flooding in Haidian district, and the “23·7” storm in late July 2023, during which some stations recorded over 500 mm of rainfall. Shortly after, Typhoon Doksuri’s remnants brought more intense rain, with Mentougou district receiving nearly 581 mm, forcing thousands to evacuate.</p>
+<p>These extreme events not only caused widespread disruption but also raised concerns about how likely similar disasters are to recur. To better understand this risk, this study analyzes daily precipitation data in Beijing from 1960 to 2024 using Extreme Value Theory, focusing on quantifying the likelihood and severity of rare but high-impact rainfall events.</p>
+</section>
+<section id="sec-literature" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="sec-literature"><span class="header-section-number">2</span> Literature Review</h2>
+<p>The application of Extreme Value Theory (EVT) to hydro-climatic extremes—particularly precipitation and flood analysis—is well-established. <span class="citation" data-cites="ding2011extreme">Ding et al. (<a href="#ref-ding2011extreme" role="doc-biblioref">2011</a>)</span> provide a comprehensive overview of recent advancements in EVT and their relevance to climate change research, emphasizing the utility of both the Generalized Extreme Value (GEV) distribution for block maxima and the Generalized Pareto Distribution (GPD) for threshold exceedances.</p>
+<p>In the context of Beijing, <span class="citation" data-cites="song2018probability">Song, Zhang, and Kong (<a href="#ref-song2018probability" role="doc-biblioref">2018</a>)</span> conducted a detailed comparison of the AM-GEV and POT-GPD approaches using daily precipitation data from 1960 to 2012 across 45 rain gauge stations. They applied the L-moment method for parameter estimation and the Kolmogorov–Smirnov test for goodness-of-fit, concluding that GEV generally performed better for annual maxima, while GPD was more suitable for modeling threshold exceedances. Their findings also revealed spatial variation in return levels and showed that estimates derived from the AM approach were typically higher—providing a more conservative basis for risk assessment.</p>
+<p>Further work by <span class="citation" data-cites="song2019urban">Song et al. (<a href="#ref-song2019urban" role="doc-biblioref">2019</a>)</span> investigated the causes of urban flooding in Beijing, highlighting not only changes in precipitation patterns (such as an increase in short-duration rainfall intensity despite an overall decline) but also the significant impact of urbanization, including land cover change, altered runoff processes, and limitations in drainage infrastructure.</p>
+<p>In addition to these core studies, several other works offer valuable insights. <span class="citation" data-cites="he2020simulations">He, Zeng, and Wang (<a href="#ref-he2020simulations" role="doc-biblioref">2020</a>)</span> explored the use of MCMC methods to estimate parameters in extreme precipitation simulations, providing a Bayesian perspective for EVT modeling. <span class="citation" data-cites="miao2008urban">Miao and Chen (<a href="#ref-miao2008urban" role="doc-biblioref">2008</a>)</span> examined the influence of urbanization on summer rainfall in Beijing, noting increased precipitation intensity in urban areas due to land surface changes. <span class="citation" data-cites="wu2017nonstationary">Wu and Li (<a href="#ref-wu2017nonstationary" role="doc-biblioref">2017</a>)</span> proposed non-stationary GEV models with time-varying parameters, emphasizing the importance of capturing evolving climate dynamics when analyzing extreme precipitation trends in northern China. Together, these studies highlight the value of integrating advanced statistical methods, climate dynamics, and urban factors into extreme rainfall analysis.</p>
+<p>Building on these foundations, this study adopts both the AM-GEV and POT-GPD frameworks to model extreme precipitation risk in Beijing using updated data from 1960 to 2024.</p>
+</section>
+<section id="sec-data" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="sec-data"><span class="header-section-number">3</span> Data and Description Analysis</h2>
+<p>The analysis relies on publicly available daily precipitation records from NOAA (National Oceanic and Atmospheric Administration), specifically from the GHCND weather station CHM00054511 (Beijing Airport) located in Beijing. The dataset spans the period from 1960 to 2024 and includes total daily rainfall measurements.</p>
+<p>For the purpose of extreme value analysis, only non-zero precipitation days were retained. This focuses the modeling on actual rainfall events and avoids distortion from dry days. The initial statistical summary (<a href="#tbl-data-prep-viz">Table&nbsp;1</a>) reveals a mean of 8.05 mm for rainy days, with a maximum observed value of 262.60 mm. The distribution is highly right-skewed (<a href="#fig-dist-plot">Figure&nbsp;1</a>), which is typical for precipitation data—most days see light rainfall, but a few outliers reach very large values. This skewness highlights the relevance of Extreme Value Theory (EVT), which is specifically designed to analyze the tails of such distributions.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/tbl-data-prep-viz_b801547d2d2fca1965ec18982ff3766f">
+<div class="cell-output-display">
+<div id="tbl-data-prep-viz" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;1: Basic statistics for non-zero daily precipitation (mm).</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Min.</th>
+<th style="text-align: right;">1st Qu.</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">Mean</th>
+<th style="text-align: right;">3rd Qu.</th>
+<th style="text-align: right;">Max.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">2.3</td>
+<td style="text-align: right;">8.05</td>
+<td style="text-align: right;">8.4</td>
+<td style="text-align: right;">262.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>TRUE</p>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-dist-plot_2b5fc0e6b9512e51f0cc375489b51f9a">
+<div class="cell-output-display">
+<div id="fig-dist-plot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-dist-plot-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Daily Precipitation (mm) Distribution Plot</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>A time series plot (<a href="#fig-time-series">Figure&nbsp;2</a>) offers a closer look at the variability across the 65-year period. Years such as 1963, 1984, 2016, and especially 2023 stand out with unusually high daily rainfall. However, these extreme spikes occur irregularly and without a clear trend. This unpredictability is precisely what motivates the use of EVT—to help assess the probability and impact of rare but severe rainfall events that could drive urban flooding and infrastructure stress.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-time-series_fbbdb14feca58de86df18614530dc562">
+<div class="cell-output-display">
+<div id="fig-time-series" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-time-series-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;2: Daily Precipitation (mm) Time Series Plot</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="climate-risk-assessment" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="climate-risk-assessment"><span class="header-section-number">4</span> Climate Risk Assessment</h2>
+<p>To analyze extreme rainfall risk, this study applies two commonly used approaches from Extreme Value Theory (EVT): the Generalized Extreme Value (GEV) distribution and the Generalized Pareto Distribution (GPD).</p>
+<p>The GEV model is based on the block maxima method, which extracts the maximum daily rainfall for each year. In contrast, the GPD model uses the peaks over threshold (POT) method, which considers all daily rainfall values that exceed a selected threshold.</p>
+<p>Both models are fitted to the same precipitation dataset to ensure a consistent comparison. The following sections will present the model fitting results for each approach and compare their estimates of return levels and risk metrics.</p>
+<section id="sec-pot" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="sec-pot"><span class="header-section-number">4.1</span> Climate Risk Assessment using POT-GPD</h3>
+<p>This section assesses the climate risk from extreme precipitation using the Peaks Over Threshold (POT) method, modeling threshold exceedances with the Generalized Pareto Distribution (GPD).</p>
+<p>Under the POT framework, for a chosen threshold u, the exceedances <span class="math inline">\(y = x - u\)</span> are modeled using the GPD:</p>
+<p><span class="math display">\[
+G_{\xi,\beta}(y) = 1 - \left(1 + \frac{\xi y}{\beta} \right)^{-1/\xi}, \quad \text{for } y &gt; 0, \ \beta &gt; 0, \ 1 + \frac{\xi y}{\beta} &gt; 0
+\]</span></p>
+<p>Here, <span class="math inline">\(\beta\)</span> is the scale parameter and <span class="math inline">\(\xi\)</span> is the shape parameter. The sign of <span class="math inline">\(\xi\)</span> determines the tail behavior of the distribution.</p>
+<section id="subsec-pot-threshold" class="level4" data-number="4.1.1">
+<h4 data-number="4.1.1" class="anchored" data-anchor-id="subsec-pot-threshold"><span class="header-section-number">4.1.1</span> POT Threshold Diagnostics</h4>
+<p>Diagnostic plots guide the selection of an appropriate threshold (<code>u</code>) above which precipitation events are considered extreme for GPD modeling.</p>
+<p>The Mean Excess Plot and GPD Shape Parameter Plot (<a href="#fig-pot-threshold">Figure&nbsp;3</a>) are used to identify a suitable threshold. Based on these diagnostics (showing relative linearity in the mean excess and some stability in the shape parameter around positive values), a threshold of <code>u1_pot = 23.2</code> mm is selected for the primary POT analysis. This positive shape parameter suggests a heavy-tailed risk profile, implying a non-negligible probability of very high precipitation events.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-pot-threshold_cb0a62444d788b3ba449afb529954823">
+<div class="cell-output-display">
+<div id="fig-pot-threshold" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-pot-threshold-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;3: Diagnostic plots for POT threshold selection. Left: Mean Excess Plot. Right: GPD Shape Parameter Plot. (u1_pot = 23.2 mm and u2_pot = 36.3 mm)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="subsec-pot-fitting" class="level4" data-number="4.1.2">
+<h4 data-number="4.1.2" class="anchored" data-anchor-id="subsec-pot-fitting"><span class="header-section-number">4.1.2</span> GPD Model Fitting to Threshold Excesses</h4>
+<p>The GPD is fitted to the precipitation amounts exceeding the threshold <code>u1_pot = 23.2</code> mm. The GPD model fitting (<a href="#tbl-pot-gpd-fit">Table&nbsp;2</a>) yields a shape parameter ξ ≈ 0.14 &gt; 0 and scale parameter σ ≈ 17.9. The positive shape parameter confirms the heavy-tailed nature, implying a relatively higher risk of very large precipitation events compared to distributions with exponential or lighter tails. The model converged successfully.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/tbl-pot-gpd-fit_02e887eb07cd6e690eb0fffd9a81f43c">
+<div class="cell-output-display">
+<div id="tbl-pot-gpd-fit" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;2: GPD Model Fit Results for Threshold u1_pot = 23.2 mm.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: right;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Shape (ξ)</td>
+<td style="text-align: right;">0.1397</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Scale (σ)</td>
+<td style="text-align: right;">17.9036</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shape SE</td>
+<td style="text-align: right;">0.0538</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Scale SE</td>
+<td style="text-align: right;">1.2713</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Log-Likelihood</td>
+<td style="text-align: right;">1835.2709</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Convergence Status</td>
+<td style="text-align: right;">Converged</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>TRUE</p>
+</div>
+</div>
+</section>
+<section id="subsec-pot-diagnostics" class="level4" data-number="4.1.3">
+<h4 data-number="4.1.3" class="anchored" data-anchor-id="subsec-pot-diagnostics"><span class="header-section-number">4.1.3</span> GPD Goodness-of-Fit Diagnostics</h4>
+<p>The diagnostic plots (<a href="#fig-pot-diag">Figure&nbsp;4</a>) suggest the GPD model reasonably captures the distribution of precipitation excesses. The EDF plot (left) shows good agreement between the empirical and fitted cumulative distributions. The Q-Q plot (right) shows points generally falling along the diagonal, indicating a good fit, although slight deviations in the upper tail suggest potential underestimation of the most extreme risks.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-pot-diag_cfdfb2d3781c0a209a8c5851ff3d8a3c">
+<div class="cell-output-display">
+<div id="fig-pot-diag" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-pot-diag-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;4: GPD model diagnostic plots for threshold u1_pot = 23.2 mm. Left: Empirical vs.&nbsp;Fitted CDF (EDF Plot). Right: Q-Q Plot.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="subsec-pot-risk" class="level4" data-number="4.1.4">
+<h4 data-number="4.1.4" class="anchored" data-anchor-id="subsec-pot-risk"><span class="header-section-number">4.1.4</span> POT-GPD Climate Risk Measures</h4>
+<p>The calculated risk measures (<a href="#tbl-pot-gpd-risk">Table&nbsp;3</a>) quantify specific levels of precipitation risk. The 99% VaR of 71.72 mm represents a high-magnitude event expected to be exceeded on only 1% of rainy days. The 99% ES of 100.40 mm indicates that when such an event occurs (i.e., precipitation &gt; 71.72 mm), the average precipitation is expected to be substantially higher, around 100.40 mm, highlighting the potential severity of these tail events and the associated climate risk.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/tbl-pot-gpd-risk_48d2a493b97c7a08afb2d65d9d33540a">
+<div class="cell-output-display">
+<div id="tbl-pot-gpd-risk" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;3: Estimated VaR and ES for GPD model with threshold u1_pot = 23.2 mm.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Level</th>
+<th style="text-align: right;">VaR (mm)</th>
+<th style="text-align: right;">ES (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">95%</td>
+<td style="text-align: right;">36.14</td>
+<td style="text-align: right;">59.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">99%</td>
+<td style="text-align: right;">71.72</td>
+<td style="text-align: right;">100.40</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>TRUE</p>
+</div>
+</div>
+</section>
+<section id="subsec-pot-tail" class="level4" data-number="4.1.5">
+<h4 data-number="4.1.5" class="anchored" data-anchor-id="subsec-pot-tail"><span class="header-section-number">4.1.5</span> POT-GPD Tail Behavior and Return Levels</h4>
+<p>Further visualization of the tail and estimation of return levels provide insights into the frequency and magnitude of high-risk events.</p>
+<p>The tail probability plots illustrate the fitted GPD tail along with confidence intervals for the 99% VaR (<a href="#fig-pot-qrm1">Figure&nbsp;5</a>) and ES (<a href="#fig-pot-qrm2">Figure&nbsp;6</a>) estimates, quantifying the uncertainty around these risk measures. These figures demonstrate that the model generally aligns well with the observed data in the upper tail, though the widening confidence bands near the extremes indicate increased uncertainty as values become rarer. The <code>tail_plot</code> (<a href="#fig-pot-tail">Figure&nbsp;7</a>) provides an alternative visualization of the tail fit relative to the empirical data. These plots highlight both the rarity and potential severity of extreme rainfall events and emphasize the usefulness of GPD-based risk measures for understanding and preparing for high-impact climate extremes.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-pot-qrm1_08bc44940799a349ff39b118e3e79174">
+<div class="cell-output-display">
+<div id="fig-pot-qrm1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-pot-qrm1-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;5: Tail probability plots showing 99% VaR with confidence intervals for GPD fit (u1_pot = 23.2 mm).</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-pot-qrm2_26ced2df8b37c3b5473788c23d737e89">
+<div class="cell-output-display">
+<div id="fig-pot-qrm2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-pot-qrm2-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;6: Tail probability plots showing 99% ES with confidence intervals for GPD fit (u1_pot = 23.2 mm).</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-pot-tail_f7942be5c0d2e23aac2ed76552708cb3">
+<div class="cell-output-display">
+<div id="fig-pot-tail" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-pot-tail-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;7: Tail probability plot for GPD fit (u1_pot = 23.2 mm), indicating 99% VaR and ES.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>A return level refers to the estimated magnitude of a precipitation event expected to be equaled or exceeded once every T years, on average. For example, a 10-year return level represents the rainfall amount with a 10% chance of being exceeded in any given year, while a 100-year return level corresponds to a 1% annual exceedance probability.</p>
+<p>In <a href="#fig-pot-gpd-rl">Figure&nbsp;8</a> and <a href="#tbl-pot-gpd-rl">Table&nbsp;4</a>, the estimated 100-year return level is approximately 298 mm, meaning that, under current statistical assumptions, daily rainfall of this magnitude is expected to occur about once every 100 years. Similarly, 260.56 mm corresponds to a 50-year event, and 187.02 mm to a 10-year event. These values provide critical guidance for designing flood-resilient infrastructure and planning for rare but severe climate risks.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-pot-gpd-rl_c682a720ec36c5aeafb4ec82d8696fa1">
+<div class="cell-output-display">
+<div id="fig-pot-gpd-rl" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-pot-gpd-rl-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;8: Return Level plot for the POT-GPD model.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/tbl-pot-gpd-rl_5c795e95afd45fa2e049adf0ea4ee6f8">
+<div class="cell-output-display">
+<div id="tbl-pot-gpd-rl" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;4: Estimated Return Levels (mm) for POT-GPD model (u1_pot = 23.2 mm).</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Return Period (Years)</th>
+<th style="text-align: right;">Return Level (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">187.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">260.56</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">297.69</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>TRUE</p>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-am" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="sec-am"><span class="header-section-number">4.2</span> Climate Risk Assessment using AM-GEV</h3>
+<p>This section employs the Annual Maxima (AM) method and the Generalized Extreme Value (GEV) distribution to provide an alternative assessment of extreme precipitation risk, focusing on the largest event each year.</p>
+<p>The Annual Maxima (AM) method, paired with the Generalized Extreme Value (GEV) distribution, represents a classical and widely adopted framework in extreme value analysis, particularly within hydrological and climatological applications. Its significance and utility in empirical research are multi-faceted.</p>
+<p>Under the AM framework, the block maxima (e.g., annual maxima) are modeled using the Generalized Extreme Value (GEV) distribution:</p>
+<p><span class="math display">\[
+H_{\xi,\mu, \sigma}(x) = \exp \left\{ - \left[ 1 + \frac{\xi (x - \mu)}{\sigma} \right]^{-1/\xi} \right\}, \quad \text{for } 1 + \frac{\xi (x - \mu)}{\sigma} &gt; 0, \ \sigma &gt; 0
+\]</span></p>
+<p>Here, <span class="math inline">\(\mu\)</span> is the location parameter, <span class="math inline">\(\sigma\)</span> is the scale parameter, and <span class="math inline">\(\xi\)</span> is the shape parameter. The sign of <span class="math inline">\(\xi\)</span> determines the type of tail:</p>
+<ul>
+<li><p><span class="math inline">\(\xi\)</span> &gt; 0: heavy-tailed (Fréchet),</p></li>
+<li><p><span class="math inline">\(\xi\)</span> = 0: light-tailed (Gumbel, obtained as a limit),</p></li>
+<li><p><span class="math inline">\(\xi\)</span> &lt; 0: bounded tail (Weibull).</p></li>
+</ul>
+<p>While the AM method is less data-efficient than POT (using only one value per year), its strong theoretical basis, ease of interpretation in terms of annual return periods, and direct relevance to many impact-driving events make the AM-GEV analysis an indispensable tool for empirical research aimed at understanding and managing risks associated with high-impact, low-frequency environmental extremes.</p>
+<p><a href="#fig-am-gev-extract">Figure&nbsp;9</a> shows a sequence containing the single highest daily precipitation value for each year. The output confirms that 65 such annual maximum values were successfully extracted from the dataset. The plot illustrates substantial interannual variability, with some extreme spikes clearly visible — such as in 1963, 1983, and especially 2016, which saw the most intense daily rainfall. These irregular but impactful peaks highlight the relevance of using extreme value methods to assess precipitation risk.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-am-gev-extract_3e7d4a8cb984d65dc6b04404574e045e">
+<div class="cell-output-display">
+<div id="fig-am-gev-extract" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-am-gev-extract-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;9: Annual Maximum Daily Precipitation (1960–2024)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="subsec-am-fitting" class="level4" data-number="4.2.1">
+<h4 data-number="4.2.1" class="anchored" data-anchor-id="subsec-am-fitting"><span class="header-section-number">4.2.1</span> GEV Model Fitting to Annual Maxima</h4>
+<p>The GEV model fit to the annual maxima (<a href="#tbl-am-gev-fit">Table&nbsp;5</a>) yields location μ ≈ 58.23, scale σ ≈ 20.50, and shape ξ ≈ 0.27 &gt; 0. The positive shape parameter again suggests a Fréchet-type heavy-tailed distribution for the annual maximum events, implying a non-negligible risk of extremely high annual peaks. The model converged successfully.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/tbl-am-gev-fit_8728dbb1c382d65266fefc9ec791409e">
+<div class="cell-output-display">
+<div id="tbl-am-gev-fit" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;5: GEV Model Fit Results for Annual Maxima data (extRemes MLE).</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: right;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Location (μ)</td>
+<td style="text-align: right;">58.2341</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Scale (σ)</td>
+<td style="text-align: right;">20.4993</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shape (ξ)</td>
+<td style="text-align: right;">0.2697</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Location SE</td>
+<td style="text-align: right;">2.9896</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Scale SE</td>
+<td style="text-align: right;">2.4880</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Shape SE</td>
+<td style="text-align: right;">0.1249</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Log-Likelihood</td>
+<td style="text-align: right;">-308.8100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AIC</td>
+<td style="text-align: right;">623.6201</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BIC</td>
+<td style="text-align: right;">630.1432</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Convergence Status</td>
+<td style="text-align: right;">Converged</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>TRUE</p>
+</div>
+</div>
+</section>
+<section id="subsec-am-diagnostics" class="level4" data-number="4.2.2">
+<h4 data-number="4.2.2" class="anchored" data-anchor-id="subsec-am-diagnostics"><span class="header-section-number">4.2.2</span> GEV Goodness-of-Fit Diagnostics</h4>
+<p>The diagnostic plots (<a href="#fig-am-diag">Figure&nbsp;10</a>) indicate a reasonable fit of the GEV model. The Q-Q plots (top row) show good alignment between empirical and model quantiles, with some expected deviation for the highest values. The density plot (bottom left) shows the fitted GEV density capturing the empirical distribution shape well. The return level plot (bottom right) confirms that most observed annual maxima fall within the model’s confidence intervals.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-am-diag_e265fb435f99eb3bd6d67463618fb831">
+<div class="cell-output-display">
+<div id="fig-am-diag" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-am-diag-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;10: GEV model diagnostic plots for annual maxima data.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="subsec-am-tail" class="level4" data-number="4.2.3">
+<h4 data-number="4.2.3" class="anchored" data-anchor-id="subsec-am-tail"><span class="header-section-number">4.2.3</span> AM-GEV Return Level Analysis</h4>
+<p>The return level plot (<a href="#fig-am-gev-rl">Figure&nbsp;11</a>) and table (<a href="#tbl-am-gev-rl">Table&nbsp;6</a>) show the estimated magnitudes for annual maximum precipitation events with different return periods. The 10-year return level is approximately 121.68 mm, the 50-year event is around 199.94 mm, and the 100-year event is about 245.05 mm. These values represent the intensity of rare but impactful rainfall events expected to occur once every 10, 50, or 100 years on average, and serve as important references for infrastructure design and flood risk planning. Compared to the POT-GPD model, the return levels here are slightly lower, as the GEV model only considers the single maximum value per year, potentially underestimating some clustered extremes.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-am-gev-rl_e8016071d601d9e6afc29481cb88a330">
+<div class="cell-output-display">
+<div id="fig-am-gev-rl" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-am-gev-rl-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;11: Return Level plot for the AM-GEV model.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/tbl-am-gev-rl_49f3efd2595c567c9d86e5b150d7cfb6">
+<div class="cell-output-display">
+<div id="tbl-am-gev-rl" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;6: Estimated Return Levels (mm) for AM-GEV model.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Return Period (Years)</th>
+<th style="text-align: right;">Return Level (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">121.68</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">199.94</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">245.05</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>TRUE</p>
+</div>
+</div>
+</section>
+</section>
+<section id="comparing-return-levels-gpd-vs.-gev" class="level3" data-number="4.3">
+<h3 data-number="4.3" class="anchored" data-anchor-id="comparing-return-levels-gpd-vs.-gev"><span class="header-section-number">4.3</span> Comparing Return Levels: GPD vs.&nbsp;GEV</h3>
+<p><a href="#fig-return-level-comparison">Figure&nbsp;12</a> provides a comparison of return level estimates from the AM-GEV and POT-GPD models across different return periods. For the 10-year event, the GEV method yields an estimate of approximately 121.7 mm, while the POT method estimates about 187.0 mm. For the 50-year return period, the GEV estimate is 199.9 mm versus 260.6 mm from the POT model. Most notably, the estimated 100-year return level is approximately 245.0 mm under the GEV model, compared to about 297.7 mm under the POT-GPD approach. This reveals a consistent pattern where the POT method produces higher return level estimates at all return periods.</p>
+<p>These discrepancies underscore the impact of methodological choice on the assessment of extreme precipitation risk. The POT model makes use of all daily rainfall values exceeding a defined threshold, allowing it to capture more frequent exceedance behavior and better represent the upper tail. In contrast, the AM-GEV model relies solely on one annual maximum per year, which may overlook additional extreme events. As noted in previous studies <span class="citation" data-cites="song2018probability">(<a href="#ref-song2018probability" role="doc-biblioref">Song, Zhang, and Kong 2018</a>)</span>, such differences are expected and highlight the need to interpret EVT results in context. By presenting a return level range (≈245–298 mm for the 100-year event), this analysis offers a more robust foundation for climate risk planning and decision-making, while acknowledging the inherent uncertainties involved.</p>
+<div class="cell" data-layout-align="center" data-hash="ASRM595_Html_cache/html/fig-return-level-comparison_8cfb57a6d0e59b2a99c0893b56467898">
+<div class="cell-output-display">
+<div id="fig-return-level-comparison" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="ASRM595_Html_files/figure-html/fig-return-level-comparison-1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;12: Comparison of Return Levels estimated by GEV (AM) and GPD (POT) methods.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-discussion" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="sec-discussion"><span class="header-section-number">5</span> Discussion</h2>
+<section id="conclusion" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">5.1</span> Conclusion</h3>
+<p>This study applies Extreme Value Theory (EVT) methods—specifically the Peaks Over Threshold (POT-GPD) and Annual Maxima (AM-GEV) approaches—to assess the risk of extreme daily precipitation in Beijing, utilizing observational data from 1960 to 2024. Based on the analysis, the following main conclusions can be drawn.</p>
+<p><strong>Both models support the existence of heavy-tailed risk.</strong></p>
+<p>The shape parameter ξ was positive in both the GEV and GPD analyses (ξ ≈ 0.27 for GEV; ξ ≈ 0.14 for GPD), indicating a heavy-tailed distribution. This supports the suitability of EVT for modeling Beijing’s extreme precipitation, where rare but severe rainfall events pose significant climate risks.</p>
+<p><strong>Quantitative estimates for risk measures and return levels were obtained.</strong></p>
+<p>Under the AM-GEV model, the estimated return levels were approximately 122 mm (10-year), 200 mm (50-year), and 245 mm (100-year); Under the POT-GPD model, the estimates were 187 mm, 261 mm, and 298 mm for the same return periods. Additionally, tail risk metrics such as the 99% Value-at-Risk (VaR) and Expected Shortfall (ES) under the GPD model were estimated at 71.7 mm and 100.4 mm, respectively, conditional on wet days.</p>
+<p><strong>The choice of method influences the risk estimates.</strong></p>
+<p>POT-GPD consistently yielded higher return level estimates compared to AM-GEV. This is because POT uses all exceedances above a threshold, making more efficient use of tail data, while AM only uses one annual maximum. As a result, POT provides a more conservative estimate of climate risk. For instance, the 100-year return level was estimated at ~298 mm by GPD versus ~245 mm by GEV. This discrepancy suggests that POT-GPD may be better suited for precautionary planning in infrastructure design and disaster risk management, where underestimating extremes could have severe consequences.</p>
+</section>
+<section id="future-work" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="future-work"><span class="header-section-number">5.2</span> Future Work</h3>
+<p>Building on the current analysis, several directions could be pursued to improve and expand the assessment of extreme precipitation risk:</p>
+<p><strong>Include data from more observation stations.</strong></p>
+<p>This study focused on a single weather station in Beijing. Future work could incorporate data from additional stations across the city and surrounding areas to improve spatial coverage and capture local variability in extreme rainfall patterns. This would enable more robust regional risk estimation and highlight urban microclimate differences.</p>
+<p><strong>Incorporate non-stationary EVT models.</strong></p>
+<p>The current analysis assumes that the statistical properties of extreme rainfall (e.g., location and scale) remain constant over time. However, this assumption may not hold in the presence of long-term trends caused by urbanization or climate change, as highlighted by <span class="citation" data-cites="song2019urban">Song et al. (<a href="#ref-song2019urban" role="doc-biblioref">2019</a>)</span>. Non-stationary EVT allows model parameters to vary with covariates (e.g., time, temperature, urban land cover), enabling the detection of evolving risk patterns.</p>
+<p><strong>Explore Bayesian EVT methods using MCMC.</strong></p>
+<p>Bayesian approaches, such as those explored by <span class="citation" data-cites="he2020simulations">He, Zeng, and Wang (<a href="#ref-he2020simulations" role="doc-biblioref">2020</a>)</span>, allow for full probabilistic inference of model parameters. Unlike point estimates from MLE, Bayesian inference yields posterior distributions, providing direct insights into parameter uncertainty and confidence intervals. This helps evaluate the stability of return level estimates and simulate best- or worst-case scenarios, which is especially useful in risk-sensitive planning and decision-making.</p>
+<div style="page-break-after: always;"></div>
+</section>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-ding2011extreme" class="csl-entry" role="listitem">
+Ding, Yihui, Guoyu Ren, Qiang Zhang, and Daoyi Gong. 2011. <span>“Progress in Extreme Value Statistics and Its Application in Climate Change Research.”</span> <em>Advances in Climate Change Research</em> 7 (4): 248–52.
+</div>
+<div id="ref-he2020simulations" class="csl-entry" role="listitem">
+He, Xuehua, Xueliang Zeng, and Dong Wang. 2020. <span>“Simulations of Extreme Precipitations Based on Extreme Distributions and MCMC Method.”</span> <em>Journal of Hydroelectric Engineering</em> 39 (11): 49–58.
+</div>
+<div id="ref-miao2008urban" class="csl-entry" role="listitem">
+Miao, Shiguang, and Fei Chen. 2008. <span>“Impact of Urbanization on Summer Precipitation over Beijing.”</span> <em>Advances in Atmospheric Sciences</em> 25 (1): 1–9.
+</div>
+<div id="ref-song2019urban" class="csl-entry" role="listitem">
+Song, Xinjie, Jing Zhang, Rui He, Xiaoli Zou, and Chunyan Zhang. 2019. <span>“Urban Flood and Waterlogging and Causes Analysis in Beijing.”</span> <em>Advances in Water Science</em> 30 (2): 153–65.
+</div>
+<div id="ref-song2018probability" class="csl-entry" role="listitem">
+Song, Xinjie, Jing Zhang, and Fang Kong. 2018. <span>“Probability Distribution of Extreme Precipitation in Beijing Based on Extreme Value Theory.”</span> <em>Scientia Sinica Technologica</em> 48 (6): 639–50.
+</div>
+<div id="ref-wu2017nonstationary" class="csl-entry" role="listitem">
+Wu, Zhiwei, and Jianping Li. 2017. <span>“Non-Stationary Modelling of Extreme Precipitation in Northern China with Time-Varying GEV.”</span> <em>Natural Hazards</em> 88 (2): 1233–50.
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
