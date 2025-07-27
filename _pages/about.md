@@ -17,7 +17,7 @@ This website is a personal space where I share data analysis projects, learning 
 
 ## Recent Data Projects
 
-- [xDiscerning Professional Risks Through Networks: Social Capital and Women’s Achievement in Imperial China](/portfolio/2025-05-04-literature/)
+- [Discerning Professional Risks Through Networks: Social Capital and Women’s Achievement in Imperial China](/portfolio/2025-05-04-literature.html)
 - How Social Capital Influenced Women’s Literary Recognition in Imperial China
   - Project summary [Slides](http://dx.doi.org/10.2139/ssrn.5126209)
   - Project paper [Preprint version](http://dx.doi.org/10.2139/ssrn.5072945)
