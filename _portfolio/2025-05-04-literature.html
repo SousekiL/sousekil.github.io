@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Liu, Felix">
+
+<title>Growing in the Margins of Men’s Narration</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="Literature_Html_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Literature_Html_files/libs/quarto-html/quarto.js"></script>
+<script src="Literature_Html_files/libs/quarto-html/popper.min.js"></script>
+<script src="Literature_Html_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Literature_Html_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Literature_Html_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Literature_Html_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Literature_Html_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Literature_Html_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Literature_Html_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+<script src="Literature_Html_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="Literature_Html_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#theoretical-framework" id="toc-theoretical-framework" class="nav-link" data-scroll-target="#theoretical-framework"><span class="header-section-number">2</span> Theoretical Framework</a>
+  <ul class="collapse">
+  <li><a href="#classical-theories-of-social-capital" id="toc-classical-theories-of-social-capital" class="nav-link" data-scroll-target="#classical-theories-of-social-capital"><span class="header-section-number">2.1</span> Classical Theories of Social Capital</a></li>
+  <li><a href="#social-capital-in-the-chinese-context" id="toc-social-capital-in-the-chinese-context" class="nav-link" data-scroll-target="#social-capital-in-the-chinese-context"><span class="header-section-number">2.2</span> Social Capital in the Chinese Context</a></li>
+  <li><a href="#gendered-networks-in-historical-china" id="toc-gendered-networks-in-historical-china" class="nav-link" data-scroll-target="#gendered-networks-in-historical-china"><span class="header-section-number">2.3</span> Gendered Networks in Historical China</a></li>
+  <li><a href="#research-gap-and-analytical-approach" id="toc-research-gap-and-analytical-approach" class="nav-link" data-scroll-target="#research-gap-and-analytical-approach"><span class="header-section-number">2.4</span> Research Gap and Analytical Approach</a></li>
+  </ul></li>
+  <li><a href="#data-and-variables" id="toc-data-and-variables" class="nav-link" data-scroll-target="#data-and-variables"><span class="header-section-number">3</span> Data and Variables</a>
+  <ul class="collapse">
+  <li><a href="#response-womens-literary-recognition" id="toc-response-womens-literary-recognition" class="nav-link" data-scroll-target="#response-womens-literary-recognition"><span class="header-section-number">3.1</span> Response: Women’s Literary Recognition</a></li>
+  <li><a href="#primary-predictor-social-capital" id="toc-primary-predictor-social-capital" class="nav-link" data-scroll-target="#primary-predictor-social-capital"><span class="header-section-number">3.2</span> Primary Predictor: Social Capital</a></li>
+  </ul></li>
+  <li><a href="#methodology-and-analysis" id="toc-methodology-and-analysis" class="nav-link" data-scroll-target="#methodology-and-analysis"><span class="header-section-number">4</span> Methodology and Analysis</a>
+  <ul class="collapse">
+  <li><a href="#lasso-regression" id="toc-lasso-regression" class="nav-link" data-scroll-target="#lasso-regression"><span class="header-section-number">4.1</span> Lasso Regression</a></li>
+  <li><a href="#from-a-bayesian-perspective" id="toc-from-a-bayesian-perspective" class="nav-link" data-scroll-target="#from-a-bayesian-perspective"><span class="header-section-number">4.2</span> From a Bayesian Perspective</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">5</span> Discussion</a>
+  <ul class="collapse">
+  <li><a href="#summary-of-empirical-findings" id="toc-summary-of-empirical-findings" class="nav-link" data-scroll-target="#summary-of-empirical-findings"><span class="header-section-number">5.1</span> Summary of Empirical Findings</a></li>
+  <li><a href="#theoretical-implications-rethinking-social-capital" id="toc-theoretical-implications-rethinking-social-capital" class="nav-link" data-scroll-target="#theoretical-implications-rethinking-social-capital"><span class="header-section-number">5.2</span> Theoretical Implications: Rethinking Social Capital</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Growing in the Margins of Men’s Narration</h1>
+<p class="subtitle lead">How Women Poets Claimed Literary Recognition in Imperial China</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Liu, Felix </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<style>
+  body {
+  text-align: justify}
+</style>
+<div style="page-break-after: always;"></div>
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>In imperial China, women’s access to cultural prestige and literary achievement was highly constrained by gendered norms, Confucian hierarchy, and limited access to formal institutions. Yet despite these structural restrictions, a number of women poets managed to attain significant literary recognition, even publishing individual poetry collections (bieji/別集) that showcased their unique voices. This study investigates how such success was made possible—not through institutional power, but through social capital embedded in networks of personal relationships, particularly with male elites.</p>
+<p>This research explores how social capital functioned as a risk management strategy for women navigating a patriarchal literary world. Without institutional authority or formal professional pathways, women relied on their kinship ties and non-kin social networks to gain visibility, publish their works, and secure cultural legitimacy. This form of network-based agency—sometimes subtle and informal—played a critical role in shaping women’s careers in literature.</p>
+<p>This project uses a quantitative approach to test the impact of different forms of social capital on women’s literary recognition. Drawing on the China Biographical Database (CBDB) <span class="citation" data-cites="cbdb">(<a href="#ref-cbdb" role="doc-biblioref">Harvard University, Academia Sinica, and Peking University 2024</a>)</span> and Ming Qing Women’s Writings archive <span class="citation" data-cites="mqww">(<a href="#ref-mqww" role="doc-biblioref">McGill University Library 2024</a>)</span>, I construct network measures of kinship and social relations and evaluate their effects through LASSO and double LASSO regression models. The outcome variable is whether a woman poet published her own individual collection, which is taken as an indicator of professional literary recognition.</p>
+<p>The findings suggest that non-kin social networks, rather than familial ties, were more influential in determining women’s literary visibility. This result challenges traditional assumptions that family support alone was sufficient, and instead highlights how women strategically engaged in wider social relations—such as academic correspondence, artistic exchange, and political ties—to navigate and overcome the risks of marginalization. Ultimately, this study contributes to the growing literature on gender, networks, and cultural production, while offering new insights into the strategies women used to transform social connection into professional capital in a restrictive historical context.</p>
+</section>
+<section id="theoretical-framework" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Theoretical Framework</h1>
+<section id="classical-theories-of-social-capital" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="classical-theories-of-social-capital"><span class="header-section-number">2.1</span> Classical Theories of Social Capital</h2>
+<p>This study adopts social capital theory as its primary analytical lens to investigate how women poets in imperial China gained literary recognition. The foundational concept of social capital was developed by Pierre Bourdieu, who defined it as “the aggregate of the actual or potential resources linked to possession of a durable network of more or less institutionalized relationships” <span class="citation" data-cites="bourdieu1986forms">(<a href="#ref-bourdieu1986forms" role="doc-biblioref">Bourdieu 1986</a>)</span>. Social capital, according to Bourdieu, functions as a key mechanism of social reproduction and inequality. Building on this, Coleman emphasized that social capital within closed networks fosters trust and facilitates resource sharing, which is particularly significant in traditional societies like imperial China <span class="citation" data-cites="coleman1988social">(<a href="#ref-coleman1988social" role="doc-biblioref">Coleman 1988</a>)</span>.</p>
+<p>In the context of this research, social capital is operationalized through two dimensions: kinship ties (family-based capital) and non-kin social relations (e.g., academic, political, and artistic interactions). While kinship often shaped women’s initial access to resources, this study explores how non-familial social connections provided unique and often more effective pathways to literary visibility.</p>
+<p>Western theories of social networks further illuminate the dynamics at play. Granovetter’s seminal theory of “The Strength of Weak Ties” proposes that loosely connected individuals play a crucial role in spreading information and creating new opportunities <span class="citation" data-cites="granovetter1973strength">(<a href="#ref-granovetter1973strength" role="doc-biblioref">Granovetter 1973</a>)</span>. Burt’s structural hole theory underscores how individuals who bridge disconnected groups within networks gain competitive advantages through access to diverse resources <span class="citation" data-cites="burt1992structural">(<a href="#ref-burt1992structural" role="doc-biblioref">Burt 1992</a>)</span>. Though grounded in modern Western societies, these theories offer useful frameworks for examining elite cultural production in imperial China.</p>
+</section>
+<section id="social-capital-in-the-chinese-context" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="social-capital-in-the-chinese-context"><span class="header-section-number">2.2</span> Social Capital in the Chinese Context</h2>
+<p>In the Chinese context, Lin argues that access to social resources is embedded in hierarchical structures, and that an individual’s position within these networks significantly affects their opportunity structures <span class="citation" data-cites="lin2001social">(<a href="#ref-lin2001social" role="doc-biblioref">Lin 2001</a>)</span>. Bian’s research adds a culturally specific perspective, showing that in Chinese society, strong ties and direct personal connections—or guanxi—were often more influential than weak ties, especially in resource acquisition and career advancement <span class="citation" data-cites="bian1997bringing">(<a href="#ref-bian1997bringing" role="doc-biblioref">Bian 1997</a>)</span>.</p>
+</section>
+<section id="gendered-networks-in-historical-china" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="gendered-networks-in-historical-china"><span class="header-section-number">2.3</span> Gendered Networks in Historical China</h2>
+<p>Historical studies provide additional insight into gendered social capital in China. Ko highlights how educated women in the Ming-Qing era formed learning communities and literary circles within elite households <span class="citation" data-cites="ko1994teachers">(<a href="#ref-ko1994teachers" role="doc-biblioref">Ko 1994</a>)</span>. Mann reveals that women leveraged marriage alliances and cross-family connections to construct female-centered intellectual spaces <span class="citation" data-cites="mann1997precious">(<a href="#ref-mann1997precious" role="doc-biblioref">Mann 1997</a>)</span>. Other scholars, such as Wu, Robertson, and Fong, document the vibrant female poetic and artistic networks that emerged in urban centers like Suzhou and Hangzhou, despite gendered spatial constraints <span class="citation" data-cites="wu2003confucians robertson1992art fong2004female">(<a href="#ref-wu2003confucians" role="doc-biblioref">Wu 2003</a>; <a href="#ref-robertson1992art" role="doc-biblioref">Robertson 1992</a>; <a href="#ref-fong2004female" role="doc-biblioref">Fong 2004</a>)</span>.</p>
+<p>Beyond the literary sphere, demographic and economic histories of China also reveal the deep-rooted influence of kinship networks in shaping individual life chances. Campbell and Lee’s study of Liaoning during the Qing Dynasty (1749–1909) demonstrates that household structure and kinship composition were critical to survival and social mobility, underscoring the structural importance of family-based social capital in everyday life <span class="citation" data-cites="campbell2000state">(<a href="#ref-campbell2000state" role="doc-biblioref">Campbell and Lee 2000</a>)</span>. Similarly, Zelin’s examination of Zigong salt merchants from the late Ming to Republican period shows how family networks sustained intergenerational business success through the strategic transmission of capital and trust, highlighting the institutional role of kinship in traditional economic networks <span class="citation" data-cites="zelin2005merchants">(<a href="#ref-zelin2005merchants" role="doc-biblioref">Zelin 2005</a>)</span>. Deng and Treiman further illustrate how lineage organizations in the late Qing to early Republican era served as powerful conduits for educational attainment and career advancement, particularly in male-dominated spheres such as the imperial examination and bureaucracy <span class="citation" data-cites="deng2008impact">(<a href="#ref-deng2008impact" role="doc-biblioref">Deng and Treiman 2008</a>)</span>.</p>
+<p>Taken together, these studies emphasize that kinship ties were not only familial but also institutionalized mechanisms of social reproduction. However, in contrast to these male-centered patterns, the findings of this research suggest that for women—especially in cultural fields like literature—non-kin social capital may have provided more flexible and effective pathways for public recognition. This gendered divergence in network utility provides an important perspective on how women navigated societal constraints through alternative social strategies.</p>
+</section>
+<section id="research-gap-and-analytical-approach" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="research-gap-and-analytical-approach"><span class="header-section-number">2.4</span> Research Gap and Analytical Approach</h2>
+<p>Nevertheless, prior research has faced two key limitations: (1) the difficulty of quantifying social capital in historical contexts, and (2) the challenge of separating familial influence from broader social ties. This study addresses these gaps by leveraging two digital databases—the China Biographical Database (CBDB) and Ming Qing Women’s Writings (MQWW)—to build large-scale social networks and quantify their effects on women’s literary recognition. Using a three-step regression model including LASSO and double LASSO, this study provides robust empirical evidence that non-kin social relations, rather than kinship ties, were the more critical drivers of women’s success in achieving literary prominence.</p>
+<p>In sum, social capital theory offers a powerful framework for analyzing how women in patriarchal societies navigated structural limitations. It reveals how non-inherited, strategically cultivated social ties served as essential vehicles for women to access cultural capital, gain recognition, and establish a legacy in the male-dominated literary sphere of imperial China.</p>
+</section>
+</section>
+<section id="data-and-variables" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Data and Variables</h1>
+<p>This study uses two main historical databases to analyze how social networks affected women poets’ literary recognition in ancient China. <a href="https://projects.iq.harvard.edu/cbdb">The China Biographical Database (CBDB)</a> provides detailed information on over 640,000 individuals from the 7th to 19th centuries, including their social connections, official positions, and family background <span class="citation" data-cites="cbdb">(<a href="#ref-cbdb" role="doc-biblioref">Harvard University, Academia Sinica, and Peking University 2024</a>)</span>. <a href="https://digital.library.mcgill.ca/mingqing/english/index.php">Ming Qing Women’s Writing (MQWW)</a> database contains poetry and other writings by women from the late imperial to modern period.</p>
+<p>These two datasets were linked to identify women poets and explore their connections with male elites. SQL queries were used to clean and extract key information such as social ties and publication records. Together, the data offer a rich foundation for analyzing the role of social capital in shaping women’s access to literary recognition.</p>
+<section id="response-womens-literary-recognition" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="response-womens-literary-recognition"><span class="header-section-number">3.1</span> Response: Women’s Literary Recognition</h2>
+<p>My response variable to measure women’s literary recognition is whether women poets have published their own individual collections (Bieji/別集). Anthologies (Zongji/總集, including all of other worktypes) typically include works that are representative or influential, but they do not fully reflect the complete body of work and value of an individual author. In contrast, individual collections better showcase the personal creative characteristics and literary styles of a specific writer, and can better demonstrate their unique literary achievements.</p>
+<p>Compared to anthologies, which tend to reflect the mainstream evaluation standards of the literary community at the time and are often biased towards male perspectives, the curation of individual collections is more likely to focus on the personal writings of women authors, highlighting their unique perspectives and modes of expression. This makes individual collections more conducive to the objective assessment of the status of women’s literary works.</p>
+<p>Therefore, <strong>if a woman poet has published at least one individual collection (Bieji &gt; 0), I will conclude that her literary status has been recognized</strong>.</p>
+<p><span class="math display">\[
+Y = I (Bieji &gt; 0)
+\]</span></p>
+<p>Where:</p>
+<ul>
+<li><span class="math inline">\(Y\)</span> represents the response variable of women’s literary recognition</li>
+<li><span class="math inline">\(I\)</span> is the indicator function, which takes the value of 1 if the condition <span class="math inline">\(Bieji &gt; 0\)</span> is true, and 0 otherwise.</li>
+</ul>
+<p>The plot (<a href="#fig-worktype">Figure&nbsp;1</a>) on the right illustrates that while most women poets have published anthologies, only 27% have produced individual collections, highlighting a significant disparity in literary recognition.</p>
+<div class="cell" data-layout-align="center" data-hash="Literature_Html_cache/html/fig-worktype_65c6c5979a05082d29def95d63b72428">
+<div class="cell-output-display">
+<div id="fig-worktype" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="Literature_Html_files/figure-html/fig-worktype-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Poem and Poet Number against Worktypes</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The analytical framework of this study is as follows (<a href="#fig-structure">Figure&nbsp;2</a>). The primary predictor is social capital, which is divided into two components: kinship and social relations. Kinship focuses on social capital based on blood relations, while social relations focus on non-kinship and non-inherited social capital. In addition to these primary predictors, the study will also control for other major variables that may potentially influence the outcome variable (women’s literary recognition). The measurement approaches for these other variables will be detailed in the subsequent sections.</p>
+<div id="fig-structure" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="output/images/structure.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;2: Analysis Framework</figcaption>
+</figure>
+</div>
+</section>
+<section id="primary-predictor-social-capital" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="primary-predictor-social-capital"><span class="header-section-number">3.2</span> Primary Predictor: Social Capital</h2>
+<p>As mentioned, this study measures social capital through kinship and social relationships. Specifically, the kinship networks consist solely of immediate relatives, which include Ascending Kin, Descending Kin, Affinal Kin, and Collateral Kin. In contrast, social relations encompass ten different types of relationships defined in previous studies, such as Academic Relations, Political Ties, Patronage, Social Network, Literary Work, Artistic Exchange, Ceremonial Ties, Correspondence, Service Links, and Economic Ties.</p>
+<p>Here is an overview of women poets’ social networks. The network adjacency matrices (<a href="#fig-net-1">Figure&nbsp;3</a>) illustrate the connections among women poets, with the x-axis representing the poets themselves and the y-axis indicating their relationships with specific individuals. The matrix on the left focuses on kinship relations, while the one on the right emphasizes social relations. <a href="#tbl-net">Table&nbsp;1</a> presents the descriptive statistics for connections among women poets based on two relationship types. Overall, the data indicates that social relations exhibit a greater mean number of connections than kinship ties, suggesting a richer network among women poets in terms of social relationships (It is mainly due to social ties containing more kinds of relationships selected).</p>
+<div class="cell" data-layout-align="center" data-hash="Literature_Html_cache/html/fig-net-1_6933900ff637aa71e8e37d1d24aa5aa8">
+<div class="cell-output-display">
+<div id="fig-net-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="Literature_Html_files/figure-html/fig-net-1-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;3: Adjacency Matrices of Women Poets (Source: CBDB)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-hash="Literature_Html_cache/html/tbl-net_1deb072efd8b580630e1f3e23c5ab68a">
+<div class="cell-output-display">
+<div id="tbl-net" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;1: Descriptive Statistics of Connections by Relationship Type</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Relationship Type</th>
+<th style="text-align: right;">N</th>
+<th style="text-align: right;">Mean</th>
+<th style="text-align: right;">SD</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">Min</th>
+<th style="text-align: right;">Max</th>
+<th style="text-align: right;">Q25</th>
+<th style="text-align: right;">Q75</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Social Relations</td>
+<td style="text-align: right;">202</td>
+<td style="text-align: right;">3.11</td>
+<td style="text-align: right;">2.95</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Kinship</td>
+<td style="text-align: right;">442</td>
+<td style="text-align: right;">2.41</td>
+<td style="text-align: right;">1.46</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="methodology-and-analysis" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Methodology and Analysis</h1>
+<section id="lasso-regression" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="lasso-regression"><span class="header-section-number">4.1</span> Lasso Regression</h2>
+<p>Given the high-dimensional nature of the data (n = 443, p = 1391), a LASSO model was applied in this study. As the formula illustrates, the lasso imposes a penalty on the absolute size of the coefficients, encouraging sparsity in the model. This penalty helps to mitigate overfitting by selecting a subset of relevant features while effectively shrinking the coefficients of less important predictors to zero. The optimal lambda value was selected through cross-validation based on the AICc criterion.</p>
+<p><span class="math display">\[ \hat{\beta}_{\text{LASSO}} = \underset{\beta}{\operatorname{argmin}} \left\{ \sum_{i=1}^{n} (y_i - X_i\beta)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right\} \]</span></p>
+<section id="centrality-effects-in-networks" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="centrality-effects-in-networks"><span class="header-section-number">4.1.1</span> Centrality Effects in Networks</h3>
+<p>To measure the centrality effects in networks on women poets, centrality degree metrics were calculated and applied to the model. The measurement of individual relationships may contain more noise; thus, degree serves as an aggregated indicator that can help smooth out these measurement errors to some extent. The existence of effects from aggregated indicators suggests that the network exhibits “wholeness” or “scale effects,” indicating the implications of these aggregated relationships.</p>
+<p><strong>Kinship Degree (0.102)</strong>: This predictor demonstrates a positive but relatively modest influence on women’s literary recognition compared to social relations, which is notably different from the results of the initial model. The coefficient means when kinship degree of women poets increase 1 unit, holding all other variables constant, the odds ratio of their literary status can be recognised will increase by 10.7% (OR = 1.107).</p>
+<p><strong>Social Degree (0.223)</strong>: The coefficient for social degree is higher than that of kinship. This implies that broader social interactions have a more pronounced effect on women’s literary achievements, thereby enhancing their recognition within the literary community. The coefficient indicates that when social degree increases by 1 unit, the Odds Ratio of women poets being literary recognized will increase by 25% (OR = 1.25).</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-degree" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="Literature_Html_files/figure-html/fig-degree-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;4: Mean LASSO Coefficients by Predictor Types</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="identification-of-causal-effects" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="identification-of-causal-effects"><span class="header-section-number">4.1.2</span> Identification of Causal Effects</h3>
+<p>Due to potential correlations among different predictors, it is difficult to assert that the estimated coefficients from the above LASSO model—Kinship Degree (0.102) and Social Degree (0.223)—reflect their true impact on women’s literary status recognition. To obtain a more accurate treatment effect of the social capital degree indicator, I will conduct a double LASSO analysis.</p>
+<p>Our empirical strategy employs a Double LASSO procedure that unfolds in two stages. In the first stage, I estimate the treatment equation:</p>
+<p><span class="math display">\[ d_i = \gamma'Z_i + v_i \]</span> <span class="math display">\[ \hat{d}_i = \hat{\gamma}'Z_i \]</span></p>
+<p>where <span class="math inline">\(d_i\)</span> denotes the treatment variable (the network degree centrality), <span class="math inline">\(Z_i\)</span> is a vector of control variables, and <span class="math inline">\(\gamma\)</span> is estimated using LASSO regression. The predicted values <span class="math inline">\(\hat{d}_i\)</span> are then obtained using the estimated coefficients.</p>
+<p>In the second stage, I estimate the outcome equation:</p>
+<p><span class="math display">\[ y_i = \beta d_i + \delta\hat{d}_i + \theta'Z_i + \epsilon_i \]</span></p>
+<p>where <span class="math inline">\(\beta\)</span> captures the treatment effect of network centrality on the outcome variable, while controlling for both the original treatment <span class="math inline">\(d_i\)</span> and its prediction <span class="math inline">\(\hat{d}_i\)</span> from the first stage. The control variables <span class="math inline">\(Z_i\)</span> are included in both stages, and the treatment variables are left unpenalized in the second stage estimation.</p>
+<p>I conducted double LASSO analysis separately for the kinship degree and social degree indicators. Table 3.1 presents the estimation results of the double LASSO regression. The effect of social degree is 0.211, which is quite close to the naive LASSO result of 0.223, while the effect of kinship degree is nearly 0 (significantly lower than the naive LASSO estimate of 0.102). This indicates that the influence of kinship degree can be fully explained by social degree and other predictors.</p>
+<div class="cell" data-hash="Literature_Html_cache/html/double-1_d213558607d74befe73f2e7849617ddc">
+<div class="cell-output-display">
+<table class="table table-striped table-hover table-sm small" data-quarto-postprocess="true">
+<caption>Comparison of LASSO Treatment Effects</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold;">Network Type</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold;">Naive LASSO</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold;">Double LASSO</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 10em; font-weight: bold;">Social Degree</td>
+<td style="text-align: left; width: 10em;">0.223</td>
+<td style="text-align: left; width: 10em;">0.211</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 10em; font-weight: bold;">Kinship Degree</td>
+<td style="text-align: left; width: 10em;">0.102</td>
+<td style="text-align: left; width: 10em;">0.000</td>
+</tr>
+</tbody><tfoot>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;">Note: </span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><sup></sup> Estimates from LASSO regressions using gamlr package.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><sup>1</sup> Treatment variables (d and dhat) were not penalized in the estimation.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><sup>2</sup> Controls include dynasty, region, and status variables.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tfoot>
+
+</table>
+
+
+</div>
+</div>
+<p>To validate these findings, I conducted a bootstrap analysis with 500 replications <strong>?@fig-double-2</strong> . The results indicate that the effect of social connections is statistically significant, with an estimated coefficient of 0.287 (95% CI: [0.086, 0.489]). In contrast, the effect of kinship connections remains statistically insignificant, with an estimate of 0.092 (95% CI: [-0.096, 0.280]). The coefficient from the double LASSO analysis suggests that when the social degree of women poets increases by 1 unit, holding all other variables constant, the odds ratio for their literary recognition increases by 24.9% (OR = 1.249). Conversely, the coefficient for kinship degree does not show significant influence on women’s literary recognition. These bootstrap results further support our main findings that <strong>social connections, rather than kinship ties, play a more crucial role in determining career success</strong>.</p>
+<div class="cell" data-hash="Literature_Html_cache/html/double-2_85785e02eecd04e7ec8765e77caff35a">
+<div class="cell-output-display">
+<div class="table-responsive">
+<table class="table table-striped table-hover table-condensed table-sm small" data-quarto-postprocess="true">
+<caption>Double LASSO Treatment Effects (Bootstrap)</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Network Type</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Estimate</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Std. Error</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 10em; font-weight: bold;">Social Degree</td>
+<td style="text-align: left; width: 6em;">0.287</td>
+<td style="text-align: left; width: 6em;">0.103</td>
+<td style="text-align: left; width: 10em;">[0.086, 0.489]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 10em; font-weight: bold;">Kinship Degree</td>
+<td style="text-align: left; width: 6em;">0.092</td>
+<td style="text-align: left; width: 6em;">0.096</td>
+<td style="text-align: left; width: 10em;">[-0.096, 0.280]</td>
+</tr>
+</tbody><tfoot>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;">Note: </span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><sup></sup> Based on 500 bootstrap replications</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><sup>1</sup> Parallel processing using all available cores</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><sup>2</sup> Bootstrap samples with replacement</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tfoot>
+
+</table>
+</div>
+
+
+</div>
+</div>
+</section>
+</section>
+<section id="from-a-bayesian-perspective" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="from-a-bayesian-perspective"><span class="header-section-number">4.2</span> From a Bayesian Perspective</h2>
+<p>The prior LASSO and Double‑LASSO analyses highlighted social_degree and kinship_degree as key predictors of women’s literary recognition, but they produce only point estimates with asymptotic confidence intervals and can complicate uncertainty assessment after variable selection.</p>
+<p>To address this, we employ a Bayesian hierarchical logistic model that retains those two variables as fixed effects and introduces dynasty as a random intercept, allowing baseline publication odds to vary by historical period. Weakly informative priors ensure the data drive inference, and MCMC yields full posterior distributions for every parameter—enabling direct probability statements about effect sizes and a principled quantification of both within‑ and between‑dynasty uncertainty.</p>
+<section id="bayesian-model-specification" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="bayesian-model-specification"><span class="header-section-number">4.2.1</span> Bayesian Model Specification</h3>
+<p>Because Bayesian analysis incorporates prior distributions and its parameter estimation logic differs from that of frequentist methods, I briefly summarize our Bayesian specification here.</p>
+<p><strong>The likelihood</strong> for the observed data <span class="math inline">\(\mathbf{y} = (y_1, \dots, y_N)\)</span> (where <span class="math inline">\(y_i\)</span> is the binary outcome <code>is_bieji</code> for individual <span class="math inline">\(i\)</span>) given the parameters <span class="math inline">\(\boldsymbol{\theta}\)</span> is:</p>
+<p><span class="math display">\[
+p(\mathbf{y} \mid \boldsymbol{\theta}) = \prod_{i=1}^N \text{Bernoulli}(y_i \mid p_i)
+\]</span></p>
+<p>where the probability <span class="math inline">\(p_i\)</span> is modeled via the logit link:</p>
+<p><span class="math display">\[
+\text{logit}(p_i) = \beta_0 + \sum_{k=1}^{4} \beta_k x_{ik} + u_{d(i)}
+\]</span></p>
+<p>Here, <span class="math inline">\(x_{i1}\)</span> represents the (standardized) <code>kinship_degree</code> for individual <span class="math inline">\(i\)</span>, <span class="math inline">\(x_{i2}\)</span> represents the (standardized) <code>social_degree</code> for individual <span class="math inline">\(i\)</span>, and d(i) is the index of the dynasty to which individual i belongs.</p>
+<p><strong>The set of parameters</strong> to be estimated is <span class="math inline">\(\boldsymbol{\theta} = (\boldsymbol{\beta}, \boldsymbol{u}, \sigma_{u})\)</span>, where:</p>
+<ul>
+<li><span class="math inline">\(\boldsymbol{\beta} = (\beta_0, \beta_1, \beta_2)\)</span> is the vector of fixed effect coefficients (intercept, coefficient for kinship_degree, and coefficient for social_degree).</li>
+<li><span class="math inline">\(\boldsymbol{u} = (u_1, \dots, u_J)\)</span> is the vector of random intercepts for the <span class="math inline">\(J\)</span> dynasty groups.</li>
+<li><span class="math inline">\(\sigma_{u}\)</span> is the standard deviation of these dynasty-specific random intercepts.</li>
+</ul>
+<p><strong>The prior distributions <span class="math inline">\(\pi\)</span></strong> for fixed effects coefficients:</p>
+<p><span class="math display">\[
+\pi(\beta_k) = \mathrm{N}(\beta_k \mid 0, 10^2), \quad \text{for } k=0, \dots, 4.
+\]</span></p>
+<p>For random intercepts (hierarchical prior):</p>
+<p><span class="math display">\[
+    \pi(u_j \mid \sigma_{u}) = \mathrm{N}(u_j \mid 0, \sigma_{u}^2), \quad \text{for } j=1, \dots, J.
+\]</span></p>
+<p>For the standard deviation of random intercepts (hyperprior):</p>
+<p><span class="math display">\[
+    \pi(\sigma_{u}) = \mathrm{Uniform}(\sigma_{u} \mid 0, 10)
+\]</span></p>
+<p>This reflects a Uniform distribution for <span class="math inline">\(\sigma_{u}\)</span> between 0 and 10, corresponding to <code>dunif(0, 10)</code> in JAGS.</p>
+<p><strong>The joint posterior distribution</strong> for the parameters <span class="math inline">\(\boldsymbol{\theta}\)</span> given the data <span class="math inline">\(\mathbf{y}\)</span> is:</p>
+<p><span class="math display">\[
+p(\boldsymbol{\theta} \mid \mathbf{y}) \propto p(\mathbf{y} \mid \boldsymbol{\theta}) \, \pi(\boldsymbol{\beta}) \, \pi(\boldsymbol{u} \mid \sigma_{u}) \, \pi(\sigma_{u})
+\]</span></p>
+<p>where <span class="math inline">\(\pi(\boldsymbol{\beta}) = \prod_{k=0}^4 \pi(\beta_k)\)</span> and <span class="math inline">\(\pi(\boldsymbol{u} \mid \sigma_{u}) = \prod_{j=1}^J \pi(u_j \mid \sigma_{u})\)</span>.</p>
+<p>Our goal is to characterize the posterior distributions of the fixed effect coefficients <span class="math inline">\(\beta_k\)</span>, the group level intercepts <span class="math inline">\(u_J\)</span>, and the hyperparameter <span class="math inline">\(\sigma_{u}\)</span>.</p>
+</section>
+<section id="computational-approach-and-results" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="computational-approach-and-results"><span class="header-section-number">4.2.2</span> Computational Approach and Results</h3>
+<p>The Bayesian hierarchical logistic regression model was fitted using rjags in R. The Markov Chain Monte Carlo (MCMC) simulation involved running three parallel chains. Each chain consisted of an adaptation phase of 5,000 iterations, followed by a burn-in period of 5,000 iterations which were discarded. Subsequently, 10,000 iterations were drawn for each chain, with a thinning interval of 10, resulting in a total of 3×(10000/10)=3000 effective posterior samples for analysis. Convergence of the MCMC chains was assessed to ensure the reliability of the posterior estimates.</p>
+<p><a href="#fig-trace">Figure&nbsp;5</a> displays the trace plots for the key parameters in the model: the intercept (beta0), the coefficients for standardized <code>kinship degree</code> (beta_kinship_degree) and <code>social degree</code> (beta_social_degree), and the standard deviation of the dynasty-level random intercepts (sigma_dynasty). These plots show the MCMC sampler’s path for each parameter across iterations for the different chains (distinguished by color). The trace plots indicate good mixing of the chains for beta_kinship_degree, beta_social_degree, and sigma_dynasty, suggesting that the samplers have converged to a stable posterior distribution for these parameters.</p>
+<div class="cell" data-layout-align="center" data-hash="Literature_Html_cache/html/fig-trace_338dddf2147a50c00c0d350875d5ff95">
+<div class="cell-output-display">
+<div id="fig-trace" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="Literature_Html_files/figure-html/fig-trace-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;5: Trace Plots for Key Parameters</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The following table presents the posterior summary statistics for the main parameters of interest, including their posterior mean, median, and 95% credible intervals (CI). <a href="#fig-post">Figure&nbsp;6</a> visually represents these posterior distributions.</p>
+<div id="tbl-bayesianSummary" class="cell tbl-parent quarto-layout-panel anchored" data-caption="Posterior Summaries of Key Bayesian Parameters" data-hash="Literature_Html_cache/html/tbl-bayesianSummary_99cf51fa02dc308d9db7491f932e6cb8">
+<div class="panel-caption table-caption">
+<p>Table&nbsp;2: <strong>?(caption)</strong></p>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div id="tbl-bayesianSummary-1" class="quarto-layout-cell quarto-layout-cell-subref anchored" data-ref-parent="tbl-bayesianSummary" style="flex-basis: 100.0%;justify-content: center;">
+<div class="table-responsive">
+<table class="table table-striped table-hover table-condensed table-sm small" data-quarto-postprocess="true">
+<caption>(1) Posterior Summaries of Key Bayesian Parameters</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Parameter</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Mean</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Median</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 10em; font-weight: bold;">beta0</td>
+<td style="text-align: left; width: 6em;">-3.488</td>
+<td style="text-align: left; width: 6em;">-2.881</td>
+<td style="text-align: left; width: 10em;">[-11.612, 1.643]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 10em; font-weight: bold;">beta_kinship_degree</td>
+<td style="text-align: left; width: 6em;">0.226</td>
+<td style="text-align: left; width: 6em;">0.222</td>
+<td style="text-align: left; width: 10em;">[-0.084, 0.561]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 10em; font-weight: bold;">beta_social_degree</td>
+<td style="text-align: left; width: 6em;">0.724</td>
+<td style="text-align: left; width: 6em;">0.717</td>
+<td style="text-align: left; width: 10em;">[0.296, 1.203]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 10em; font-weight: bold;">sigma_dynasty</td>
+<td style="text-align: left; width: 6em;">6.493</td>
+<td style="text-align: left; width: 6em;">6.608</td>
+<td style="text-align: left; width: 10em;">[2.417, 9.819]</td>
+</tr>
+</tbody><tfoot>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;">Note: </span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><sup></sup> Summaries based on posterior samples from MCMC.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><sup>1</sup> 95% CI = 2.5th–97.5th percentile of the posterior.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tfoot>
+
+</table>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+
+
+</div>
+</div>
+</div>
+<p>The posterior distribution for <strong>the intercept (beta0)</strong> has a mean of -3.488 and a 95% CI of [-11.612, 1.643]. This interval is wide and includes zero, suggesting considerable uncertainty about the baseline log-odds of publishing an individual collection when all predictors are at their mean (or zero for standardized predictors) and the random effect is zero.</p>
+<p>For the coefficient for <strong>Kinship Degree</strong>, the posterior mean is 0.226 with a 95% CI of [-0.084, 0.561]. The density plot for this parameter shows a distribution centered to the right of zero, with most of its mass in the positive range. However, since the 95% credible interval includes zero, we cannot conclude with high certainty that kinship degree has a non-zero effect. The probability that kinship degree has a positive effect is substantial, but there is still a non-negligible probability of a null or slightly negative effect.</p>
+<p>The coefficient for <strong>Social Degree</strong> has a posterior mean of 0.724 and a 95% CI of [0.296, 1.203]. This credible interval is entirely above zero. The corresponding density plot is clearly shifted to the right of zero, with almost all its probability mass in the positive region. This provides strong evidence that a higher social degree is positively associated with an increased log-odds (and thus probability) of a woman poet publishing an individual collection, holding other factors constant. <strong>The effect size is also notably larger than that of kinship degree.</strong></p>
+<p>The right panel of <a href="#fig-post">Figure&nbsp;6</a> displays the posterior distribution for <strong>sigma_dynasty</strong>, which represents the standard deviation of the random intercepts across different dynasties. The posterior mean for sigma_dynasty is 6.493, with a 95% CI of [2.417, 9.819]. This distribution is entirely concentrated on positive values, and the credible interval is well clear of zero. This indicates that there is substantial and credibly non-zero variability in the baseline log-odds of publishing an individual collection across different dynastic periods. The magnitude of sigma_dynasty suggests that the dynastic context plays a significant role in explaining differences in literary recognition among women poets, beyond the effects of their individual social capital.</p>
+<div class="cell" data-layout-align="center" data-hash="Literature_Html_cache/html/fig-post_0327a4d69c85b1a78cb9308780f3bfe7">
+<div class="cell-output-display">
+<div id="fig-post" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="Literature_Html_files/figure-html/fig-post-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;6: Posterior Density of Key Parameters</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="#fig-random">Figure&nbsp;7</a> visualizes the posterior means and the 50% (thicker lines) and 95% (thinner lines) credible intervals for the random intercepts (<span class="math inline">\(u_{dynasty}\)</span>) for each dynasty. These intercepts represent the deviation of each dynasty’s baseline log-odds of literary recognition from the overall intercept (<span class="math inline">\(\beta_0\)</span>). The vertical dashed line at zero represents the overall average baseline.</p>
+<p>Dynasties whose credible intervals do not overlap with zero can be considered to have a baseline literary recognition rate for women poets that is credibly different from the overall average (after accounting for fixed effects). For instance, <strong>the “Qing” dynasty shows a posterior mean clearly above zero, with its 95% CI also likely above zero, suggesting a higher baseline probability of recognition during this period compared to the average.</strong> Conversely, dynasties like “Eastern Han” or “Eastern Jin” appear to have random intercepts with CIs that might overlap zero or be centered below it, indicating potentially lower or average baseline recognition rates. The “UnknownOrReference” and “unknown” categories show considerable uncertainty with wide credible intervals, as expected. This plot effectively illustrates the heterogeneity in literary recognition opportunities across different historical periods.</p>
+<div class="cell" data-layout-align="center" data-hash="Literature_Html_cache/html/fig-random_b5a1c618e78892281ac97313b45c8053">
+<div class="cell-output-display">
+<div id="fig-random" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="Literature_Html_files/figure-html/fig-random-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;7: Posterior Density of Key Parameters</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="#fig-overlay">Figure&nbsp;8</a> presents a posterior predictive check (PPC) for the final Bayesian model. PPCs are a method to assess how well a fitted Bayesian model captures the characteristics of the observed data. This is done by generating replicated datasets (<span class="math inline">\(y_{prep}\)</span>) from the model’s posterior predictive distribution and comparing them to the actual observed dataset (y).</p>
+<p>The plot shows an overlay of the density of the observed data (y, the dark solid line) and the densities of multiple replicated datasets (y_rep, the many light translucent lines) generated from the model. For a binary outcome like <code>is_bieji</code>, the “density” will essentially show the proportion of 0s and 1s. If the model fits the data well, the distribution of y should look similar to the distributions of y_rep; that is, the dark line should be well-covered and typical of the light lines. The presented overlay in <a href="#fig-overlay">Figure&nbsp;8</a> demonstrates a strong alignment between the observed data distribution and the simulated responses from the model. <strong>This indicates that the model is capable of generating data that closely resembles the real-world outcomes in terms of the overall proportion of women poets who published individual collections, suggesting a good model fit to the data’s fundamental structure.</strong></p>
+<div class="cell" data-layout-align="center" data-hash="Literature_Html_cache/html/fig-overlay_b4b2674a8be65c01655077ac2aeaf743">
+<div class="cell-output-display">
+<div id="fig-overlay" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="Literature_Html_files/figure-html/fig-overlay-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;8: PPC: Density Overlay</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="discussion" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Discussion</h1>
+<section id="summary-of-empirical-findings" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="summary-of-empirical-findings"><span class="header-section-number">5.1</span> Summary of Empirical Findings</h2>
+<p>To estimate the effect of female-male social capital on the literary recognition of women poets, this research implemented a three-step approach.</p>
+<p>First, a comprehensive network comprising numerous male individuals was analyzed using a LASSO model while controlling for other predictors. The results indicate in measuring the network centrality effect, aggregated metrics, specifically the network degree, were utilized in the LASSO model instead of individual metrics. This analysis yielded a contrasting result; the centrality of social relation networks exhibited a greater influence on kinship network centrality (<strong>social 0.223 &gt; kinship 0.102</strong>). When to eliminate the mutual impact of each variable and isolate the pure effect of social capital, a double LASSO model was deployed. The bootstrapping results demonstrated that social relation network centrality has a significantly positive impact on the literary recognition of women poets (<strong>social 0.287, OR = 1.249</strong>), whereas the effect of kinship network centrality proved to be non-significant. This suggests that only social relation networks influence the literary recognition of women poets.</p>
+<p>Complementing these findings, a Bayesian hierarchical logistic regression was conducted. This Bayesian analysis provided a more nuanced understanding of parameter uncertainty. The posterior mean for the standardized <strong>Social Degree</strong> coefficient was 0.724 (95% CI: [0.296, 1.203]), which robustly excludes zero. This translates to an odds ratio of approximately exp(0.724)≈2.06, indicating that a one standard deviation increase in social degree is associated with a doubling of the odds of a woman poet publishing an individual collection. In contrast, the posterior mean for <strong>Kinship Degree</strong> was 0.226 (95% CI: [-0.084, 0.561]), which includes zero. While the posterior distribution for kinship degree leaned positive, the evidence for a non-zero effect was not conclusive.</p>
+<p>The Bayesian approach, by providing full posterior distributions, not only reinforces the primary finding from the double LASSO regarding the superior importance of social degree but also offers a direct quantification of the uncertainty surrounding these effects. The consistency of the substantive conclusion across these different analytical methodologies strengthens the assertion that <strong>non-kin social connections were paramount for women poets’ literary success</strong>. Furthermore, the Bayesian model estimated a significant standard deviation for the dynasty-level random intercepts (sigma_dynasty mean: 6.493, 95% CI: [2.417, 9.819]), underscoring substantial historical variation in the baseline opportunities for literary recognition.</p>
+</section>
+<section id="theoretical-implications-rethinking-social-capital" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="theoretical-implications-rethinking-social-capital"><span class="header-section-number">5.2</span> Theoretical Implications: Rethinking Social Capital</h2>
+<p>The findings indicate that <strong>social connections (non-kinship) are more important for female literary figures than familial ties.</strong> This suggests that the recognition of literary achievements relies more heavily on actively established social circles than on inherent family relationships. Social networks may provide women with essential channels for disseminating their work, opportunities for literary exchange, and sources of creative inspiration. Although Chinese traditional perspectives suggest that women should prioritize family, the results of this study highlight that social connections that transcend familial boundaries are paramount for their success.</p>
+<p>The results also engage with Granovetter’s (1973) theory of the strength of weak ties, demonstrating that women’s non-kin relationships—academic, artistic, and political—offered broader access to opportunity and visibility. In the Chinese context, Lin (2001) and Bian (1997) have emphasized the importance of strong, direct ties (guanxi) in navigating hierarchical systems. This study offers a refined perspective: while strong kinship ties were historically significant, as demonstrated by Campbell and Lee’s findings on survival and mobility <span class="citation" data-cites="campbell2000state">(<a href="#ref-campbell2000state" role="doc-biblioref">Campbell and Lee 2000</a>)</span>, or Zelin and Deng’s work on economic and educational advancement through lineage networks <span class="citation" data-cites="zelin2005merchants deng2008impact">(<a href="#ref-zelin2005merchants" role="doc-biblioref">Zelin 2005</a>; <a href="#ref-deng2008impact" role="doc-biblioref">Deng and Treiman 2008</a>)</span>, these male-centered patterns did not function the same way for women. Instead, it is the diversity and centrality of non-kin social relations that most effectively enhanced women’s access to cultural capital and literary recognition. This highlights a gendered divergence in the utility of social capital, and underscores the importance of looking beyond family to understand how marginalized actors managed professional risks in imperial China.</p>
+<p>This study reveals that women poets in imperial China managed professional risk not by relying solely on family prestige, but by strategically expanding their social networks beyond the home. This insight not only deepens our understanding of how gendered agents operated within elite cultural spaces, but also extends the relevance of social capital theory to non-Western, historical, and patriarchal contexts.</p>
+<div style="page-break-after: always;"></div>
+</section>
+</section>
+<section id="references" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-banerjee2013diffusion" class="csl-entry" role="listitem">
+Banerjee, Abhijit, Arun G. Chandrasekhar, Esther Duflo, and Matthew O. Jackson. 2013. <span>“The Diffusion of Microfinance.”</span> <em>Science</em> 341 (6144): 1236498.
+</div>
+<div id="ref-belloni2014inference" class="csl-entry" role="listitem">
+Belloni, Alexandre, Victor Chernozhukov, and Christian Hansen. 2014. <span>“Inference on Treatment Effects After Selection Among High-Dimensional Controls.”</span> <em>Review of Economic Studies</em> 81 (2): 608–50.
+</div>
+<div id="ref-bian1997bringing" class="csl-entry" role="listitem">
+Bian, Yanjie. 1997. <span>“Bringing Strong Ties Back in: Indirect Ties, Network Bridges, and Job Searches in China.”</span> <em>American Sociological Review</em> 62 (3): 366–85.
+</div>
+<div id="ref-bourdieu1986forms" class="csl-entry" role="listitem">
+Bourdieu, Pierre. 1986. <span>“The Forms of Capital.”</span> In <em>Handbook of Theory and Research for the Sociology of Education</em>, edited by J. G. Richardson, 241–58. New York: Greenwood Press.
+</div>
+<div id="ref-burt1992structural" class="csl-entry" role="listitem">
+Burt, Ronald S. 1992. <em>Structural Holes: The Social Structure of Competition</em>. Cambridge, MA: Harvard University Press.
+</div>
+<div id="ref-campbell2000state" class="csl-entry" role="listitem">
+Campbell, Cameron D., and James Z. Lee. 2000. <span>“State Views and Local Views of Population: Linking and Comparing Genealogies and Household Registers in Liaoning, 1749–1909.”</span> <em>History and Computing</em> 12 (1): 51–76.
+</div>
+<div id="ref-chatterjee2011bootstrapping" class="csl-entry" role="listitem">
+Chatterjee, Arindam, and Snigdhansu N. Lahiri. 2011. <span>“Bootstrapping Lasso Estimators.”</span> <em>Journal of the American Statistical Association</em> 106 (494): 608–25.
+</div>
+<div id="ref-coleman1988social" class="csl-entry" role="listitem">
+Coleman, James S. 1988. <span>“Social Capital in the Creation of Human Capital.”</span> <em>American Journal of Sociology</em> 94 (Supplement): S95–120.
+</div>
+<div id="ref-deng2008impact" class="csl-entry" role="listitem">
+Deng, Zhong, and Donald J. Treiman. 2008. <span>“The Impact of the Cultural Revolution on Trends in Educational Attainment in the People’s Republic of China.”</span> <em>American Journal of Sociology</em> 114 (2): 391–428.
+</div>
+<div id="ref-fong2004female" class="csl-entry" role="listitem">
+Fong, Grace S. 2004. <span>“Female Hands: Embroidery as a Knowledge Field in Women’s Everyday Life in Late Imperial and Early Republican China.”</span> <em>Late Imperial China</em> 25 (1): 1–58.
+</div>
+<div id="ref-granovetter1973strength" class="csl-entry" role="listitem">
+Granovetter, Mark S. 1973. <span>“The Strength of Weak Ties.”</span> <em>American Journal of Sociology</em> 78 (6): 1360–80.
+</div>
+<div id="ref-cbdb" class="csl-entry" role="listitem">
+Harvard University, Academia Sinica, and Peking University. 2024. <span>“<span>China</span> Biographical Database <span>(CBDB)</span>.”</span> <a href="https://projects.iq.harvard.edu/cbdb">https://projects.iq.harvard.edu/cbdb</a>.
+</div>
+<div id="ref-knight2000asymptotics" class="csl-entry" role="listitem">
+Knight, Keith, and Wenjiang J. Fu. 2000. <span>“Asymptotics for Lasso-Type Estimators.”</span> <em>Annals of Statistics</em> 28 (5): 1356–78.
+</div>
+<div id="ref-ko1994teachers" class="csl-entry" role="listitem">
+Ko, Dorothy. 1994. <em>Teachers of the Inner Chambers: Women and Culture in Seventeenth-Century China</em>. Stanford, CA: Stanford University Press.
+</div>
+<div id="ref-li2024normalization" class="csl-entry" role="listitem">
+Li, Bin, Yiguo Yuan, Xuehui Lu, and Peter K Bol. 2024. <span>“Normalization of Kinship Relations to Enrich Family Network Analysis: Case Study on China Biographical Database.”</span> <em>Digital Scholarship in the Humanities</em> 39 (1): 215–27.
+</div>
+<div id="ref-lin2001social" class="csl-entry" role="listitem">
+Lin, Nan. 2001. <em>Social Capital: A Theory of Social Structure and Action</em>. Cambridge: Cambridge University Press.
+</div>
+<div id="ref-liu2020bootstrap" class="csl-entry" role="listitem">
+Liu, Hui, Xiaoyan Xu, and Jiajia Li. 2020. <span>“A Bootstrap Lasso+ Partial Ridge Method to Construct Confidence Intervals for Parameters in High-Dimensional Sparse Linear Models.”</span> <em>Statistica Sinica</em> 30 (3): 1333–55.
+</div>
+<div id="ref-mann1997precious" class="csl-entry" role="listitem">
+Mann, Susan. 1997. <em>Precious Records: Women in China’s Long Eighteenth Century</em>. Stanford, CA: Stanford University Press.
+</div>
+<div id="ref-mazanec2018networks" class="csl-entry" role="listitem">
+Mazanec, Thomas J. 2018. <span>“Networks of Exchange Poetry in Late Medieval China: Notes Toward a Dynamic History of Tang Literature.”</span> <em>Journal of Chinese Literature and Culture</em> 5 (2): 322–59.
+</div>
+<div id="ref-mqww" class="csl-entry" role="listitem">
+McGill University Library. 2024. <span>“Ming Qing Women’s Writings.”</span> <a href="https://digital.library.mcgill.ca/mingqing/english/index.php" class="uri">https://digital.library.mcgill.ca/mingqing/english/index.php</a>.
+</div>
+<div id="ref-robertson1992art" class="csl-entry" role="listitem">
+Robertson, Maureen. 1992. <span>“The Art of Letter-Writing: An Essay on the Handscrolls of Ming and Ch’ing Women.”</span> <em>Late Imperial China</em> 13 (1): 1–50.
+</div>
+<div id="ref-harvard2024cbdb" class="csl-entry" role="listitem">
+University, Harvard. 2024. <span>“China Biographical Database (CBDB).”</span>
+</div>
+<div id="ref-wong2011kinship" class="csl-entry" role="listitem">
+Wong, S. 2011. <em>Kinship, Business and Elite Formation in Chinese History</em>. Cambridge: Cambridge University Press.
+</div>
+<div id="ref-wu2003confucians" class="csl-entry" role="listitem">
+Wu, Pei-yi. 2003. <em>The Confucian’s Progress: Autobiographical Writing in Traditional China</em>. Princeton, NJ: Princeton University Press.
+</div>
+<div id="ref-yan2018digital" class="csl-entry" role="listitem">
+Yan, Chengxi, and Jun Wang. 2018. <span>“Digital Humanistic Perspective: A Study on the Visualization of Political Network in Song Dynasty Based on Symbolic Analysis.”</span> <em>Journal of Library Science in China</em> 44 (5): 87–103.
+</div>
+<div id="ref-zelin2005merchants" class="csl-entry" role="listitem">
+Zelin, Madeleine. 2005. <em>The Merchants of Zigong: Industrial Entrepreneurship in Early Modern China</em>. New York: Columbia University Press.
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
