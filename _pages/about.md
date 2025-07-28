@@ -15,9 +15,9 @@ This website is a personal space where I share data analysis projects, learning 
 
 ## Recent Data Projects
 
-- How Social Capital Influenced Women’s Literary Recognition in Imperial China [Slides](http://dx.doi.org/10.2139/ssrn.5126209)
+- How Social Capital Influenced Women’s Literary Recognition in Imperial China 
   - 05/2025 [Project paper](/portfolio/2025-05-04-literature.html) - Incorporated Bayesian methods with MCMC to analyze coefficient posterior distributions and assess model robustness.
-  - 12/2024 [Project paper](/portfolio/2024-12-01-literature.html) - Utilized double LASSO for robust causal effect identification.
+  - 12/2024 [Project paper](/portfolio/2024-12-01-literature.html), [Slides](http://dx.doi.org/10.2139/ssrn.5126209) - Utilized double LASSO for robust causal effect identification.
 - [Extreme Precipitation Risk in Beijing (1960–2024): An EVT-Based Assessment](/portfolio/2025-05-01-climate.html)
   - Project summary [Slides](https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit?usp=sharing)
 - [Why does it feel like everywhere is far away in Beijing?](/portfolio/2023-08-29-beijing/)
