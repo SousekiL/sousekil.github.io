@@ -15,10 +15,10 @@ This website is a personal space where I share data analysis projects, learning 
 
 ## Recent Data Projects
 
-- [Discerning Professional Risks Through Networks: Social Capital and Women’s Achievement in Imperial China](/portfolio/2025-05-04-literature.html)
 - How Social Capital Influenced Women’s Literary Recognition in Imperial China
-  - Project summary [Slides](http://dx.doi.org/10.2139/ssrn.5126209)
-  - Project paper [Preprint version](http://dx.doi.org/10.2139/ssrn.5072945)
+  - [2025.05] [Project paper](/portfolio/2025-05-04-literature.html)
+  - [2024.12] Project summary [Slides](http://dx.doi.org/10.2139/ssrn.5126209)
+  - [2024.12] Project paper [Preprint version](http://dx.doi.org/10.2139/ssrn.5072945)
 - [Extreme Precipitation Risk in Beijing (1960–2024): An EVT-Based Assessment](/portfolio/2025-05-01-climate.html)
   - Project summary [Slides](https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit?usp=sharing)
 - [Why does it feel like everywhere is far away in Beijing?](/portfolio/2023-08-29-beijing/)
