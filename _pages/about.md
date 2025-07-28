@@ -11,8 +11,6 @@ Hello, I’m Felix.
 
 I am currently pursuing a Master’s degree in **Actuarial Science and Risk Management** at the Department of Mathematics of UIUC. Before graduate school, I worked as a data analyst and data scientist at major tech companies in China, including Kuaishou and TikTok. These roles provided me with extensive experience in data analysis and business analytics.
 
-I am also on the path to becoming an actuary and have passed **Exams P, FM, and SRM**.
-
 This website is a personal space where I share data analysis projects, learning reflections, and technical explorations. Feel free to reach out if you’d like to connect or discuss anything I post here!
 
 ## Recent Data Projects
