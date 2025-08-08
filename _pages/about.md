@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I’m Felix.
+Hello, I’m Felix. I am a graduate student in the Actuarial Science and Risk Management master's program at the University of Illinois Urbana-Champaign (UIUC). 
 
-I am a graduate student in the Actuarial Science and Risk Management master's program at the University of Illinois Urbana-Champaign (UIUC). Prior to UIUC, I earned a bachelor's degree from Xi'an Jiaotong University and a master's degree from Nanjing University. My professional experience includes several years as a data scientist at top tech companies such as Kuaishou and TikTok in China. Concurrently, I am pursuing my actuarial certification. I have passed SOA Exams P, FM, and SRM, and am preparing for the CAS MAS-I and MAS-II exams.
+Prior to UIUC, I earned a bachelor's degree from Xi'an Jiaotong University and a master's degree from Nanjing University. My professional experience includes several years as a data scientist at top tech companies such as Kuaishou and TikTok in China. 
+
+Concurrently, I am pursuing my actuarial certification. I have passed SOA Exams P, FM, and SRM, and am preparing for the CAS MAS-I and MAS-II exams.
 
 This website is a personal space where I share data analysis projects, learning reflections, and technical explorations. Feel free to reach out if you’d like to connect or discuss anything I post here!
 
