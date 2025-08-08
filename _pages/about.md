@@ -9,7 +9,7 @@ redirect_from:
 
 ---
 
-Hi, I'm Felix Liu! 
+Hi, I'm Felix Liu.
 
 I am a graduate student in the **Actuarial Science and Risk Management** master's program at the **University of Illinois Urbana-Champaign** (UIUC). Prior to UIUC, I earned a bachelor's degree from **Xi'an Jiaotong University** and a master's degree from **Nanjing University**. My professional experience includes several years as a data scientist at top tech companies such as **Kuaishou** and **TikTok** in China. 
 
