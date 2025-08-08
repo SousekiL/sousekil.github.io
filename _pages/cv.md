@@ -22,11 +22,18 @@ Actuarial Exams
 * Exam **SRM – Passed** (May 2025, SOA)
 * Exam MAS-I – In Progress (Oct 2025)
 
-Work Experience
+Research & Work Experience
 ======
+
+**[IRisk Lab](https://asrm.illinois.edu/illinois-risk-lab/illinois-risk-lab-home)**
+
+Actuarial Research Assistant, Aug 2024 - Jan 2025
+
+* Explored data science techniques to reverse engineer long-term traditional valuation approaches.
+
 **[TikTok (ByteDance Ltd.)](https://www.douyin.com)**
 
-Data Scientist at Douyin, May 2022 – May 2023
+Senior Data Scientist (full-time), May 2022 – May 2023
 
 * Reduced low-quality video content by 0.22% through misinformation detection strategies, improving user LTV by 0.014%.
 * Applied causal inference (DID, PSM) to analyze marketing incidents and uncover drivers of user retention.
@@ -34,20 +41,12 @@ Data Scientist at Douyin, May 2022 – May 2023
 
 **[Kuaishou Tech.](https://www.kuaishou.com)**
 
-Data Scientist, Jun 2020 – May 2022
+Data Scientist (full-time), Jun 2020 – May 2022
 
 * Improved private domain traffic by 3% via targeted public domain follower strategies.
 * Increased e-commerce GMV by 7% using RFM-based segmentation of sellers and consumers.
 * Created Tableau dashboards and metric systems using SQL to enhance business monitoring and decisions.
 
-Research Experience
-======
-**[IRisk Lab](https://asrm.illinois.edu/illinois-risk-lab/illinois-risk-lab-home)**
-
-Actuarial Research Assistant, Aug 2024 - Jan 2025
-
-* Explored data science techniques to reverse engineer long-term traditional valuation approaches.
-* Modeled extreme rainfall risk for Beijing by applying GEV/GPD Models to derive return periods and assess tail risk.
 
 Skills
 ======
