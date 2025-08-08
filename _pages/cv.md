@@ -16,18 +16,15 @@ Graduate student in Actuarial Science & Risk Management with prior experience at
 Education
 ======
 * [University of Illinois at Urbana-Champaign](https://illinois.edu/), M.S., GPA: 3.93/4.0
-  * Major in Predictive Analytics & Risk Management, Department of Mathematics
-  * Expected Dec 2025
 * [Nanjing University](https://www.nju.edu.cn/en/About.htm), M.A., GPA: 3.95/4.0
 * [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm), B.A., GPA: 3.68/4.0
 
-Actuarial Exams (Society of Actuaries)
+Actuarial Exams
 ======
 * Exam **P – Passed** (Jan 2025)
 * Exam **FM – Passed** (Jun 2025)
-* Exam **SRM – Passed** (May 2025)
-* Exam FAM – In Progress (Oct 2025)
-* Exam ASTAM – In Progress (Dec 2025)
+* Exam **SRM – Passed** (May 2025, SOA)
+* Exam MAS-I – In Progress (Oct 2025)
 
 Work Experience
 ======
