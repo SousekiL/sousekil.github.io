@@ -15,7 +15,7 @@ Concurrently, I am pursuing my actuarial certification. I have passed SOA Exams 
 
 This website is a personal space where I share data analysis projects, learning reflections, and technical explorations. Feel free to reach out if you’d like to connect or discuss anything I post here.
 
-## Recent Data Projects
+## Recent Projects
 
 - How Social Capital Influenced Women’s Literary Recognition in Imperial China 
   - [2025 May] [Project paper](/portfolio/2025-05-04-literature.html) - Incorporated Bayesian methods with MCMC to analyze coefficient posterior distributions and assess model robustness.
