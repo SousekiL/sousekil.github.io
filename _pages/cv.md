@@ -9,10 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Summary
-======
-Graduate student in Actuarial Science & Risk Management with prior experience at TikTok and Kuaishou. Skilled in statistical modeling, causal inference, and data visualization. Currently pursuing SOA exams and seeking full-time jobs in data science, actuarial analytics, or quantitative research.
-
 Education
 ======
 * [University of Illinois at Urbana-Champaign](https://illinois.edu/), M.S., GPA: 3.93/4.0
