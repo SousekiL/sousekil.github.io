@@ -11,9 +11,12 @@ redirect_from:
 
 Education
 ======
-* [University of Illinois at Urbana-Champaign](https://illinois.edu/), M.S., GPA: 3.93/4.0
-* [Nanjing University](https://www.nju.edu.cn/en/About.htm), M.A., GPA: 3.95/4.0
-* [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm), B.A., GPA: 3.68/4.0
+* [University of Illinois at Urbana-Champaign](https://illinois.edu/), Department of Mathematics
+  * M.S. in Predictive Analytics and Risk Management, GPA: 3.93/4.0
+* [Nanjing University](https://www.nju.edu.cn/en/About.htm), School of Social and Behavioral Sciences
+  * M.A. in Sociology, Computational Social Sciences, GPA: 3.95/4.0
+* [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm), Department of Sociology and Japanese
+  * B.A. in Sociology & Japanese, GPA: 3.68/4.0
 
 Actuarial Exams
 ======
