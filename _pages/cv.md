@@ -12,18 +12,19 @@ redirect_from:
 Education
 ======
 * [University of Illinois at Urbana-Champaign](https://illinois.edu/), Department of Mathematics
-  * M.S. in Predictive Analytics and Risk Management, GPA: 3.93/4.0
+  * M.S. in Predictive Analytics and Risk Management, _GPA: 3.93/4.0_
 * [Nanjing University](https://www.nju.edu.cn/en/About.htm), School of Social and Behavioral Sciences
-  * M.A. in Sociology, Computational Social Sciences, GPA: 3.95/4.0
+  * M.A. in Sociology, Computational Social Sciences, _GPA: 3.95/4.0_
 * [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm), Department of Sociology and Japanese
-  * B.A. in Sociology & Japanese, GPA: 3.68/4.0
+  * B.A. in Sociology & Japanese, _GPA: 3.68/4.0_
 
 Actuarial Exams
 ======
-* Exam **P – Passed** (Jan 2025)
-* Exam **FM – Passed** (Jun 2025)
-* Exam **SRM – Passed** (May 2025, SOA)
-* Exam MAS-I – In Progress (Oct 2025)
+* Exam P (Probability) – Passed in Jan 2025
+* Exam FM (Financial Mathematics) – Passed in Jun 2025
+* Exam SRM (Statistics for Risk Modeling) – Passed in May 2025 (SOA)
+* Exam MAS-I (Modern Actuarial Statistics-I) – Sitting in Oct 2025
+* Exam MAS-II (Modern Actuarial Statistics-II) – Sitting in Oct 2025
 
 Research & Work Experience
 ======
