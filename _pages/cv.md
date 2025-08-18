@@ -12,11 +12,14 @@ redirect_from:
 Education
 ======
 * [University of Illinois at Urbana-Champaign](https://illinois.edu/), Department of Mathematics
-  * M.S. in Predictive Analytics and Risk Management, _GPA: 3.93/4.0_
+  * M.S. in Predictive Analytics and Risk Management
+  * _GPA: 3.93/4.0_
 * [Nanjing University](https://www.nju.edu.cn/en/About.htm), School of Social and Behavioral Sciences
-  * M.A. in Sociology, Computational Social Sciences, _GPA: 3.95/4.0_
+  * M.A. in Sociology, Computational Social Sciences
+  * _GPA: 3.95/4.0_
 * [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm), Department of Sociology and Japanese
-  * B.A. in Sociology & Japanese, _GPA: 3.68/4.0_
+  * B.A. in Sociology & Japanese
+  * _GPA: 3.68/4.0_
 
 Actuarial Exams
 ======
