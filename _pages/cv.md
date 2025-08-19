@@ -13,7 +13,7 @@ Education
 ======
 * M.S. in Predictive Analytics and Risk Management (GPA: 3.93/4.0), **University of Illinois at Urbana-Champaign**
 * M.A. in Sociology, Computational Social Sciences (GPA: 3.95/4.0), **Nanjing University** 
-* B.A. in Sociology & Japanese (GPA: 3.68/4.0), **Xi'an Jiaotong University**
+* B.A. in Sociology & Japanese for Science and Technology (GPA: 3.68/4.0), **Xi'an Jiaotong University**
 
 Actuarial Exams
 ======
