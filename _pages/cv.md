@@ -11,15 +11,9 @@ redirect_from:
 
 Education
 ======
-* [University of Illinois at Urbana-Champaign](https://illinois.edu/), Department of Mathematics
-  * M.S. in Predictive Analytics and Risk Management
-  * _GPA: 3.93/4.0_
-* [Nanjing University](https://www.nju.edu.cn/en/About.htm), School of Social and Behavioral Sciences
-  * M.A. in Sociology, Computational Social Sciences
-  * _GPA: 3.95/4.0_
-* [Xi'an Jiaotong University](https://en.xjtu.edu.cn/2021-04/07/c_602482.htm), Department of Sociology and Japanese
-  * B.A. in Sociology & Japanese
-  * _GPA: 3.68/4.0_
+* M.S. in Predictive Analytics and Risk Management (GPA: 3.93/4.0), University of Illinois at Urbana-Champaign
+* M.A. in Sociology, Computational Social Sciences (GPA: 3.95/4.0), Nanjing University 
+* B.A. in Sociology & Japanese (GPA: 3.68/4.0), Xi'an Jiaotong University
 
 Actuarial Exams
 ======
@@ -29,31 +23,16 @@ Actuarial Exams
 * Exam MAS-I (Modern Actuarial Statistics-I) – Sitting in Oct 2025
 * Exam MAS-II (Modern Actuarial Statistics-II) – Sitting in Oct 2025
 
-Research & Work Experience
+Actuarial Research Experience
 ======
 
-**[IRisk Lab](https://asrm.illinois.edu/illinois-risk-lab/illinois-risk-lab-home)**
+* Actuarial Research Assistant, IRisk Lab, Aug 2024 - Jan 2025
 
-Actuarial Research Assistant, Aug 2024 - Jan 2025
+Work Experience
+======
 
-* Explored data science techniques to reverse engineer long-term traditional valuation approaches.
-
-**[TikTok (ByteDance Ltd.)](https://www.douyin.com)**
-
-Senior Data Scientist (full-time), May 2022 – May 2023
-
-* Reduced low-quality video content by 0.22% through misinformation detection strategies, improving user LTV by 0.014%.
-* Applied causal inference (DID, PSM) to analyze marketing incidents and uncover drivers of user retention.
-* Built real-time monitoring systems to detect misleading content, reducing user negative feedback by 10%.
-
-**[Kuaishou Tech.](https://www.kuaishou.com)**
-
-Data Scientist (full-time), Jun 2020 – May 2022
-
-* Improved private domain traffic by 3% via targeted public domain follower strategies.
-* Increased e-commerce GMV by 7% using RFM-based segmentation of sellers and consumers.
-* Created Tableau dashboards and metric systems using SQL to enhance business monitoring and decisions.
-
+* Senior Data Scientist, TikTok (ByteDance Ltd., May 2022 – May 2023
+* Data Scientist, Kuaishou Tech., Jun 2020 – May 2022
 
 Skills
 ======
@@ -65,10 +44,10 @@ Skills
 
 Relevant Courses
 ======
-* **Statistical Methods & Theory**: Applied Bayesian Analysis, Big Data Analytics, Statistics for Risk Modeling, Advanced Stochastic Processes & Applications
-* **Machine Learning & Data Science**: Statistical Learning, Predictive Analytics, Computing Programming & Algorithm
-* **Actuarial Science & Insurance Analytics**: Loss Models & Credibility Theory (Short-term Actuarial Mathematics), Actuarial Research & Literature Seminar
-* **Finance & Risk Management**: Foundations of Risk Management, Quantitative Risk Management
+* Statistical Methods & Theory: Applied Bayesian Analysis, Big Data Analytics, Statistics for Risk Modeling, Advanced Stochastic Processes & Applications
+* Machine Learning & Data Science: Statistical Learning, Predictive Analytics, Computing Programming & Algorithm
+* Actuarial Science & Insurance Analytics: Loss Models & Credibility Theory, Actuarial Research & Literature Seminar
+* Finance & Risk Management: Foundations of Risk Management, Quantitative Risk Management
   
 
 
