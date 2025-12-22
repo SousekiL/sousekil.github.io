@@ -13,9 +13,7 @@ Hi, I’m Felix Liu.
 
 I hold a master’s degree in **Actuarial Science and Risk Management** from the University of Illinois Urbana–Champaign (UIUC). Prior to UIUC, I earned a bachelor’s degree from Xi’an Jiaotong University and a master’s degree from Nanjing University in China.
 
-I have several years of professional experience as a **data scientist** at leading technology companies in China, including Kuaishou and TikTok.
-
-I am pursuing professional actuarial certification and have passed **SOA Exams P, FM, and SRM**. I am currently preparing for CAS MAS-I and MAS-II.
+I have several years of professional experience as a **data scientist** at leading technology companies in China, including Kuaishou and TikTok. I am currently pursuing professional actuarial certification and have passed **SOA Exams P, FM, and SRM**. I am currently preparing for CAS MAS-I and MAS-II.
 
 This website serves as a personal space where I share data analysis projects, learning reflections, and technical explorations. Feel free to reach out if you would like to connect or discuss anything I post here.
 
