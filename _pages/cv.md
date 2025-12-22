@@ -17,17 +17,13 @@ Education
 
 Actuarial Exams
 ======
-* Passed: Exam **P** (Jan 2025), **FM** (Jun 2025), **SRM** (SOA, May 2025) 
-* Sitting: Exam MAS-I (Oct 2025), MAS-II (Oct 2025) 
+* Passed: Exam **P** (Jan 2025), **FM** (Jun 2025), **SRM** (SOA, Aug 2025) 
+* Sitting: Exam MAS-I, MAS-II
 
-Research Experience
+Relevant Experience
 ======
 
-* Actuarial Research Assistant, **IRisk Lab**, Aug 2024 - Jan 2025
-
-Work Experience
-======
-
+* Actuarial Researcher, **IRisk Lab**, Aug 2024 - Dec 2025
 * Senior Data Scientist, **TikTok (ByteDance Ltd.)**, May 2022 – May 2023
 * Data Scientist, **Kuaishou Tech.**, Jun 2020 – May 2022
 
