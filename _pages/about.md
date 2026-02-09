@@ -27,10 +27,11 @@ This website serves as a personal space where I share data analysis projects, le
 
 Using Double LASSO and Bayesian MCMC methods to identify causal effects of social networks on women poets' literary recognition in imperial China.
 
-**Methods:** `Double LASSO` · `Bayesian MCMC` · `Causal Inference`
+**Keywords:** `Double LASSO` · `Bayesian MCMC` · `Causal Inference` · `Network Analysis` · `Python` · `R`
 
 - [2025 May] [Project Paper](/portfolio/2025-05-04-literature.html) — Bayesian posterior analysis with MCMC
 - [2024 Dec] [Project Paper](/portfolio/2024-12-01-literature.html) · [Slides](http://dx.doi.org/10.2139/ssrn.5126209) — Double LASSO approach
+- [GitHub Repository](https://github.com/sousekil/women-poets-imperial-china#readme) — Code and documentation
 
 ---
 
@@ -40,7 +41,7 @@ Using Double LASSO and Bayesian MCMC methods to identify causal effects of socia
 
 Examining how governance structures affect voting behavior divergence between on-chain and off-chain mechanisms in decentralized autonomous organizations.
 
-**Methods:** `Causal Inference` · `Regression Discontinuity` · `Financial Economics`
+**Keywords:** `Causal Inference` · `Regression Discontinuity` · `DeFi` · `Blockchain` · `Governance`
 
 - [Project Paper](https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit)
 - [Slides](https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit)
@@ -53,7 +54,7 @@ Examining how governance structures affect voting behavior divergence between on
 
 Applying extreme value theory to assess precipitation risk patterns in Beijing over six decades.
 
-**Methods:** `Extreme Value Theory` · `Risk Assessment` · `Time Series Analysis`
+**Keywords:** `Extreme Value Theory` · `Risk Assessment` · `Time Series Analysis` · `Climate Science` · `R`
 
 - [Project Page](/portfolio/2025-05-01-climate.html)
 - [Slides](https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit)
@@ -64,27 +65,12 @@ Applying extreme value theory to assess precipitation risk patterns in Beijing o
 
 *Computational Social Science · Urban Analytics*
 
-A spatial analysis exploring the perception of distance in Beijing through data visualization and accessibility metrics.
+A spatial analysis exploring the perception of distance in Beijing through data visualization and accessibility metrics. Examining how urban design affects movement patterns and perceived accessibility.
 
-**Methods:** `Spatial Analysis` · `Data Visualization` · `Urban Computing`
+**Keywords:** `Spatial Analysis` · `Data Visualization` · `Urban Computing` · `GIS` · `Python`
 
 - [Project Page](/portfolio/2023-08-29-beijing/)
-
----
-
-## Open Source Projects
-
-### Women Poets in Imperial China
-
-A computational analysis project examining the social networks and literary recognition of women poets in imperial China, featuring network analysis and data visualization.
-
-**→** [View Project & Documentation](https://github.com/sousekil/women-poets-imperial-china#readme)
-
-### Urban Accessibility Analysis
-
-An analytical framework for assessing urban accessibility patterns, exploring how city design affects movement and perception of distance.
-
-**→** [View Project & Documentation](https://github.com/sousekil/urban-accessibility-analysis#readme)
+- [GitHub Repository](https://github.com/sousekil/urban-accessibility-analysis#readme) — Code and documentation
 
 
 ## Copyright Notice
