@@ -90,9 +90,9 @@ A spatial analysis exploring the perception of distance in Beijing through data 
 - [GitHub Repository](https://github.com/sousekil/urban-accessibility-analysis#readme) — Code and documentation
 
 <div class="project-thumbnails">
-  <a href="[/portfolio/2023-08-29-beijing/](https://github.com/sousekil/urban-accessibility-analysis#readme)"><img src="https://github.com/SousekiL/urban-accessibility-analysis/blob/main/outputs/plots/plot/canger/Fig%202-1.png" alt="Beijing Spatial Analysis"></a>
-  <a href="[/portfolio/2023-08-29-beijing/](https://github.com/sousekil/urban-accessibility-analysis#readme)"><img src="https://github.com/SousekiL/urban-accessibility-analysis/blob/main/outputs/plots/plot/canger/Fig%202-7.png" alt="Beijing Spatial Analysis Subway"></a>
-  <a href="[/portfolio/2023-08-29-beijing/](https://github.com/sousekil/urban-accessibility-analysis#readme)"><img src="https://github.com/SousekiL/urban-accessibility-analysis/blob/main/outputs/plots/plot/canger/Fig%205-1.png" alt="Beijing Spatial Analysis Roads"></a>
+  <a href="https://github.com/sousekil/urban-accessibility-analysis#readme"><img src="/_pages/image/fig1.png" alt="Beijing Spatial Analysis"></a>
+  <a href="https://github.com/sousekil/urban-accessibility-analysis#readme"><img src="/_pages/image/fig2.png" alt="Beijing Spatial Analysis Subway"></a>
+  <a href="https://github.com/sousekil/urban-accessibility-analysis#readme"><img src="/_pages/image/fig3.png" alt="Beijing Spatial Analysis Roads"></a>
 </div>
 
 
