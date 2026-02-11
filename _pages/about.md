@@ -13,7 +13,7 @@ Hi, I’m Felix Liu.
 
 I hold a master’s degree in **Actuarial Science and Risk Management** from the University of Illinois Urbana–Champaign (UIUC). Prior to UIUC, I earned a bachelor’s degree from Xi’an Jiaotong University and a master’s degree from Nanjing University in China.
 
-I have several years of professional experience as a **data scientist** at leading technology companies in China, including Kuaishou and TikTok. I am currently pursuing professional actuarial certification and have passed **SOA Exams P, FM, and SRM**. I am currently preparing for CAS MAS-I and MAS-II.
+I have several years of professional experience as a **data scientist** at leading technology companies in China, including Kuaishou and TikTok. I am currently pursuing professional actuarial certification and have passed **SOA Exams P, FM, and SRM**. I am currently preparing for subsequent actuarial exams.
 
 This website serves as a personal space where I share data analysis projects, learning reflections, and technical explorations. Feel free to reach out if you would like to connect or discuss anything I post here.
 
@@ -32,6 +32,12 @@ Using Double LASSO and Bayesian MCMC methods to identify causal effects of socia
 - [2025 May] [Project Paper](/portfolio/2025-05-04-literature.html) — Bayesian posterior analysis with MCMC
 - [2024 Dec] [Project Paper](/portfolio/2024-12-01-literature.html) · [Slides](http://dx.doi.org/10.2139/ssrn.5126209) — Double LASSO approach
 - [GitHub Repository](https://github.com/sousekil/women-poets-imperial-china#readme) — Code and documentation
+
+<div class="project-thumbnails">
+  <a href="/portfolio/2025-05-04-literature.html"><img src="/portfolio/Literature_Html_files/figure-html/fig-post-1.png" alt="Bayesian Posterior Distributions"></a>
+  <a href="/portfolio/2025-05-04-literature.html"><img src="/portfolio/Literature_Html_files/figure-html/fig-lasso-1.png" alt="LASSO Coefficients"></a>
+  <a href="/portfolio/2025-05-04-literature.html"><img src="/portfolio/Literature_Html_files/figure-html/fig-dynasty-1.png" alt="Dynasty Distribution"></a>
+</div>
 
 ---
 
@@ -59,6 +65,12 @@ Applying extreme value theory to assess precipitation risk patterns in Beijing o
 - [Project Page](/portfolio/2025-05-01-climate.html)
 - [Slides](https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit)
 
+<div class="project-thumbnails">
+  <a href="/portfolio/2025-05-01-climate.html"><img src="/portfolio/ASRM595_Html_files/figure-html/fig-dist-plot-1.png" alt="Precipitation Distribution"></a>
+  <a href="/portfolio/2025-05-01-climate.html"><img src="/portfolio/ASRM595_Html_files/figure-html/fig-return-level-comparison-1.png" alt="Return Level Comparison"></a>
+  <a href="/portfolio/2025-05-01-climate.html"><img src="/portfolio/ASRM595_Html_files/figure-html/fig-am-gev-rl-1.png" alt="GEV Return Level"></a>
+</div>
+
 ---
 
 ### Why Does It Feel Like Everywhere Is Far Away in Beijing?
@@ -71,6 +83,10 @@ A spatial analysis exploring the perception of distance in Beijing through data 
 
 - [Project Page](/portfolio/2023-08-29-beijing/)
 - [GitHub Repository](https://github.com/sousekil/urban-accessibility-analysis#readme) — Code and documentation
+
+<div class="project-thumbnails">
+  <a href="/portfolio/2023-08-29-beijing/"><img src="https://github.com/SousekiL/BeijingShanghai/assets/16383958/f1196c58-4678-4967-8b55-64f16010c994" alt="Beijing Spatial Analysis"></a>
+</div>
 
 
 ## Copyright Notice
