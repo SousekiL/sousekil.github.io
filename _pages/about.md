@@ -52,6 +52,12 @@ Examining how governance structures affect voting behavior divergence between on
 - [Project Paper](https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit)
 - [Slides](https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit)
 
+<div class="project-thumbnails">
+  <a href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit?slide=id.g3a5df142147_0_134#slide=id.g3a5df142147_0_134"><img src="/_pages/image/2.png" alt="Literature Background"></a>
+  <a href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit?slide=id.g3a5df142147_0_134#slide=id.g3a5df142147_0_134"><img src="/_pages/image/3.png" alt="Motivation"></a>
+  <a href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit?slide=id.g3a5df142147_0_134#slide=id.g3a5df142147_0_134"><img src="/_pages/image/4.png" alt="Data and Methods"></a>
+</div>
+
 ---
 
 ### Extreme Precipitation Risk in Beijing (1960–2024): An EVT-Based Assessment
