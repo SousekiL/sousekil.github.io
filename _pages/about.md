@@ -87,11 +87,12 @@ A spatial analysis exploring the perception of distance in Beijing through data 
 
 **Keywords:** `Spatial Analysis` · `Data Visualization` · `Urban Computing` · `GIS` · `Python`
 
-- [Project Page](/portfolio/2023-08-29-beijing/)
 - [GitHub Repository](https://github.com/sousekil/urban-accessibility-analysis#readme) — Code and documentation
 
 <div class="project-thumbnails">
-  <a href="/portfolio/2023-08-29-beijing/"><img src="https://github.com/SousekiL/BeijingShanghai/assets/16383958/f1196c58-4678-4967-8b55-64f16010c994" alt="Beijing Spatial Analysis"></a>
+  <a href="[/portfolio/2023-08-29-beijing/](https://github.com/sousekil/urban-accessibility-analysis#readme)"><img src="https://github.com/SousekiL/urban-accessibility-analysis/blob/main/outputs/plots/plot/canger/Fig%202-1.png" alt="Beijing Spatial Analysis"></a>
+  <a href="[/portfolio/2023-08-29-beijing/](https://github.com/sousekil/urban-accessibility-analysis#readme)"><img src="https://github.com/SousekiL/urban-accessibility-analysis/blob/main/outputs/plots/plot/canger/Fig%202-7.png" alt="Beijing Spatial Analysis Subway"></a>
+  <a href="[/portfolio/2023-08-29-beijing/](https://github.com/sousekil/urban-accessibility-analysis#readme)"><img src="https://github.com/SousekiL/urban-accessibility-analysis/blob/main/outputs/plots/plot/canger/Fig%205-1.png" alt="Beijing Spatial Analysis Roads"></a>
 </div>
 
 
