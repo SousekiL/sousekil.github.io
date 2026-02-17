@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Seeing Society Through Data"
+title: "Data Science & Risk Analytics"
 description: "Felix Liu's portfolio of data science, actuarial, and computational social science projects."
 author_profile: true
 redirect_from:
