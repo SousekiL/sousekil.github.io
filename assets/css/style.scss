@@ -5,12 +5,21 @@ body {
   font-family: 'Times New Roman', sans-serif;
 }
 
+/* Project blocks: more spacing between projects, larger project titles */
+.page__content h3 {
+  font-size: 1.2em;
+  margin-top: 2.5em;
+}
+.page__content h3:first-of-type {
+  margin-top: 2em;
+}
+
 /* Project thumbnail gallery */
 .project-thumbnails {
   display: flex;
   gap: 8px;
   margin-top: 10px;
-  margin-bottom: 4px;
+  margin-bottom: 2.5em;
 }
 
 .project-thumbnails a {
