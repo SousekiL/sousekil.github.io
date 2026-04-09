@@ -1,14 +1,58 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<div class="section-heading">
+  <p class="section-heading__eyebrow">Selected Work</p>
+  <h2>Projects organized around question, method, and result</h2>
+  <p>My strongest work sits at the intersection of causal inference, risk modeling, and applied social data.</p>
+</div>
+
+<div class="project-grid">
+  <article class="project-card">
+    <span class="project-card__domain">Quantitative History · Computational Social Science</span>
+    <h3><a href="/portfolio/2025-05-04-literature/">Women poets and literary recognition in imperial China</a></h3>
+    <p>Linked historical datasets from CBDB and MQWW to estimate how social ties affected literary recognition using Double LASSO and Bayesian MCMC.</p>
+    <div class="project-card__actions">
+      <a class="btn btn--primary btn--small" href="/portfolio/2025-05-04-literature/">Project</a>
+      <a class="btn btn--inverse btn--small" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945">Paper</a>
+      <a class="btn btn--inverse btn--small" href="https://github.com/sousekil/women-poets-imperial-china#readme">Code</a>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <span class="project-card__domain">DeFi · Governance · Financial Economics</span>
+    <h3><a href="/portfolio/2025-01-15-dao-governance/">DAO governance divergence</a></h3>
+    <p>Analyzed how institutional design changes participation and divergence between on-chain and off-chain governance outcomes.</p>
+    <div class="project-card__actions">
+      <a class="btn btn--primary btn--small" href="/portfolio/2025-01-15-dao-governance/">Project</a>
+      <a class="btn btn--inverse btn--small" href="https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit">Paper</a>
+      <a class="btn btn--inverse btn--small" href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit">Slides</a>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <span class="project-card__domain">Climate Risk · Quantitative Risk Management</span>
+    <h3><a href="/portfolio/2025-05-01-climate/">Extreme precipitation risk in Beijing</a></h3>
+    <p>Estimated tail rainfall risk from 1960 to 2024 with EVT, comparing GEV and POT-GPD behavior across long-horizon return levels.</p>
+    <div class="project-card__actions">
+      <a class="btn btn--primary btn--small" href="/portfolio/2025-05-01-climate/">Project</a>
+      <a class="btn btn--inverse btn--small" href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit">Slides</a>
+    </div>
+  </article>
+</div>
+
+<div class="section-heading" style="margin-top: 3rem;">
+  <p class="section-heading__eyebrow">Archive</p>
+  <h2>Additional projects and writing-based analyses</h2>
+</div>
+
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
-

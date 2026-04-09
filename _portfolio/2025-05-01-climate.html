@@ -40,7 +40,17 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}</style>
+}
+.project-summary{margin:2rem 0 2.5rem}
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem}
+.summary-card{padding:1rem 1.1rem;border:1px solid #d8dee9;border-radius:14px;background:#fff;box-shadow:0 10px 24px rgba(15,23,42,.06)}
+.summary-card__label{display:inline-block;margin-bottom:.7rem;color:#52606d;font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.summary-card p{margin:0;line-height:1.6}
+.summary-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1rem}
+.summary-actions .btn{display:inline-block;padding:.55rem .95rem;border-radius:999px;text-decoration:none;font-weight:700}
+.summary-actions .btn--primary{color:#fff;background:#3f51b5}
+.summary-actions .btn--inverse{color:#243b53;border:1px solid #cbd2d9;background:#fff}
+</style>
 
 
 <script src="ASRM595_Html_files/libs/clipboard/clipboard.min.js"></script>
@@ -101,6 +111,30 @@ div.csl-indent {
 
 </header>
 
+<section class="project-summary">
+<div class="summary-grid">
+<div class="summary-card">
+<span class="summary-card__label">Problem</span>
+<p>How severe are Beijing's extreme rainfall risks, and what do different EVT models imply for long-horizon return levels?</p>
+</div>
+<div class="summary-card">
+<span class="summary-card__label">Data</span>
+<p>Daily precipitation data for Beijing from 1960 to 2024, with emphasis on rare high-impact rainfall events.</p>
+</div>
+<div class="summary-card">
+<span class="summary-card__label">Method</span>
+<p>Compared GEV block-maxima estimates with POT-GPD threshold exceedance models under an EVT framework.</p>
+</div>
+<div class="summary-card">
+<span class="summary-card__label">Findings</span>
+<p>The fitted tail behavior supports a heavy-tailed risk profile and shows how return-level estimates vary across EVT specifications.</p>
+</div>
+</div>
+<div class="summary-actions">
+  <a class="btn btn--primary btn--small" href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit">Slides</a>
+  <a class="btn btn--inverse btn--small" href="/portfolio/">More Projects</a>
+</div>
+</section>
 <div style="page-break-after: always;"></div>
 <section id="sec-introduction" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="sec-introduction"><span class="header-section-number">1</span> Introduction</h2>

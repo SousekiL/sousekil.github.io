@@ -40,7 +40,17 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}</style>
+}
+.project-summary{margin:2rem 0 2.5rem}
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem}
+.summary-card{padding:1rem 1.1rem;border:1px solid #d8dee9;border-radius:14px;background:#fff;box-shadow:0 10px 24px rgba(15,23,42,.06)}
+.summary-card__label{display:inline-block;margin-bottom:.7rem;color:#52606d;font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.summary-card p{margin:0;line-height:1.6}
+.summary-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1rem}
+.summary-actions .btn{display:inline-block;padding:.55rem .95rem;border-radius:999px;text-decoration:none;font-weight:700}
+.summary-actions .btn--primary{color:#fff;background:#3f51b5}
+.summary-actions .btn--inverse{color:#243b53;border:1px solid #cbd2d9;background:#fff}
+</style>
 
 
 <script src="Literature_Html_for_Github_files/libs/clipboard/clipboard.min.js"></script>
@@ -128,6 +138,31 @@ div.csl-indent {
   body {
   text-align: justify}
 </style>
+<section class="project-summary">
+<div class="summary-grid">
+<div class="summary-card">
+<span class="summary-card__label">Problem</span>
+<p>How did social ties shape whether women poets in imperial China achieved durable literary recognition?</p>
+</div>
+<div class="summary-card">
+<span class="summary-card__label">Data</span>
+<p>Linked records from CBDB and MQWW to combine demographic, network, and publication information for historical women poets.</p>
+</div>
+<div class="summary-card">
+<span class="summary-card__label">Method</span>
+<p>Estimated the effect of social capital with Double LASSO and extended the analysis with Bayesian MCMC.</p>
+</div>
+<div class="summary-card">
+<span class="summary-card__label">Findings</span>
+<p>Social relation networks were measurably associated with literary recognition, while kinship centrality was less informative.</p>
+</div>
+</div>
+<div class="summary-actions">
+  <a class="btn btn--primary btn--small" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945">SSRN</a>
+  <a class="btn btn--inverse btn--small" href="https://github.com/sousekil/women-poets-imperial-china#readme">Code</a>
+  <a class="btn btn--inverse btn--small" href="/portfolio/">More Projects</a>
+</div>
+</section>
 <p>A preprint version of this manuscript is available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945">SSRN</a></p>
 <section id="introduction" class="level1">
 <h1>Introduction</h1>

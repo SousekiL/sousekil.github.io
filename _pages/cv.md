@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,38 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* M.S., GPA: 3.93/4.0, **University of Illinois at Urbana-Champaign**
-* M.A., GPA: 3.95/4.0, **Nanjing University** 
-* B.A., GPA: 3.68/4.0, **Xi'an Jiaotong University**
+<p class="archive__lead">A short-form overview of education, experience, actuarial progress, and technical strengths.</p>
 
-Actuarial Exams
-======
-* Passed: Exam **P** (Jan 2025), **FM** (Jun 2025), **SRM** (SOA, Aug 2025) 
-* Sitting: Exam MAS-I, MAS-II
+<div class="cv-grid">
+  <section class="cv-card">
+    <h2>Education</h2>
+    <p><strong>M.S., Actuarial Science and Risk Management</strong><br>University of Illinois Urbana-Champaign<br>GPA: 3.93/4.0</p>
+    <p><strong>M.A.</strong><br>Nanjing University<br>GPA: 3.95/4.0</p>
+    <p><strong>B.A.</strong><br>Xi'an Jiaotong University<br>GPA: 3.68/4.0</p>
+  </section>
 
-Relevant Experience
-======
+  <section class="cv-card">
+    <h2>Experience</h2>
+    <p><strong>Actuarial Researcher</strong><br>IRisk Lab<br>Aug 2024 - Dec 2025</p>
+    <p><strong>Senior Data Scientist</strong><br>TikTok (ByteDance Ltd.)<br>May 2022 - May 2023</p>
+    <p><strong>Data Scientist</strong><br>Kuaishou Tech.<br>Jun 2020 - May 2022</p>
+  </section>
 
-* Actuarial Researcher, **IRisk Lab**, Aug 2024 - Dec 2025
-* Senior Data Scientist, **TikTok (ByteDance Ltd.)**, May 2022 – May 2023
-* Data Scientist, **Kuaishou Tech.**, Jun 2020 – May 2022
+  <section class="cv-card">
+    <h2>Exams</h2>
+    <p><strong>Passed:</strong> P, FM, SRM</p>
+    <p><strong>Next focus:</strong> continuing actuarial exam progress alongside applied analytics work.</p>
+  </section>
 
-Skills
-======
-* Programming: Advanced R, Advanced SQL (MySQL, Hive), Python; basic C++, Java
-* Tools: Advanced Tableau, PowerBI, Excel
-* Statistical Modeling: GLMs, Time Series, Bayesian MCMC, A/B Testing
-* Machine Learning: Tree-based models, Regularization, Model evaluation
-* Data Workflow: ETL, data cleaning, dashboard building
+  <section class="cv-card">
+    <h2>Skills</h2>
+    <p><strong>Programming:</strong> Python, R, SQL, basic C++, Java</p>
+    <p><strong>Modeling:</strong> GLMs, time series, Bayesian MCMC, A/B testing, regularization</p>
+    <p><strong>Workflow:</strong> ETL, dashboards, model evaluation, decision-oriented reporting</p>
+  </section>
 
-Relevant Courses
-======
-* Statistical Methods & Theory: Applied Bayesian Analysis, Big Data Analytics, Statistics for Risk Modeling, Advanced Stochastic Processes & Applications
-* Machine Learning & Data Science: Statistical Learning, Predictive Analytics, Computing Programming & Algorithm
-* Actuarial Science & Insurance Analytics: Loss Models & Credibility Theory, Actuarial Research & Literature Seminar
-* Finance & Risk Management: Foundations of Risk Management, Quantitative Risk Management
+  <section class="cv-card">
+    <h2>Research / Project Interests</h2>
+    <p>Causal inference, risk modeling, extreme value theory, computational social science, and policy-relevant quantitative analysis.</p>
+  </section>
+</div>
   
-
 

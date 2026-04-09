@@ -1,109 +1,183 @@
 ---
 permalink: /
-title: "Data Science & Risk Analytics"
-description: "Felix Liu's portfolio of data science, actuarial, and computational social science projects."
+title: ""
+description: "Felix Liu's portfolio of data science, actuarial, and risk analytics work."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi, I'm Felix Liu.
+<section class="home-hero" id="top">
+  <p class="home-hero__eyebrow">Data Science · Risk Analytics · Actuarial</p>
+  <h1 class="home-hero__title">Data Scientist and Aspiring Actuary</h1>
+  <p class="home-hero__lede">I build decision-oriented analytics using causal inference, risk modeling, and computational social science.</p>
+  <p class="home-hero__status">Open to Data Scientist, Actuarial Analyst, and Risk Analytics roles.</p>
+  <div class="button-row">
+    <a class="btn btn--primary" href="#featured-projects">View Work</a>
+    <a class="btn btn--inverse" href="#experience">Experience</a>
+    <a class="btn btn--linkedin" href="https://www.linkedin.com/in/wfliu127/">LinkedIn</a>
+  </div>
+</section>
 
-I am a **data scientist** and an **aspiring actuary** focused on causal inference, risk modeling, and decision-oriented analytics. I have several years of industry experience at leading technology companies in China, including Kuaishou and TikTok.
+<section class="home-section" id="featured-projects">
+  <div class="section-heading">
+    <p class="section-heading__eyebrow">Evidence Snapshot</p>
+    <h2>Quick signals, not vanity metrics</h2>
+  </div>
+  <div class="snapshot-grid">
+    <div class="snapshot-card">
+      <span class="snapshot-card__label">SOA Exams Passed</span>
+      <p class="snapshot-card__value">P · FM · SRM</p>
+    </div>
+    <div class="snapshot-card">
+      <span class="snapshot-card__label">Featured Projects</span>
+      <p class="snapshot-card__value">3 selected case studies</p>
+    </div>
+    <div class="snapshot-card">
+      <span class="snapshot-card__label">Domains</span>
+      <p class="snapshot-card__value">Risk · Causal Inference · Computational Social Science</p>
+    </div>
+    <div class="snapshot-card">
+      <span class="snapshot-card__label">Core Stack</span>
+      <p class="snapshot-card__value">Python · R · SQL</p>
+    </div>
+  </div>
+</section>
 
-I hold a master's degree in **Actuarial Science and Risk Management** from the University of Illinois Urbana-Champaign (UIUC). Before UIUC, I earned a bachelor's degree from Xi'an Jiaotong University and a master's degree from Nanjing University.
+<section class="home-section">
+  <div class="section-heading">
+    <p class="section-heading__eyebrow">Featured Projects</p>
+    <h2>Selected work with clear questions, methods, and outcomes</h2>
+    <p>These are the projects I would want a hiring manager to see first.</p>
+  </div>
+  <div class="project-grid">
+    <article class="project-card">
+      <span class="project-card__domain">Quantitative History · Computational Social Science</span>
+      <h3>How social capital shaped literary recognition in imperial China</h3>
+      <p class="project-card__meta">Question</p>
+      <p>How much did social networks affect whether women poets achieved durable literary visibility?</p>
+      <p class="project-card__meta">Method</p>
+      <p>Built a linked historical dataset and estimated effects with Double LASSO and Bayesian MCMC.</p>
+      <p class="project-card__meta">Result</p>
+      <p>Found that network-based social ties played a measurable role in long-run literary recognition, while kinship centrality was less informative.</p>
+      <div class="project-card__actions">
+        <a class="btn btn--primary btn--small" href="/portfolio/2025-05-04-literature/">Read Project</a>
+        <a class="btn btn--inverse btn--small" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945">Paper</a>
+        <a class="btn btn--inverse btn--small" href="https://github.com/sousekil/women-poets-imperial-china#readme">Code</a>
+      </div>
+    </article>
 
-I am currently pursuing SOA credentialing and have passed **SOA Exams P, FM, and SRM**, with additional exams in progress.
+    <article class="project-card">
+      <span class="project-card__domain">DeFi · Governance · Financial Economics</span>
+      <h3>Why on-chain and off-chain governance outcomes diverge in DAOs</h3>
+      <p class="project-card__meta">Question</p>
+      <p>What drives voting divergence between formal on-chain outcomes and off-chain governance mechanisms?</p>
+      <p class="project-card__meta">Method</p>
+      <p>Combined causal and quasi-experimental reasoning to study how institutional design changes governance behavior.</p>
+      <p class="project-card__meta">Result</p>
+      <p>Showed that governance architecture can materially shape participation, vote divergence, and the perceived legitimacy of collective decisions.</p>
+      <div class="project-card__actions">
+        <a class="btn btn--primary btn--small" href="/portfolio/2025-01-15-dao-governance/">Read Project</a>
+        <a class="btn btn--inverse btn--small" href="https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit">Paper</a>
+        <a class="btn btn--inverse btn--small" href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit">Slides</a>
+      </div>
+    </article>
 
-## Professional Focus
+    <article class="project-card">
+      <span class="project-card__domain">Climate Risk · Quantitative Risk Management</span>
+      <h3>Extreme precipitation risk in Beijing, 1960–2024</h3>
+      <p class="project-card__meta">Question</p>
+      <p>How severe are Beijing's tail rainfall risks, and how sensitive are long-horizon estimates to model choice?</p>
+      <p class="project-card__meta">Method</p>
+      <p>Modeled daily precipitation with extreme value theory, comparing GEV and POT-GPD return-level estimates.</p>
+      <p class="project-card__meta">Result</p>
+      <p>Documented a heavy-tailed risk profile and contrasted return-level behavior across EVT specifications for long-horizon climate risk assessment.</p>
+      <div class="project-card__actions">
+        <a class="btn btn--primary btn--small" href="/portfolio/2025-05-01-climate/">Read Project</a>
+        <a class="btn btn--inverse btn--small" href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit">Slides</a>
+      </div>
+    </article>
+  </div>
+</section>
 
-- Building statistically rigorous models for real-world business and policy questions
-- Translating complex analysis into clear recommendations for non-technical stakeholders
-- Applying causal, time-series, and risk frameworks to finance, climate, and social data
+<section class="home-section" id="experience">
+  <div class="section-heading">
+    <p class="section-heading__eyebrow">Experience</p>
+    <h2>Education, work history, and actuarial progress</h2>
+  </div>
+  <div class="cv-grid">
+    <section class="cv-card">
+      <h2>Education</h2>
+      <p><strong>M.S., Actuarial Science and Risk Management</strong><br>University of Illinois Urbana-Champaign<br>GPA: 3.93/4.0</p>
+      <p><strong>M.A.</strong><br>Nanjing University<br>GPA: 3.95/4.0</p>
+      <p><strong>B.A.</strong><br>Xi'an Jiaotong University<br>GPA: 3.68/4.0</p>
+    </section>
 
-## Open To
+    <section class="cv-card">
+      <h2>Experience</h2>
+      <p><strong>Actuarial Researcher</strong><br>IRisk Lab<br>Aug 2024 - Dec 2025</p>
+      <p><strong>Senior Data Scientist</strong><br>TikTok (ByteDance Ltd.)<br>May 2022 - May 2023</p>
+      <p><strong>Data Scientist</strong><br>Kuaishou Tech.<br>Jun 2020 - May 2022</p>
+    </section>
 
-- Data Scientist and Quantitative Analyst roles
-- Risk Analytics, Actuarial Analytics, and Decision Science roles
-- Research collaborations in computational social science and applied economics
+    <section class="cv-card">
+      <h2>Exams</h2>
+      <p><strong>Passed:</strong> P, FM, SRM</p>
+      <p><strong>Current focus:</strong> continuing actuarial exam progress alongside applied analytics work.</p>
+    </section>
 
-## Core Toolkit
+    <section class="cv-card">
+      <h2>Skills</h2>
+      <p><strong>Programming:</strong> Python, R, SQL, basic C++, Java</p>
+      <p><strong>Modeling:</strong> GLMs, time series, Bayesian MCMC, A/B testing, regularization</p>
+      <p><strong>Workflow:</strong> ETL, dashboards, model evaluation, decision-oriented reporting</p>
+    </section>
+  </div>
+</section>
 
-`Python` · `R` · `SQL` · `Causal Inference` · `Bayesian Methods` · `Time Series` · `Machine Learning` · `Data Visualization`
+<section class="home-section">
+  <div class="section-heading">
+    <p class="section-heading__eyebrow">What I Work On</p>
+    <h2>Methods and problem areas I keep returning to</h2>
+  </div>
+  <div class="focus-grid">
+    <div class="focus-card">
+      <h3>Causal Inference</h3>
+      <p>Decision-focused analysis using regularization, quasi-experimental logic, and interpretable modeling.</p>
+    </div>
+    <div class="focus-card">
+      <h3>Risk Modeling</h3>
+      <p>Applied actuarial and statistical methods for tail risk, uncertainty, and long-horizon estimation.</p>
+    </div>
+    <div class="focus-card">
+      <h3>Extreme Value Theory</h3>
+      <p>Modeling severe events with GEV and POT-GPD frameworks for climate and financial risk questions.</p>
+    </div>
+    <div class="focus-card">
+      <h3>Computational Social Science</h3>
+      <p>Using structured data and network methods to study culture, governance, and social behavior.</p>
+    </div>
+  </div>
+</section>
 
-This website highlights selected projects, technical explorations, and research-driven analysis. You can reach me through the contact links in my profile.
-
-## Recent Projects
-
-### How Social Capital Influenced Women's Literary Recognition in Imperial China
-
-*Quantitative History · Computational Social Science*
-
-Using Double LASSO and Bayesian MCMC methods to identify causal effects of social networks on women poets' literary recognition in imperial China.
-
-**Keywords:** `Double LASSO` · `Bayesian MCMC` · `Causal Inference` · `Network Analysis` · `Python` · `R`
-
-- [May 2025] [Project Paper](/portfolio/2025-05-04-literature.html) - Bayesian posterior analysis with MCMC
-- [Dec 2024] [Project Paper](/portfolio/2024-12-01-literature.html) · [Slides](https://dx.doi.org/10.2139/ssrn.5126209) - Double LASSO approach
-- [GitHub Repository](https://github.com/sousekil/women-poets-imperial-china#readme) - Code and documentation
-
-<div class="project-thumbnails">
-  <a href="/portfolio/2025-05-04-literature.html"><img src="/portfolio/Literature_Html_files/figure-html/fig-post-1.png" alt="Bayesian posterior distributions for literary recognition model"></a>
-  <a href="/portfolio/2025-05-04-literature.html"><img src="/portfolio/Literature_Html_files/figure-html/fig-lasso-1.png" alt="LASSO coefficient estimates for social capital variables"></a>
-  <a href="/portfolio/2025-05-04-literature.html"><img src="/portfolio/Literature_Html_files/figure-html/fig-dynasty-1.png" alt="Distribution of women poets by dynasty"></a>
-</div>
-
-### Governance Effects and On-Chain vs Off-Chain Vote Divergence in DAOs
-
-*Decentralized Finance · Financial Economics*
-
-Examining how governance structures affect voting behavior divergence between on-chain and off-chain mechanisms in decentralized autonomous organizations.
-
-**Keywords:** `Causal Inference` · `Regression Discontinuity` · `DeFi` · `Blockchain` · `Governance`
-
-- [Project Paper](https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit)
-- [Slides](https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit)
-
-<div class="project-thumbnails">
-  <a href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit?slide=id.g3a5df142147_0_134#slide=id.g3a5df142147_0_134"><img src="/_pages/image/2.png" alt="DAO governance background and institutional setting"></a>
-  <a href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit?slide=id.g3a5df142147_0_134#slide=id.g3a5df142147_0_134"><img src="/_pages/image/3.png" alt="Research motivation for on-chain versus off-chain divergence"></a>
-  <a href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit?slide=id.g3a5df142147_0_134#slide=id.g3a5df142147_0_134"><img src="/_pages/image/4.png" alt="Data and methods for DAO voting analysis"></a>
-</div>
-
-### Extreme Precipitation Risk in Beijing (1960-2024): An EVT-Based Assessment
-
-*Climate Risk · Quantitative Risk Management*
-
-Applying extreme value theory to assess precipitation risk patterns in Beijing over six decades.
-
-**Keywords:** `Extreme Value Theory` · `Risk Assessment` · `Time Series Analysis` · `Climate Science` · `R`
-
-- [Project Paper](/portfolio/2025-05-01-climate.html)
-- [Slides](https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit)
-
-<div class="project-thumbnails">
-  <a href="/portfolio/2025-05-01-climate.html"><img src="/portfolio/ASRM595_Html_files/figure-html/fig-dist-plot-1.png" alt="Distribution of annual extreme precipitation"></a>
-  <a href="/portfolio/2025-05-01-climate.html"><img src="/portfolio/ASRM595_Html_files/figure-html/fig-return-level-comparison-1.png" alt="Return level comparison across EVT models"></a>
-  <a href="/portfolio/2025-05-01-climate.html"><img src="/portfolio/ASRM595_Html_files/figure-html/fig-am-gev-rl-1.png" alt="GEV-based return level curve for Beijing rainfall"></a>
-</div>
-
-### Why Does It Feel Like Everywhere Is Far Away in Beijing?
-
-*Computational Social Science · Urban Analytics*
-
-A spatial analysis of perceived distance in Beijing using visualization and accessibility metrics, examining how urban design influences movement patterns and perceived accessibility.
-
-**Keywords:** `Spatial Analysis` · `Data Visualization` · `Urban Computing` · `GIS` · `Python`
-
-- [GitHub Repository](https://github.com/sousekil/urban-accessibility-analysis#readme) - Code and documentation
-
-<div class="project-thumbnails">
-  <a href="https://github.com/sousekil/urban-accessibility-analysis#readme"><img src="/_pages/image/fig1.png" alt="Beijing accessibility map overview"></a>
-  <a href="https://github.com/sousekil/urban-accessibility-analysis#readme"><img src="/_pages/image/fig2.png" alt="Subway accessibility and perceived distance patterns"></a>
-  <a href="https://github.com/sousekil/urban-accessibility-analysis#readme"><img src="/_pages/image/fig3.png" alt="Road network structure and travel frictions in Beijing"></a>
-</div>
-
-## Copyright Notice
-
-All articles on this blog are my original work. Please contact me for authorization if you wish to reproduce any content.
+<section class="home-section" id="contact">
+  <div class="section-heading">
+    <p class="section-heading__eyebrow">Open To</p>
+    <h2>Roles, collaboration, and contact</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3>Target Roles</h3>
+      <p>Data Scientist, Actuarial Analyst, and Risk Analytics roles with room for rigorous modeling and clear communication.</p>
+    </div>
+    <div class="contact-card">
+      <h3>Profiles</h3>
+      <p><a href="https://www.linkedin.com/in/wfliu127/">LinkedIn</a><br><a href="https://github.com/sousekil">GitHub</a><br><a href="mailto:wfliu127@gmail.com">wfliu127@gmail.com</a></p>
+    </div>
+    <div class="contact-card">
+      <h3>Project Signals</h3>
+      <p>Selected work spans causal inference, DeFi governance, historical data, and climate risk under a common decision-oriented lens.</p>
+    </div>
+  </div>
+</section>
