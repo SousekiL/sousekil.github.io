@@ -28,7 +28,7 @@ redirect_from:
   <div class="snapshot-grid">
     <div class="snapshot-card">
       <span class="snapshot-card__label">SOA Exams Passed</span>
-      <p class="snapshot-card__value">P · FM · SRM</p>
+      <p class="snapshot-card__value">P · FM · SRM · ASTAM</p>
     </div>
     <div class="snapshot-card">
       <span class="snapshot-card__label">Featured Projects</span>
