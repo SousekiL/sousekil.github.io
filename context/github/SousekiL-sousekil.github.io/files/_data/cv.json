@@ -1,0 +1,53 @@
+{
+  "basics": {
+    "name": "Felix Liu",
+    "email": "wfliu127@gmail.com",
+    "phone": "",
+    "website": "https://sousekil.github.io",
+    "summary": "Data Scientist / Aspiring Actuary",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Urbana",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "sousekil",
+        "url": "https://github.com/sousekil"
+      }
+    ]
+  },
+  "work": [],
+  "education": [
+    {
+      "institution": "University of Illinois at Urbana-Champaign",
+      "area": "M.S. in Predictive Analytics and Risk Management",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2025",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Nanjing University",
+      "area": "M.A.",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Xi'an Jiaotong University",
+      "area": "B.A.",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": null,
+      "courses": []
+    }
+  ],
+}

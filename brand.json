@@ -1,0 +1,231 @@
+{
+  "name": "Felix Liu",
+  "tagline": "Data Scientist and Aspiring Actuary",
+  "description": "Academic Pages portfolio for Felix Liu — decision-oriented analytics spanning causal inference, risk modeling, extreme value theory, and computational social science. Measured from https://sousekil.github.io/.",
+  "sourceUrl": "https://github.com/SousekiL/sousekil.github.io",
+  "logo": {
+    "primary": "logos/favicon.svg",
+    "alternates": [
+      "logos/apple-touch-icon.png",
+      "logos/avatar-primary.png",
+      "logos/favicon-512.png",
+      "logos/favicon-192.png",
+      "logos/favicon-32.png",
+      "logos/favicon-1.svg",
+      "logos/og-image-4.png"
+    ],
+    "notes": "No inline header/nav SVG exists on the live site; the masthead is a text wordmark. Primary mark is the academic mortarboard favicon (fill #36c). The circular avatar photo is the personal masthead lockup. favicon-1.svg is the GitHub Octocats mark retained as a source-system alternate; og-image-4.png is the repository social-card fallback."
+  },
+  "colors": [
+    {
+      "role": "background",
+      "hex": "#ffffff",
+      "oklch": "oklch(100.0% 0.000 0.0)",
+      "name": "Canvas White",
+      "usage": "page canvas (--global-bg-color light theme)"
+    },
+    {
+      "role": "surface",
+      "hex": "#f2f3f3",
+      "oklch": "oklch(96.3% 0.001 197.1)",
+      "name": "Footer Mist",
+      "usage": "footer, thead, card borders, raised bands (--global-footer-bg-color, --global-border-color)"
+    },
+    {
+      "role": "foreground",
+      "hex": "#494e52",
+      "oklch": "oklch(42.1% 0.009 241.9)",
+      "name": "Slate Text",
+      "usage": "body and heading text (--global-text-color / $dark-gray)"
+    },
+    {
+      "role": "muted",
+      "hex": "#9ba1a6",
+      "oklch": "oklch(70.6% 0.010 242.9)",
+      "name": "Soft Gray",
+      "usage": "secondary text, captions, eyebrow labels (--global-text-color-light)"
+    },
+    {
+      "role": "border",
+      "hex": "#bdc1c4",
+      "oklch": "oklch(80.9% 0.006 239.8)",
+      "name": "Hairline Gray",
+      "usage": "dividers and control borders (--global-dark-border-color)"
+    },
+    {
+      "role": "accent",
+      "hex": "#52adc8",
+      "oklch": "oklch(70.3% 0.095 220.1)",
+      "name": "Academic Teal",
+      "usage": "links and primary interactive accent (--global-link-color)"
+    },
+    {
+      "role": "accent-secondary",
+      "hex": "#2f7f93",
+      "oklch": "oklch(55.6% 0.082 217.5)",
+      "name": "Deep Teal",
+      "usage": "info emphasis ($info-color) and link-hover base (--global-link-color-hover mixes from this)"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "-apple-system",
+      "fallbacks": [
+        "BlinkMacSystemFont",
+        ".SFNSText-Regular",
+        "San Francisco",
+        "Roboto",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Lucida Grande",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "notes": "Measured from main.css; used for headings, masthead, nav, buttons, and UI chrome."
+    },
+    "body": {
+      "family": "Times New Roman",
+      "fallbacks": [
+        "Times",
+        "Georgia",
+        "serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "notes": "Live CSS override in assets/css/style.scss sets 'Times New Roman', sans-serif; canonical stack preserves serif fallbacks."
+    },
+    "mono": {
+      "family": "Monaco",
+      "fallbacks": [
+        "Consolas",
+        "Lucida Console",
+        "monospace"
+      ],
+      "weights": [
+        400
+      ],
+      "notes": "Used for inline code and preformatted blocks."
+    }
+  },
+  "voice": {
+    "adjectives": [
+      "precise",
+      "evidence-first",
+      "decision-oriented",
+      "academic",
+      "understated"
+    ],
+    "tone": "Calm academic-professional: lead with the research question, method, and outcome. Prefer measured claims, research framing, and role-ready signals over hype.",
+    "messagingPillars": [
+      "Decision-oriented analytics, not vanity metrics",
+      "Causal inference, risk modeling, and extreme value methods",
+      "Selected work with clear questions, methods, and outcomes",
+      "Open to Data Scientist, Actuarial Analyst, and Risk Analytics roles"
+    ],
+    "vocabulary": {
+      "use": [
+        "causal inference",
+        "risk modeling",
+        "extreme value theory",
+        "computational social science",
+        "evidence snapshot",
+        "selected work",
+        "methods",
+        "outcomes",
+        "quick signals"
+      ],
+      "avoid": [
+        "10x",
+        "disrupt",
+        "synergy",
+        "rockstar",
+        "ninja",
+        "guaranteed",
+        "world-class"
+      ]
+    }
+  },
+  "imagery": {
+    "style": "Research figures, network graphs, time-series charts, project-slide hero images, and restrained academic portfolio photography",
+    "subjects": [
+      "personal avatar / bio photo",
+      "social network visualizations",
+      "extreme precipitation / return-level charts",
+      "project title slides and talk screenshots",
+      "template homepage mockups",
+      "statistical output and methodology diagrams"
+    ],
+    "treatment": "Clean white or charcoal canvas; charts with muted axes; teal accents used sparingly for links and highlights; photography desaturated or natural; project thumbnails 6px radius with soft shadow, summary cards 16px radius with a light surface border",
+    "avoid": [
+      "neon gradients",
+      "stock handshake photos",
+      "emoji icon grids",
+      "aggressive purple washes",
+      "fake 3D product renders"
+    ],
+    "samples": [
+      {
+        "file": "imagery/homepage.png",
+        "kind": "cover",
+        "caption": "Current Felix Liu homepage (full-page screenshot)"
+      },
+      {
+        "file": "imagery/women-names-hero.jpg",
+        "kind": "hero",
+        "caption": "Women's Names in Ancient China project slide"
+      },
+      {
+        "file": "imagery/gaokao-hero.jpg",
+        "kind": "hero",
+        "caption": "Gaokao major-selection project slide"
+      },
+      {
+        "file": "imagery/network-fig.png",
+        "kind": "product",
+        "caption": "Literary recognition network figure"
+      },
+      {
+        "file": "imagery/time-series.png",
+        "kind": "product",
+        "caption": "Extreme precipitation time series"
+      },
+      {
+        "file": "imagery/return-level.png",
+        "kind": "product",
+        "caption": "Return-level comparison chart"
+      },
+      {
+        "file": "imagery/structure.png",
+        "kind": "illustration",
+        "caption": "Project structure diagram"
+      },
+      {
+        "file": "imagery/editing-talk.png",
+        "kind": "hero",
+        "caption": "Talk / editing slide visual"
+      }
+    ]
+  },
+  "layout": {
+    "radius": "4px",
+    "borderWeight": "1px",
+    "spacing": "8px baseline with 1.5 body line-height; masthead 70px; content max-width centered; section gaps ~3rem; grid gaps 1rem",
+    "postureRules": [
+      "Light academic canvas (#fff) with charcoal dark theme (#474747) toggle",
+      "Serif body (Times New Roman) + system sans display for headings and UI chrome",
+      "Single teal accent for links and primary actions; gray base for default buttons (#7a8288)",
+      "Base radius 4px on buttons and code chips; summary/project cards use 16px radius with a soft 12px/32px shadow",
+      "Cards use a 1px surface-colored border (#f2f3f3) on white background",
+      "Sidebar + masthead shell (Minimal Mistakes / Academic Pages): 1024px sidebar breakpoint",
+      "Homepage hero title uses fluid clamp(2.4rem, 5vw, 4.4rem) with tight 1.02 line-height",
+      "Section grids use CSS auto-fit (minmax 180px–250px) for snapshots and project cards",
+      "Project cards follow a Question / Method / Result pattern with compact action rows"
+    ]
+  }
+}
