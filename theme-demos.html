@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Color and type studies for Felix Liu's research and visual archive.">
+  <title>Theme &amp; Type Studies — Felix Liu</title>
+  <style>
+    :root {
+      --canvas: #e6e3da;
+      --ink: #202827;
+      --muted: #6e7773;
+      --line: rgba(32, 40, 39, .22);
+      --accent: #c5573a;
+      --display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --body: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--canvas); font-family: var(--body); line-height: 1.45; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    button { font: inherit; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .page { width: min(1240px, calc(100% - 3rem)); margin: 0 auto; }
+
+    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; min-height: 76px; border-bottom: 1px solid var(--line); }
+    .back-link, .mode-button, .eyebrow, .theme-card__number, .theme-card__meta, .type-label { font-size: .64rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
+    .back-link { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .3rem; }
+    .back-link:hover { color: var(--accent); }
+    .mode-switch { display: flex; gap: .3rem; padding: .25rem; border: 1px solid var(--line); background: rgba(255,255,255,.16); }
+    .mode-button { padding: .45rem .65rem; color: var(--muted); border: 0; background: transparent; cursor: pointer; }
+    .mode-button.is-active { color: var(--canvas); background: var(--ink); }
+
+    .intro { display: grid; grid-template-columns: minmax(0, 1fr) 310px; gap: 3rem; padding: 4.5rem 0 3rem; border-bottom: 1px solid var(--line); }
+    .eyebrow { margin: 0; color: var(--accent); }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { max-width: 720px; margin-bottom: 1rem; font-family: var(--display); font-size: clamp(3rem, 7vw, 6.1rem); font-weight: 400; letter-spacing: -.075em; line-height: .86; }
+    .intro__copy > p:last-child { max-width: 34rem; margin-bottom: 0; color: var(--muted); font-size: .9rem; line-height: 1.65; }
+    .intro__note { padding-top: .8rem; border-top: 1px solid var(--ink); }
+    .intro__note p { margin-bottom: 1rem; font-family: var(--display); font-size: 1.25rem; line-height: 1.06; }
+    .intro__note small { color: var(--muted); font-size: .67rem; line-height: 1.55; }
+
+    .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; padding: 3rem 0 1rem; border-bottom: 1px solid var(--line); }
+    .section-heading h2 { margin: .45rem 0 0; font-family: var(--display); font-size: clamp(2rem, 4vw, 3.7rem); font-weight: 400; letter-spacing: -.06em; line-height: .94; }
+    .section-heading p:last-child { max-width: 25rem; margin-bottom: 0; color: var(--muted); font-size: .72rem; }
+
+    .theme-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; padding: 1rem 0 3rem; }
+    .theme-card { min-width: 0; }
+    .theme-card__head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .65rem 0 .55rem; border-top: 1px solid var(--ink); }
+    .theme-card__head h3 { margin: 0; font-family: var(--display); font-size: 1.35rem; font-weight: 400; letter-spacing: -.035em; }
+    .theme-card__number { color: var(--accent); }
+    .theme-card__meta { color: var(--muted); font-size: .58rem; }
+    .theme-card__swatches { display: flex; gap: .28rem; margin: .25rem 0 .65rem; }
+    .swatch { width: 1.3rem; height: 1.3rem; border: 1px solid rgba(0,0,0,.14); }
+    .swatch--bg { background: var(--light-bg); }
+    .swatch--ink { background: var(--light-ink); }
+    .swatch--accent { background: var(--light-accent); }
+    .swatch--dark-bg { background: var(--dark-bg); }
+    .swatch--dark-accent { background: var(--dark-accent); }
+
+    .mini-site { --mini-bg: var(--light-bg); --mini-ink: var(--light-ink); --mini-muted: var(--light-muted); --mini-line: var(--light-line); --mini-accent: var(--light-accent); --mini-display: var(--card-display); --mini-body: var(--card-body); min-height: 345px; padding: 1rem; color: var(--mini-ink); background: var(--mini-bg); border: 1px solid var(--mini-line); transition: color .2s ease, background .2s ease, border-color .2s ease; }
+    body[data-mode="dark"] .mini-site { --mini-bg: var(--dark-bg); --mini-ink: var(--dark-ink); --mini-muted: var(--dark-muted); --mini-line: var(--dark-line); --mini-accent: var(--dark-accent); }
+    .mini-nav { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: .8rem; border-bottom: 1px solid var(--mini-line); color: var(--mini-muted); font: 700 .52rem var(--mini-body); letter-spacing: .09em; text-transform: uppercase; }
+    .mini-nav strong { color: var(--mini-ink); font: .8rem var(--mini-display); letter-spacing: -.02em; text-transform: none; }
+    .mini-hero { padding: 2.7rem 0 2rem; border-bottom: 1px solid var(--mini-line); }
+    .mini-hero__label { margin-bottom: .7rem; color: var(--mini-accent); font: 700 .52rem var(--mini-body); letter-spacing: .1em; text-transform: uppercase; }
+    .mini-hero h4 { max-width: 520px; margin: 0; color: var(--mini-ink); font: 400 clamp(2.25rem, 5vw, 4rem)/.86 var(--mini-display); letter-spacing: -.075em; }
+    .mini-hero h4 em { color: var(--mini-accent); font-style: italic; }
+    .mini-work { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; padding-top: 1rem; }
+    .mini-work__item { padding-top: .55rem; border-top: 1px solid var(--mini-ink); }
+    .mini-work__item small { display: block; margin-bottom: .35rem; color: var(--mini-accent); font: 700 .49rem var(--mini-body); letter-spacing: .09em; text-transform: uppercase; }
+    .mini-work__item h5 { margin: 0; color: var(--mini-ink); font: 400 1rem/1 var(--mini-display); letter-spacing: -.035em; }
+    .mini-work__item p { margin: .45rem 0 0; color: var(--mini-muted); font: .62rem/1.45 var(--mini-body); }
+    .theme-card__caption { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin-top: .65rem; color: var(--muted); font-size: .64rem; }
+    .theme-card__caption strong { display: block; margin-bottom: .18rem; color: var(--ink); font-size: .59rem; letter-spacing: .08em; text-transform: uppercase; }
+
+    .type-section { padding: 0 0 4rem; }
+    .type-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; padding-top: 1rem; }
+    .type-sample { padding-top: .7rem; border-top: 1px solid var(--ink); }
+    .type-label { color: var(--accent); font-size: .58rem; }
+    .type-sample h3 { margin: .7rem 0 .45rem; font-family: var(--sample-display); font-size: 2rem; font-weight: 400; letter-spacing: -.05em; line-height: .94; }
+    .type-sample p { margin: 0; color: var(--muted); font-family: var(--sample-body); font-size: .72rem; line-height: 1.55; }
+    .type-sample--old { --sample-display: "Iowan Old Style", Baskerville, Georgia, serif; --sample-body: "Avenir Next", "Helvetica Neue", Arial, sans-serif; }
+    .type-sample--book { --sample-display: Baskerville, "Times New Roman", serif; --sample-body: "Helvetica Neue", Arial, sans-serif; }
+    .type-sample--technical { --sample-display: Charter, Georgia, serif; --sample-body: "SF Mono", "Roboto Mono", Menlo, monospace; }
+    .foot { display: flex; justify-content: space-between; gap: 1rem; padding: 1rem 0 2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .61rem; }
+    .foot a { color: var(--ink); font-weight: 700; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .25rem; }
+
+    @media (max-width: 760px) {
+      .page { width: min(100% - 1.5rem, 1240px); }
+      .intro { grid-template-columns: 1fr; gap: 2rem; padding-top: 3.5rem; }
+      .theme-grid, .type-grid { grid-template-columns: 1fr; }
+      .section-heading { align-items: start; flex-direction: column; gap: .8rem; }
+      .foot { display: grid; }
+    }
+  </style>
+</head>
+<body data-mode="light">
+  <div class="page">
+    <header class="topbar">
+      <a class="back-link" href="index.html">← Back to archive</a>
+      <div class="mode-switch" aria-label="Preview mode">
+        <button class="mode-button is-active" type="button" data-mode="light" aria-pressed="true">Light</button>
+        <button class="mode-button" type="button" data-mode="dark" aria-pressed="false">Dark</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div class="intro__copy">
+          <p class="eyebrow">Theme / type studies</p>
+          <h1>Quiet palettes,<br>clear signals.</h1>
+          <p>Four restrained directions for the research and visual archive. The layouts stay constant so the difference comes from color, contrast, and type rather than decoration.</p>
+        </div>
+        <aside class="intro__note">
+          <p>Compare the same<br>small interface in<br>light and dark.</p>
+          <small>Current site palette is shown first. The other three are alternatives, not applied to the main archive.</small>
+        </aside>
+      </section>
+
+      <section>
+        <div class="section-heading">
+          <div><p class="eyebrow">01 / Color directions</p><h2>Four ways to set the temperature.</h2></div>
+          <p>Muted colors, strong text contrast, no gradients. Click Light or Dark above to compare the same composition across every option.</p>
+        </div>
+        <div class="theme-grid">
+          <article class="theme-card">
+            <div class="theme-card__head"><span class="theme-card__number">01</span><h3>Paper / signal</h3><span class="theme-card__meta">Current</span></div>
+            <div class="theme-card__swatches" style="--light-bg:#f3f0e9;--light-ink:#1e2827;--light-accent:#c5573a;--dark-bg:#1b211f;--dark-accent:#ed7659"><i class="swatch swatch--bg"></i><i class="swatch swatch--ink"></i><i class="swatch swatch--accent"></i><i class="swatch swatch--dark-bg"></i><i class="swatch swatch--dark-accent"></i></div>
+            <div class="mini-site" style="--light-bg:#f3f0e9;--light-ink:#1e2827;--light-muted:#6d7773;--light-line:rgba(30,40,39,.2);--light-accent:#c5573a;--dark-bg:#1b211f;--dark-ink:#eee9df;--dark-muted:#a6ada5;--dark-line:rgba(238,233,223,.24);--dark-accent:#ed7659;--card-display:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;--card-body:'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif">
+              <div class="mini-nav"><strong>Felix</strong><span>Research · Visuals</span></div><div class="mini-hero"><div class="mini-hero__label">Researcher / data scientist</div><h4>Seeing <em>society</em><br>through <em>data.</em></h4></div><div class="mini-work"><div class="mini-work__item"><small>01 / Research</small><h5>Women poets &amp; literary recognition</h5><p>Historical data, networks, and literary visibility.</p></div><div class="mini-work__item"><small>02 / Visual</small><h5>City data visual</h5><p>Urban space across China.</p></div></div>
+            </div>
+            <div class="theme-card__caption"><div><strong>Character</strong>Warm, editorial, grounded</div><div><strong>Type</strong>Old-style serif + humanist sans</div></div>
+          </article>
+
+          <article class="theme-card">
+            <div class="theme-card__head"><span class="theme-card__number">02</span><h3>Chalk / cobalt</h3><span class="theme-card__meta">Cool</span></div>
+            <div class="theme-card__swatches" style="--light-bg:#f1f2ef;--light-ink:#18232b;--light-accent:#2d6483;--dark-bg:#141c22;--dark-accent:#87c0db"><i class="swatch swatch--bg"></i><i class="swatch swatch--ink"></i><i class="swatch swatch--accent"></i><i class="swatch swatch--dark-bg"></i><i class="swatch swatch--dark-accent"></i></div>
+            <div class="mini-site" style="--light-bg:#f1f2ef;--light-ink:#18232b;--light-muted:#68767d;--light-line:rgba(24,35,43,.2);--light-accent:#2d6483;--dark-bg:#141c22;--dark-ink:#edf3f4;--dark-muted:#a8b9bd;--dark-line:rgba(237,243,244,.24);--dark-accent:#87c0db;--card-display:Baskerville,'Times New Roman',serif;--card-body:'Helvetica Neue',Arial,sans-serif">
+              <div class="mini-nav"><strong>Felix</strong><span>Research · Visuals</span></div><div class="mini-hero"><div class="mini-hero__label">Researcher / data scientist</div><h4>Seeing <em>society</em><br>through <em>data.</em></h4></div><div class="mini-work"><div class="mini-work__item"><small>01 / Research</small><h5>Women poets &amp; literary recognition</h5><p>Historical data, networks, and literary visibility.</p></div><div class="mini-work__item"><small>02 / Visual</small><h5>City data visual</h5><p>Urban space across China.</p></div></div>
+            </div>
+            <div class="theme-card__caption"><div><strong>Character</strong>Cooler, precise, cartographic</div><div><strong>Type</strong>Baskerville + neutral grotesk</div></div>
+          </article>
+
+          <article class="theme-card">
+            <div class="theme-card__head"><span class="theme-card__number">03</span><h3>Lichen / oxide</h3><span class="theme-card__meta">Organic</span></div>
+            <div class="theme-card__swatches" style="--light-bg:#edf0e7;--light-ink:#1b2620;--light-accent:#778b38;--dark-bg:#172019;--dark-accent:#b7cf63"><i class="swatch swatch--bg"></i><i class="swatch swatch--ink"></i><i class="swatch swatch--accent"></i><i class="swatch swatch--dark-bg"></i><i class="swatch swatch--dark-accent"></i></div>
+            <div class="mini-site" style="--light-bg:#edf0e7;--light-ink:#1b2620;--light-muted:#6d786e;--light-line:rgba(27,38,32,.2);--light-accent:#778b38;--dark-bg:#172019;--dark-ink:#edf2e7;--dark-muted:#a5b2a0;--dark-line:rgba(237,242,231,.24);--dark-accent:#b7cf63;--card-display:Charter,Georgia,serif;--card-body:'Avenir Next','Helvetica Neue',Arial,sans-serif">
+              <div class="mini-nav"><strong>Felix</strong><span>Research · Visuals</span></div><div class="mini-hero"><div class="mini-hero__label">Researcher / data scientist</div><h4>Seeing <em>society</em><br>through <em>data.</em></h4></div><div class="mini-work"><div class="mini-work__item"><small>01 / Research</small><h5>Women poets &amp; literary recognition</h5><p>Historical data, networks, and literary visibility.</p></div><div class="mini-work__item"><small>02 / Visual</small><h5>City data visual</h5><p>Urban space across China.</p></div></div>
+            </div>
+            <div class="theme-card__caption"><div><strong>Character</strong>Quieter, geographic, distinctive</div><div><strong>Type</strong>Charter + humanist sans</div></div>
+          </article>
+
+          <article class="theme-card">
+            <div class="theme-card__head"><span class="theme-card__number">04</span><h3>Porcelain / plum</h3><span class="theme-card__meta">Cultural</span></div>
+            <div class="theme-card__swatches" style="--light-bg:#f1eff2;--light-ink:#28222d;--light-accent:#765a80;--dark-bg:#1c1820;--dark-accent:#c39bcf"><i class="swatch swatch--bg"></i><i class="swatch swatch--ink"></i><i class="swatch swatch--accent"></i><i class="swatch swatch--dark-bg"></i><i class="swatch swatch--dark-accent"></i></div>
+            <div class="mini-site" style="--light-bg:#f1eff2;--light-ink:#28222d;--light-muted:#756f78;--light-line:rgba(40,34,45,.2);--light-accent:#765a80;--dark-bg:#1c1820;--dark-ink:#f1edf3;--dark-muted:#b7abb9;--dark-line:rgba(241,237,243,.24);--dark-accent:#c39bcf;--card-display:'Iowan Old Style',Baskerville,Georgia,serif;--card-body:'Helvetica Neue',Arial,sans-serif">
+              <div class="mini-nav"><strong>Felix</strong><span>Research · Visuals</span></div><div class="mini-hero"><div class="mini-hero__label">Researcher / data scientist</div><h4>Seeing <em>society</em><br>through <em>data.</em></h4></div><div class="mini-work"><div class="mini-work__item"><small>01 / Research</small><h5>Women poets &amp; literary recognition</h5><p>Historical data, networks, and literary visibility.</p></div><div class="mini-work__item"><small>02 / Visual</small><h5>City data visual</h5><p>Urban space across China.</p></div></div>
+            </div>
+            <div class="theme-card__caption"><div><strong>Character</strong>Literary, soft, slightly nocturnal</div><div><strong>Type</strong>Old-style serif + clean sans</div></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="type-section">
+        <div class="section-heading"><div><p class="eyebrow">02 / Type pairings</p><h2>Three quiet voices.</h2></div><p>All use system stacks, so the archive remains fast and does not depend on a font service.</p></div>
+        <div class="type-grid">
+          <article class="type-sample type-sample--old"><span class="type-label">Old style / humanist</span><h3>Seeing society through data.</h3><p>Best fit for the current editorial direction: literary without feeling ornamental, with a practical sans for metadata and links.</p></article>
+          <article class="type-sample type-sample--book"><span class="type-label">Book / neutral</span><h3>Seeing society through data.</h3><p>More restrained and institutional. Strong for an academic archive that should feel quiet, clear, and established.</p></article>
+          <article class="type-sample type-sample--technical"><span class="type-label">Editorial / technical</span><h3>Seeing society through data.</h3><p>Serif titles with a compact mono voice for labels. Good if the research and data pipeline should feel more explicit.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot"><span>Felix Liu · Theme &amp; type studies</span><a href="index.html">Return to the archive ↑</a></footer>
+  </div>
+  <script>
+    (() => {
+      const body = document.body;
+      const buttons = [...document.querySelectorAll('[data-mode]')];
+      const setMode = (mode) => {
+        body.dataset.mode = mode;
+        buttons.forEach((button) => {
+          const active = button.dataset.mode === mode;
+          button.classList.toggle('is-active', active);
+          button.setAttribute('aria-pressed', String(active));
+        });
+      };
+      buttons.forEach((button) => button.addEventListener('click', () => setMode(button.dataset.mode)));
+    })();
+  </script>
+</body>
+</html>

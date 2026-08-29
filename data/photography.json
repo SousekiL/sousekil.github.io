@@ -1,0 +1,362 @@
+{
+  "chicago": [
+    {
+      "src": "images/photography-wall/chicago/DSCF9852.webp",
+      "alt": "Chicago photograph",
+      "name": "DSCF9852",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/chicago/DSCF9863.webp",
+      "alt": "Chicago photograph",
+      "name": "DSCF9863",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/chicago/DSCF9894.webp",
+      "alt": "Chicago photograph",
+      "name": "DSCF9894",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "src": "images/photography-wall/chicago/DSCF9897.webp",
+      "alt": "Chicago photograph",
+      "name": "DSCF9897",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/chicago/DSCF9906.webp",
+      "alt": "Chicago photograph",
+      "name": "DSCF9906",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/chicago/DSCF9927.webp",
+      "alt": "Chicago photograph",
+      "name": "DSCF9927",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/chicago/DSCF9929.webp",
+      "alt": "Chicago photograph",
+      "name": "DSCF9929",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/chicago/DSCF9938.webp",
+      "alt": "Chicago photograph",
+      "name": "DSCF9938",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "florida": [
+    {
+      "src": "images/photography-wall/florida/DSCF9507_VSCO.webp",
+      "alt": "Florida photograph",
+      "name": "DSCF9507_VSCO",
+      "width": 1203,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/florida/DSCF9518.webp",
+      "alt": "Florida photograph",
+      "name": "DSCF9518",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/florida/DSCF9543.webp",
+      "alt": "Florida photograph",
+      "name": "DSCF9543",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/florida/DSCF9547.webp",
+      "alt": "Florida photograph",
+      "name": "DSCF9547",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/florida/DSCF9550.webp",
+      "alt": "Florida photograph",
+      "name": "DSCF9550",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/florida/DSCF9558.webp",
+      "alt": "Florida photograph",
+      "name": "DSCF9558",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/florida/DSCF9580_VSCO.webp",
+      "alt": "Florida photograph",
+      "name": "DSCF9580_VSCO",
+      "width": 1600,
+      "height": 898
+    },
+    {
+      "src": "images/photography-wall/florida/DSCF9587.webp",
+      "alt": "Florida photograph",
+      "name": "DSCF9587",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "new-york": [
+    {
+      "src": "images/photography-wall/new-york/DSCF0149.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0149",
+      "width": 1600,
+      "height": 1523
+    },
+    {
+      "src": "images/photography-wall/new-york/DSCF0156.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0156",
+      "width": 1600,
+      "height": 1066
+    },
+    {
+      "src": "images/photography-wall/new-york/DSCF0159.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0159",
+      "width": 1600,
+      "height": 1066
+    },
+    {
+      "src": "images/photography-wall/new-york/DSCF0161.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0161",
+      "width": 1050,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/new-york/DSCF0165.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0165",
+      "width": 1600,
+      "height": 987
+    },
+    {
+      "src": "images/photography-wall/new-york/DSCF0168.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0168",
+      "width": 1600,
+      "height": 1066
+    },
+    {
+      "src": "images/photography-wall/new-york/DSCF0176.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0176",
+      "width": 1066,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/new-york/DSCF0178.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0178",
+      "width": 1600,
+      "height": 1018
+    },
+    {
+      "src": "images/photography-wall/new-york/DSCF0181.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0181",
+      "width": 1600,
+      "height": 1113
+    },
+    {
+      "src": "images/photography-wall/new-york/DSCF0187.webp",
+      "alt": "New York photograph",
+      "name": "DSCF0187",
+      "width": 1066,
+      "height": 1600
+    }
+  ],
+  "shanghai": [
+    {
+      "src": "images/photography-wall/shanghai/0230736B-4CBC-4C62-8BF9-A024C9C76B31-46041-00000ED3743F9723.webp",
+      "alt": "Shanghai photograph",
+      "name": "0230736B-4CBC-4C62-8BF9-A024C9C76B31-46041-00000ED3743F9723",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/shanghai/065F108F-F40B-4C89-BED1-58A204709991-6124-00000153EA58656C.webp",
+      "alt": "Shanghai photograph",
+      "name": "065F108F-F40B-4C89-BED1-58A204709991-6124-00000153EA58656C",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/shanghai/1E7171C6-4F75-4B22-80D6-6EB1D5FF317B-6124-000001540FDFB07C.webp",
+      "alt": "Shanghai photograph",
+      "name": "1E7171C6-4F75-4B22-80D6-6EB1D5FF317B-6124-000001540FDFB07C",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/shanghai/24E549BC-D2B9-4D8E-A1D8-C66021C15100-6124-00000150BF534514.webp",
+      "alt": "Shanghai photograph",
+      "name": "24E549BC-D2B9-4D8E-A1D8-C66021C15100-6124-00000150BF534514",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/shanghai/253587A5-4E01-4C67-8E2A-9FDE853715A0-6124-00000154E47F6357.webp",
+      "alt": "Shanghai photograph",
+      "name": "253587A5-4E01-4C67-8E2A-9FDE853715A0-6124-00000154E47F6357",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/shanghai/364E193C-32D7-41DF-8AF9-B4C18AF1B6C4-6124-00000152C46E1FE8.webp",
+      "alt": "Shanghai photograph",
+      "name": "364E193C-32D7-41DF-8AF9-B4C18AF1B6C4-6124-00000152C46E1FE8",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/shanghai/41193090-EFF8-423A-8D89-0ED395B25F2D-6124-0000014CFA73F1E5.webp",
+      "alt": "Shanghai photograph",
+      "name": "41193090-EFF8-423A-8D89-0ED395B25F2D-6124-0000014CFA73F1E5",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/shanghai/4B82A5E3-8FE5-40AE-B0B2-C7BB37BD61BD-46041-00000ED25A10EA95.webp",
+      "alt": "Shanghai photograph",
+      "name": "4B82A5E3-8FE5-40AE-B0B2-C7BB37BD61BD-46041-00000ED25A10EA95",
+      "width": 1515,
+      "height": 1011
+    },
+    {
+      "src": "images/photography-wall/shanghai/4F850EF6-1AAF-4923-85C0-EBC20A64EADB-46041-00000ED2B373BB05.webp",
+      "alt": "Shanghai photograph",
+      "name": "4F850EF6-1AAF-4923-85C0-EBC20A64EADB-46041-00000ED2B373BB05",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/shanghai/BBF95582-4537-4E1A-A3B3-66DE4630F45F-46041-00000ED202C76FD0.webp",
+      "alt": "Shanghai photograph",
+      "name": "BBF95582-4537-4E1A-A3B3-66DE4630F45F-46041-00000ED202C76FD0",
+      "width": 1600,
+      "height": 1069
+    },
+    {
+      "src": "images/photography-wall/shanghai/CC09B441-6676-400D-840A-B6423436EE25-46071-00000EDE43E37139.webp",
+      "alt": "Shanghai photograph",
+      "name": "CC09B441-6676-400D-840A-B6423436EE25-46071-00000EDE43E37139",
+      "width": 1472,
+      "height": 983
+    },
+    {
+      "src": "images/photography-wall/shanghai/DA73EC5D-822C-484B-BEEB-F748B6170C49-6124-000001536C78862D.webp",
+      "alt": "Shanghai photograph",
+      "name": "DA73EC5D-822C-484B-BEEB-F748B6170C49-6124-000001536C78862D",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/shanghai/DE50AF16-2CE1-4CB3-AA53-7BD5FBADE3A6-46041-00000ED1FD876552.webp",
+      "alt": "Shanghai photograph",
+      "name": "DE50AF16-2CE1-4CB3-AA53-7BD5FBADE3A6-46041-00000ED1FD876552",
+      "width": 1569,
+      "height": 1047
+    },
+    {
+      "src": "images/photography-wall/shanghai/E1E95761-B4F2-4574-B5C5-F53A74ABA3D1-46041-00000ED23534FDAA.webp",
+      "alt": "Shanghai photograph",
+      "name": "E1E95761-B4F2-4574-B5C5-F53A74ABA3D1-46041-00000ED23534FDAA",
+      "width": 1600,
+      "height": 1068
+    }
+  ],
+  "tokyo": [
+    {
+      "src": "images/photography-wall/tokyo/08C1C513-3705-462D-9C3D-B1B73B1DC007.webp",
+      "alt": "Tokyo photograph",
+      "name": "08C1C513-3705-462D-9C3D-B1B73B1DC007",
+      "width": 900,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/tokyo/32D05702-CC47-45F1-BC25-F9EBE81D83C5.webp",
+      "alt": "Tokyo photograph",
+      "name": "32D05702-CC47-45F1-BC25-F9EBE81D83C5",
+      "width": 1600,
+      "height": 1201
+    },
+    {
+      "src": "images/photography-wall/tokyo/5A466EB3-FC7A-4673-A46C-CF9F9DF119A6.webp",
+      "alt": "Tokyo photograph",
+      "name": "5A466EB3-FC7A-4673-A46C-CF9F9DF119A6",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "images/photography-wall/tokyo/80438C51-6F43-4371-9BBE-421171600A2A.webp",
+      "alt": "Tokyo photograph",
+      "name": "80438C51-6F43-4371-9BBE-421171600A2A",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/tokyo/8AEA5041-744F-4CA4-93C4-1CA70326A24F.webp",
+      "alt": "Tokyo photograph",
+      "name": "8AEA5041-744F-4CA4-93C4-1CA70326A24F",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "images/photography-wall/tokyo/B62512FF-B125-4576-9505-21696675A88B.webp",
+      "alt": "Tokyo photograph",
+      "name": "B62512FF-B125-4576-9505-21696675A88B",
+      "width": 900,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/tokyo/B9E6C728-1567-4FBB-B15F-677E1CA23671.webp",
+      "alt": "Tokyo photograph",
+      "name": "B9E6C728-1567-4FBB-B15F-677E1CA23671",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/tokyo/EA5E6B42-2CB7-4EFA-98F5-55D24C1533CD.webp",
+      "alt": "Tokyo photograph",
+      "name": "EA5E6B42-2CB7-4EFA-98F5-55D24C1533CD",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "images/photography-wall/tokyo/F162ADB6-FAFD-4A6A-88AD-65352CF992BA.webp",
+      "alt": "Tokyo photograph",
+      "name": "F162ADB6-FAFD-4A6A-88AD-65352CF992BA",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "images/photography-wall/tokyo/IMG_6141.webp",
+      "alt": "Tokyo photograph",
+      "name": "IMG_6141",
+      "width": 900,
+      "height": 1600
+    }
+  ]
+}
