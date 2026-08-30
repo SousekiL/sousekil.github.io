@@ -64,7 +64,19 @@
     if (event.target === videoModal) closeVideoModal();
   });
 
-  const cityName = (city) => city.split('-').map((part) => part[0].toUpperCase() + part.slice(1)).join(' ');
+  const cityName = (city) => ({
+    chicago: 'Chicago',
+    florida: 'Florida',
+    'new-york': 'New York',
+    shanghai: 'Shanghai',
+    tokyo: 'Tokyo',
+    osaka: 'Osaka',
+    sapporo: 'Sapporo',
+    lijiang: 'Lijiang',
+    hangzhou: 'Hangzhou',
+    nanjing: 'Nanjing',
+    kunshan: 'Kunshan',
+  }[city] || city);
 
   const renderPhotoWall = (city) => {
     const photos = photographyData?.[city] || [];

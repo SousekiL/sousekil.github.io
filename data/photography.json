@@ -358,5 +358,255 @@
       "width": 900,
       "height": 1600
     }
+  ],
+  "osaka": [
+    {
+      "src": "images/photography-wall/osaka/714EFAD1-26CC-4D60-957D-905DCD1D19FB.webp",
+      "alt": "Osaka photograph",
+      "name": "714EFAD1-26CC-4D60-957D-905DCD1D19FB",
+      "width": 1600,
+      "height": 1278
+    },
+    {
+      "src": "images/photography-wall/osaka/A6FB891C-D820-41A7-8CA0-A367398358DF.webp",
+      "alt": "Osaka photograph",
+      "name": "A6FB891C-D820-41A7-8CA0-A367398358DF",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/osaka/A9A53A60-0145-459C-BA3D-5792F51E9260.webp",
+      "alt": "Osaka photograph",
+      "name": "A9A53A60-0145-459C-BA3D-5792F51E9260",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "images/photography-wall/osaka/C6330DB3-44CC-48A3-AC3E-6D99B29ACB46.webp",
+      "alt": "Osaka photograph",
+      "name": "C6330DB3-44CC-48A3-AC3E-6D99B29ACB46",
+      "width": 1600,
+      "height": 1199
+    },
+    {
+      "src": "images/photography-wall/osaka/DD40C218-A31A-410E-BEFC-720B5BBF9BF3.webp",
+      "alt": "Osaka photograph",
+      "name": "DD40C218-A31A-410E-BEFC-720B5BBF9BF3",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "src": "images/photography-wall/osaka/IMG_2789.webp",
+      "alt": "Osaka photograph",
+      "name": "IMG_2789",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "sapporo": [
+    {
+      "src": "images/photography-wall/sapporo/1b1f5de6f0361f1024a6bdd952b74b.webp",
+      "alt": "Sapporo photograph",
+      "name": "1b1f5de6f0361f1024a6bdd952b74b",
+      "width": 1061,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/sapporo/21b63cec630fa4e983f6be835d722d.webp",
+      "alt": "Sapporo photograph",
+      "name": "21b63cec630fa4e983f6be835d722d",
+      "width": 1600,
+      "height": 1064
+    },
+    {
+      "src": "images/photography-wall/sapporo/45fd14404db2e1f5ad9ec6eb54514a.webp",
+      "alt": "Sapporo photograph",
+      "name": "45fd14404db2e1f5ad9ec6eb54514a",
+      "width": 1061,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/sapporo/6e7ce2d05d3645c4c36bf85eb44743.webp",
+      "alt": "Sapporo photograph",
+      "name": "6e7ce2d05d3645c4c36bf85eb44743",
+      "width": 1061,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/sapporo/299f4715423962689c4e1c687fd25c.webp",
+      "alt": "Sapporo photograph",
+      "name": "299f4715423962689c4e1c687fd25c",
+      "width": 1600,
+      "height": 1064
+    },
+    {
+      "src": "images/photography-wall/sapporo/e3a07443251d4ffdcc7be096db7226.webp",
+      "alt": "Sapporo photograph",
+      "name": "e3a07443251d4ffdcc7be096db7226",
+      "width": 1600,
+      "height": 1064
+    }
+  ],
+  "lijiang": [
+    {
+      "src": "images/photography-wall/lijiang/0df55ab4ce2eb0df367a617f0112a4.webp",
+      "alt": "Lijiang photograph",
+      "name": "0df55ab4ce2eb0df367a617f0112a4",
+      "width": 1600,
+      "height": 1063
+    },
+    {
+      "src": "images/photography-wall/lijiang/5fefcd0584320738a75756b8478851.webp",
+      "alt": "Lijiang photograph",
+      "name": "5fefcd0584320738a75756b8478851",
+      "width": 1069,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/lijiang/492f2c41b918177c56683faa48d625.webp",
+      "alt": "Lijiang photograph",
+      "name": "492f2c41b918177c56683faa48d625",
+      "width": 1064,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/lijiang/a202befa9b5248847eca79b09cc6d1.webp",
+      "alt": "Lijiang photograph",
+      "name": "a202befa9b5248847eca79b09cc6d1",
+      "width": 1080,
+      "height": 1448
+    },
+    {
+      "src": "images/photography-wall/lijiang/beeb4b7c1ed078b5bc62b511ae4cbd.webp",
+      "alt": "Lijiang photograph",
+      "name": "beeb4b7c1ed078b5bc62b511ae4cbd",
+      "width": 1600,
+      "height": 1064
+    },
+    {
+      "src": "images/photography-wall/lijiang/e6b72b2d6fdef51c6fc72fe4b1c8c7.webp",
+      "alt": "Lijiang photograph",
+      "name": "e6b72b2d6fdef51c6fc72fe4b1c8c7",
+      "width": 1061,
+      "height": 1600
+    }
+  ],
+  "hangzhou": [
+    {
+      "src": "images/photography-wall/hangzhou/0b817cfcf9151c9a78e87490b13e0b.webp",
+      "alt": "Hangzhou photograph",
+      "name": "0b817cfcf9151c9a78e87490b13e0b",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/hangzhou/03a2e2db57cb4dcc2ba7c727175142.webp",
+      "alt": "Hangzhou photograph",
+      "name": "03a2e2db57cb4dcc2ba7c727175142",
+      "width": 1600,
+      "height": 1063
+    },
+    {
+      "src": "images/photography-wall/hangzhou/8ee96f5abdf7a455c5152983562bb5.webp",
+      "alt": "Hangzhou photograph",
+      "name": "8ee96f5abdf7a455c5152983562bb5",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/hangzhou/08f02567284842e1139237be88a518.webp",
+      "alt": "Hangzhou photograph",
+      "name": "08f02567284842e1139237be88a518",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/hangzhou/9b8a462e475cb8632d6cd3626d59c0.webp",
+      "alt": "Hangzhou photograph",
+      "name": "9b8a462e475cb8632d6cd3626d59c0",
+      "width": 1069,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/hangzhou/68fc43f722ebd751b96a41afe0ed0e.webp",
+      "alt": "Hangzhou photograph",
+      "name": "68fc43f722ebd751b96a41afe0ed0e",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/hangzhou/bdbb665944f83acf899462612f673f.webp",
+      "alt": "Hangzhou photograph",
+      "name": "bdbb665944f83acf899462612f673f",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/hangzhou/cf9a4bf517a70599d5ed9992e6106e.webp",
+      "alt": "Hangzhou photograph",
+      "name": "cf9a4bf517a70599d5ed9992e6106e",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "images/photography-wall/hangzhou/eba7de42d447f5dd0a849c1d0f439a.webp",
+      "alt": "Hangzhou photograph",
+      "name": "eba7de42d447f5dd0a849c1d0f439a",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "nanjing": [
+    {
+      "src": "images/photography-wall/nanjing/97cf0f76756d8d526b171155cf443d.webp",
+      "alt": "Nanjing photograph",
+      "name": "97cf0f76756d8d526b171155cf443d",
+      "width": 1600,
+      "height": 1068
+    },
+    {
+      "src": "images/photography-wall/nanjing/398a93adecd48862f2ab54c6c97348.webp",
+      "alt": "Nanjing photograph",
+      "name": "398a93adecd48862f2ab54c6c97348",
+      "width": 1465,
+      "height": 978
+    },
+    {
+      "src": "images/photography-wall/nanjing/d294c94fa45361d0eb421e179d1f61.webp",
+      "alt": "Nanjing photograph",
+      "name": "d294c94fa45361d0eb421e179d1f61",
+      "width": 1461,
+      "height": 976
+    }
+  ],
+  "kunshan": [
+    {
+      "src": "images/photography-wall/kunshan/3ea353a64d476c165dee114a507281.webp",
+      "alt": "Kunshan photograph",
+      "name": "3ea353a64d476c165dee114a507281",
+      "width": 1600,
+      "height": 1064
+    },
+    {
+      "src": "images/photography-wall/kunshan/6809c4eb4450eef84e7887eee91e99.webp",
+      "alt": "Kunshan photograph",
+      "name": "6809c4eb4450eef84e7887eee91e99",
+      "width": 1444,
+      "height": 1080
+    },
+    {
+      "src": "images/photography-wall/kunshan/d24a8dd02048783cb45b50269043a6.webp",
+      "alt": "Kunshan photograph",
+      "name": "d24a8dd02048783cb45b50269043a6",
+      "width": 1061,
+      "height": 1600
+    },
+    {
+      "src": "images/photography-wall/kunshan/d60ef981dc7346882392ebe5af7ba9.webp",
+      "alt": "Kunshan photograph",
+      "name": "d60ef981dc7346882392ebe5af7ba9",
+      "width": 1061,
+      "height": 1600
+    }
   ]
 }

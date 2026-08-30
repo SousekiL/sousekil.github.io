@@ -24,7 +24,7 @@ Then open <http://127.0.0.1:4173/>.
 
 The homepage separates research writing from data visualization projects. It includes links to project pages, papers, slides, source repositories, and the original article about women's names in ancient China.
 
-The photography section contains five city archives: Chicago, Florida, New York, Shanghai, and Tokyo. Each city opens as a masonry photography wall while preserving the source image proportions.
+The photography section contains eleven city archives: Chicago, Florida, New York, Shanghai, Tokyo, Osaka, Sapporo, Lijiang, Hangzhou, Nanjing, and Kunshan. Each city opens as a masonry photography wall while preserving the source image proportions.
 
 ## Media notes
 
