@@ -89,7 +89,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .media-cue { position: absolute; right: .7rem; bottom: .65rem; padding: .32rem .48rem; color: #fff; background: rgba(20, 28, 27, .82); font-size: .57rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
 .visual-project__body { padding-top: .85rem; }
 
-.section--ways { padding-top: 7.2rem; }
+.section--ways { padding-top: 0; }
 .city-contact-sheet { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .55rem; }
 .city-contact-sheet a { position: relative; display: block; overflow: hidden; background: #192321; }
 .city-contact-sheet a { aspect-ratio: 9 / 16; }
@@ -194,7 +194,8 @@ body.theme-dark .button:hover { color: #fff; background: var(--signal); }
   .hero h1 { font-size: clamp(2.7rem, 12vw, 4.8rem); white-space: normal; }
   .hero__aside { align-self: auto; margin-top: 0; }
   .profile-list { gap: .8rem; }
-  .section, .section--visualizations, .section--ways, .section--photography, .section--about { padding-top: 4.5rem; }
+  .section, .section--visualizations, .section--photography, .section--about { padding-top: 4.5rem; }
+  .section--ways { padding-top: 0; }
   .section-heading { align-items: start; flex-direction: column; gap: 1rem; }
   .section-heading h2 { font-size: clamp(2rem, 9vw, 3.2rem); }
   .research-grid, .visual-project-grid { grid-template-columns: 1fr; row-gap: 2.7rem; }

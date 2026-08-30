@@ -8,6 +8,8 @@
 - [Why does everywhere feel far away in Beijing?](https://mp.weixin.qq.com/s/ywQC_EmsF2VAiZprDFxhjg)
 - [Women’s names in ancient China](https://mp.weixin.qq.com/s/RdEKaUdwB51W1mP4QlPahg)
 - [Gaokao competition structure across provinces](https://mp.weixin.qq.com/s/-fgxo9zde0oz6jZsVOZfww) · [project repository](https://github.com/SousekiL/gaokao-competition-analysis)
+- [Administrative borders and cultural boundaries in China](https://mp.weixin.qq.com/s/vBkheQzxthUI0SXJ5R11TAv)
+- [The southward shift of China’s cultural center](https://mp.weixin.qq.com/s/si1moQsclpiP2ZB9_VWV6g)
 
 ## Data visualization
 
