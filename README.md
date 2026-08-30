@@ -1,39 +1,30 @@
 # Felix Liu — Research & Visual Practice
 
-A one-page static portfolio for Felix Liu, focused on research, data visualization, and photography.
+## Research & writing
 
-## Local preview
+- [Women poets and literary recognition in imperial China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945)
+- [On-chain and off-chain vote divergence in DAOs](https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit)
+- [Extreme precipitation risk in Beijing, 1960–2024](https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit)
+- [Why does everywhere feel far away in Beijing?](https://mp.weixin.qq.com/s/ywQC_EmsF2VAiZprDFxhjg)
+- [Women’s names in ancient China](https://mp.weixin.qq.com/s/RdEKaUdwB51W1mP4QlPahg)
 
-```bash
-python3 -m http.server 4173
-```
+## Data visualization
 
-Then open <http://127.0.0.1:4173/>.
+- [Women poets & literary recognition visualization](https://sousekil.github.io/women-poets-imperial-china/)
+- [Historical figures network visualization](https://sousekil.github.io/historical-figures-network/)
+- [City data visual: urban space visualization](https://github.com/SousekiL/city-data-visual)
 
-## Site structure
+## Photography
 
-- `index.html` — the one-page portfolio
-- `styles.css` — layout, typography, light/dark theme
-- `script.js` — theme toggle, motion gallery, and city photography walls
-- `theme-demos.html` — alternative color and type directions
-- `data/photography.json` — city photography manifest
-- `images/photography-wall/` — optimized WebP photography archive
-- `videos/motion/` — browser-compatible H.264 motion demos
+- City photography archive: Chicago, Florida, New York, Shanghai, Tokyo, Osaka, Sapporo, Lijiang, Hangzhou, Nanjing, and Kunshan
 
-## Content
+## Motion studies
 
-The homepage separates research writing from data visualization projects. It includes links to project pages, papers, slides, source repositories, and the original article about women's names in ancient China.
+- Dialect relief / China
+- Yangtze basin / four studies
+- Building-age timelines
 
-The photography section contains eleven city archives: Chicago, Florida, New York, Shanghai, Tokyo, Osaka, Sapporo, Lijiang, Hangzhou, Nanjing, and Kunshan. Each city opens as a masonry photography wall while preserving the source image proportions.
+## Website
 
-## Media notes
-
-The city visualization showcase images are curated from the `city-data-visual` repository. Research and project preview images are derived from the linked project repositories and the original local site archive.
-
-The motion demos were converted from local `.MOV` files to H.264 MP4 for broader browser compatibility. The original source videos remain outside this repository.
-
-## Deployment
-
-This repository is published from the root of the `master` branch through GitHub Pages:
-
-<https://sousekil.github.io/>
+- [Live site](https://sousekil.github.io/)
+- [Theme & type studies](https://sousekil.github.io/theme-demos.html)
