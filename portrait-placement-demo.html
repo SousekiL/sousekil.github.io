@@ -9,11 +9,11 @@
   <style>
     .demo-bar { width: min(var(--max), calc(100% - 3rem)); margin: 1.4rem auto 0; padding: .55rem 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); color: var(--muted); font: 500 .59rem/1.35 var(--mono); letter-spacing: .08em; text-transform: uppercase; }
     .demo-bar strong { color: var(--signal); font-weight: 500; }
-    .hero--portrait-demo { grid-template-areas: "portrait copy profile"; grid-template-columns: minmax(210px, .84fr) minmax(0, 2fr) minmax(218px, .82fr); gap: clamp(2.25rem, 5.8vw, 5.6rem); min-height: 0; padding-top: 4.1rem; }
-    .hero--portrait-demo .hero__portrait { grid-area: portrait; margin-top: 1.65rem; }
+    .hero--portrait-demo { grid-template-areas: "eyebrow eyebrow ." "portrait copy profile"; grid-template-columns: minmax(210px, .84fr) minmax(0, 2fr) minmax(218px, .82fr); column-gap: clamp(2.25rem, 5.8vw, 5.6rem); row-gap: 1.25rem; min-height: 0; padding-top: 4.1rem; }
+    .hero--portrait-demo > .eyebrow { grid-area: eyebrow; min-height: 0; margin: 0; white-space: nowrap; }
+    .hero--portrait-demo .hero__portrait { grid-area: portrait; margin-top: 0; }
     .hero--portrait-demo .hero__copy { grid-area: copy; max-width: none; padding-top: 0; }
-    .hero--portrait-demo .hero__copy .eyebrow { margin: 0 0 .8rem; }
-    .hero--portrait-demo .hero__copy h1 { margin-top: 0; font-size: clamp(2.3rem, 2.83vw, 2.55rem); white-space: nowrap; }
+    .hero--portrait-demo .hero__copy h1 { margin-top: 0; font-size: clamp(2.2rem, 2.83vw, 2.55rem); white-space: nowrap; }
     .hero--portrait-demo .hero__aside { grid-area: profile; display: block; margin-top: 0; padding-top: .75rem; }
     .portrait-slot { aspect-ratio: 3 / 4; overflow: hidden; border: 1px solid var(--ink); background: var(--paper-deep); }
     .portrait-slot img { display: block; width: 100%; height: 100%; object-fit: contain; }
@@ -23,8 +23,9 @@
     .placement-note strong { color: var(--ink); font-weight: 600; }
     @media (max-width: 1050px) {
       .demo-bar { width: min(100% - 1.5rem, var(--max)); }
-      .hero--portrait-demo { grid-template-areas: "copy" "portrait" "profile"; grid-template-columns: 1fr; gap: 2.4rem; padding-top: 3.4rem; }
+      .hero--portrait-demo { grid-template-areas: "eyebrow" "copy" "portrait" "profile"; grid-template-columns: 1fr; row-gap: 2.4rem; padding-top: 3.4rem; }
       .hero--portrait-demo .hero__portrait { width: min(255px, 100%); margin-top: 0; }
+      .hero--portrait-demo .hero__copy { padding-top: 0; }
       .hero--portrait-demo .hero__copy h1 { white-space: normal; }
       .hero--portrait-demo .hero__aside { width: min(420px, 100%); padding-top: 1rem; border-top: 1px solid var(--line); }
     }
@@ -44,12 +45,13 @@
 
   <main id="top">
     <section class="hero hero--portrait-demo layout-wide" id="placement">
+      <p class="eyebrow">Researcher / data scientist / visual maker</p>
+
       <div class="hero__portrait">
         <div class="portrait-slot"><img src="images/profile/felix-portrait.png" width="1086" height="1448" alt="Felix Liu in graduation attire"></div>
       </div>
 
       <div class="hero__copy">
-        <p class="eyebrow">Researcher / data scientist / visual maker</p>
         <h1>Seeing <em>society</em> through <em>data.</em></h1>
         <p class="hero__intro">I work across computational social science, urban data, extreme-value risk, and decision-oriented analytics, turning complex evidence into research, tools, and visual systems. I am open to data science, actuarial, and risk analytics roles.</p>
         <div class="hero__links"><a class="button button--dark" href="#notes">Placement notes <span>↓</span></a><a class="underlink" href="#placement">Three-column hero <span>↗</span></a></div>
@@ -59,6 +61,7 @@
         <div class="hero__profile">
           <div class="profile-block"><span>Education</span><strong>Xi’an Jiaotong University<br>Nanjing University<br>University of Illinois Urbana-Champaign</strong></div>
           <div class="profile-block"><span>Fields</span><strong>Computational social science<br>Actuarial science</strong></div>
+          <div class="profile-block"><span>Interests</span><strong>Data visualization<br>AI-assisted creative coding</strong></div>
           <div class="profile-list">
             <div class="profile-block"><span>Stack</span><strong>Python · R · SQL<br>JavaScript · Git</strong></div>
             <div class="profile-block"><span>Exams</span><strong>SOA P · FM · SRM · ASTAM</strong></div>
