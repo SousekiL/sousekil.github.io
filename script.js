@@ -94,7 +94,7 @@
   let photographyData = null;
 
   const showModal = (modal) => {
-    if (!modal) return;
+    if (!modal || modal.open) return;
     if (typeof modal.showModal === 'function') modal.showModal();
     else modal.setAttribute('open', '');
   };

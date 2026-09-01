@@ -120,6 +120,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .ways-gallery__item img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .45s ease; }
 .ways-gallery__item:hover img { transform: scale(1.025); }
 .ways-gallery__item span { position: absolute; right: .55rem; bottom: .5rem; left: .55rem; color: #fff; font-size: .57rem; font-weight: 700; letter-spacing: .08em; text-shadow: 0 1px 10px #000; text-transform: uppercase; }
+.ways-gallery__item--motion { padding: 0; color: inherit; border: 0; font: inherit; text-align: left; cursor: pointer; }
 .ways-row-footer { display: flex; flex-wrap: wrap; align-items: baseline; gap: .75rem 1.25rem; padding-top: .65rem; border-top: 1px solid var(--line); }
 .ways-row-footer > span { margin-right: auto; color: var(--muted); font-size: .59rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .motion-link { padding: 0; color: var(--ink); border: 0; background: transparent; font: inherit; font-size: .6rem; font-weight: 700; letter-spacing: .07em; text-decoration: underline; text-decoration-color: var(--signal); text-underline-offset: .25rem; text-transform: uppercase; cursor: pointer; }
@@ -145,6 +146,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .city-photo-card small { bottom: .7rem; color: rgba(255, 255, 255, .78); font-size: .55rem; letter-spacing: .08em; text-transform: uppercase; }
 
 .video-modal, .photo-wall-modal, .translation-modal { width: min(calc(100% - 2rem), 1120px); max-height: 90vh; margin: auto; padding: 1.25rem; color: var(--ink); border: 1px solid var(--line); background: var(--paper); }
+.video-modal { width: min(calc(100% - 2rem), 1440px); overflow-y: auto; }
 .video-modal::backdrop, .photo-wall-modal::backdrop, .translation-modal::backdrop { background: rgba(16, 22, 21, .72); backdrop-filter: blur(5px); }
 .modal-header { display: flex; justify-content: space-between; align-items: start; gap: 2rem; margin-bottom: 1.35rem; padding-bottom: .8rem; border-bottom: 1px solid var(--line); }
 .modal-header h2 { margin: .4rem 0 0; font-family: var(--serif); font-size: clamp(2rem, 4vw, 3.4rem); font-weight: 400; letter-spacing: -.06em; line-height: .95; }
@@ -156,6 +158,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .video-group__intro > p:not(.item-meta) { margin: .6rem 0 0; color: var(--muted); font-size: .76rem; line-height: 1.55; }
 .motion-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
 .video-group--single .motion-grid { grid-template-columns: minmax(0, 310px); }
+.video-group--life .motion-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .motion-card { min-width: 0; border-top: 1px solid var(--ink); }
 .motion-card video { display: block; width: 100%; aspect-ratio: 9 / 16; background: #111; object-fit: contain; }
 .motion-card p { margin: .55rem 0 0; color: var(--muted); font-size: .62rem; font-weight: 700; letter-spacing: .075em; text-transform: uppercase; }
@@ -237,6 +240,7 @@ body.theme-dark .button:hover { color: #fff; background: var(--signal); }
   .ways-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .city-motion-index { align-items: start; flex-direction: column; gap: .75rem; }
   .motion-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .video-group--life .motion-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .photography-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .city-photo-card { height: 230px; }
   .translation-layout { grid-template-columns: 1fr; }
@@ -252,6 +256,7 @@ body.theme-dark .button:hover { color: #fff; background: var(--signal); }
   .ways-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .ways-footnote { display: grid; }
   .motion-grid, .video-group--single .motion-grid { grid-template-columns: 1fr; }
+  .video-group--life .motion-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .photography-grid { grid-template-columns: 1fr 1fr; }
   .city-photo-card { height: 190px; }
 }
