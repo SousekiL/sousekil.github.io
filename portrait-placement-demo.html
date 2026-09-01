@@ -14,13 +14,9 @@
     .hero--portrait-demo .hero__copy { grid-area: copy; max-width: none; padding-top: .15rem; }
     .hero--portrait-demo .hero__copy h1 { white-space: normal; }
     .hero--portrait-demo .hero__aside { grid-area: profile; display: block; margin-top: 0; padding-top: .75rem; }
-    .portrait-slot { position: relative; aspect-ratio: 3 / 4; overflow: hidden; border: 1px solid var(--ink); background: var(--paper-deep); }
-    .portrait-slot::before { position: absolute; inset: 0; content: ""; opacity: .76; background: linear-gradient(135deg, transparent 0 48%, var(--line) 48.2% 48.7%, transparent 48.9% 100%), linear-gradient(45deg, transparent 0 48%, var(--line) 48.2% 48.7%, transparent 48.9% 100%); background-size: 42px 42px; }
-    .portrait-slot::after { position: absolute; top: 12%; right: 15%; bottom: 12%; left: 15%; border: 1px solid var(--line); content: ""; }
-    .portrait-slot__content { position: absolute; inset: 0; z-index: 1; display: grid; align-content: end; gap: .45rem; padding: .8rem; color: var(--ink); background: linear-gradient(180deg, transparent 55%, color-mix(in srgb, var(--paper-deep) 82%, transparent)); }
-    .portrait-slot__content b, .portrait-caption { font: 500 .58rem/1.35 var(--mono); letter-spacing: .09em; text-transform: uppercase; }
-    .portrait-slot__content b { color: var(--signal); }
-    .portrait-slot__content span { max-width: 14rem; font-family: var(--serif); font-size: 1.08rem; letter-spacing: -.035em; line-height: 1; }
+    .portrait-slot { aspect-ratio: 3 / 4; overflow: hidden; border: 1px solid var(--ink); background: var(--paper-deep); }
+    .portrait-slot img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .portrait-caption { font: 500 .58rem/1.35 var(--mono); letter-spacing: .09em; text-transform: uppercase; }
     .portrait-caption { display: flex; justify-content: space-between; gap: 1rem; color: var(--muted); }
     .portrait-caption strong { color: var(--ink); font-weight: 500; }
     .hero--portrait-demo .hero__profile { padding-top: 0; border-top: 0; }
@@ -49,10 +45,8 @@
   <main id="top">
     <section class="hero hero--portrait-demo layout-wide" id="placement">
       <div class="hero__portrait">
-        <div class="portrait-slot" role="img" aria-label="3 by 4 personal portrait placeholder">
-          <div class="portrait-slot__content"><b>3:4 portrait</b><span>Personal photograph<br>placement</span></div>
-        </div>
-        <p class="portrait-caption"><strong>Photo slot</strong><span>3 : 4</span></p>
+        <div class="portrait-slot"><img src="images/profile/felix-portrait.png" width="1086" height="1448" alt="Felix Liu in graduation attire"></div>
+        <p class="portrait-caption"><strong>Portrait</strong><span>3 : 4</span></p>
       </div>
 
       <div class="hero__copy">
