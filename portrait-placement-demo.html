@@ -9,16 +9,14 @@
   <style>
     .demo-bar { width: min(var(--max), calc(100% - 3rem)); margin: 1.4rem auto 0; padding: .55rem 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); color: var(--muted); font: 500 .59rem/1.35 var(--mono); letter-spacing: .08em; text-transform: uppercase; }
     .demo-bar strong { color: var(--signal); font-weight: 500; }
-    .hero--portrait-demo { grid-template-areas: "portrait copy profile"; grid-template-columns: minmax(210px, .84fr) minmax(0, 2fr) minmax(218px, .82fr); gap: clamp(1.5rem, 3.8vw, 4.4rem); min-height: 0; padding-top: 4.1rem; }
+    .hero--portrait-demo { grid-template-areas: "portrait copy profile"; grid-template-columns: minmax(210px, .84fr) minmax(0, 2fr) minmax(218px, .82fr); gap: clamp(2rem, 5vw, 5rem); min-height: 0; padding-top: 4.1rem; }
     .hero--portrait-demo .hero__portrait { grid-area: portrait; }
     .hero--portrait-demo .hero__copy { grid-area: copy; max-width: none; padding-top: .15rem; }
     .hero--portrait-demo .hero__copy h1 { white-space: normal; }
     .hero--portrait-demo .hero__aside { grid-area: profile; display: block; margin-top: 0; padding-top: .75rem; }
     .portrait-slot { aspect-ratio: 3 / 4; overflow: hidden; border: 1px solid var(--ink); background: var(--paper-deep); }
     .portrait-slot img { display: block; width: 100%; height: 100%; object-fit: contain; }
-    .portrait-caption { font: 500 .58rem/1.35 var(--mono); letter-spacing: .09em; text-transform: uppercase; }
-    .portrait-caption { display: flex; justify-content: space-between; gap: 1rem; color: var(--muted); }
-    .portrait-caption strong { color: var(--ink); font-weight: 500; }
+
     .hero--portrait-demo .hero__profile { padding-top: 0; border-top: 0; }
     .placement-note { max-width: 42rem; margin: 0; padding-top: 1rem; color: var(--muted); border-top: 1px solid var(--line); font-size: .73rem; line-height: 1.55; }
     .placement-note strong { color: var(--ink); font-weight: 600; }
@@ -46,7 +44,6 @@
     <section class="hero hero--portrait-demo layout-wide" id="placement">
       <div class="hero__portrait">
         <div class="portrait-slot"><img src="images/profile/felix-portrait.png" width="1086" height="1448" alt="Felix Liu in graduation attire"></div>
-        <p class="portrait-caption"><strong>Portrait</strong><span>3 : 4</span></p>
       </div>
 
       <div class="hero__copy">
