@@ -6,6 +6,10 @@
   <meta name="description" content="Color and type studies for Felix Liu's research and visual archive.">
   <title>Theme &amp; Type Studies — Felix Liu</title>
   <style>
+    @font-face { font-family: "IBM Plex Sans"; src: url("assets/fonts/theme-demo/ibm-plex-sans-latin.woff2") format("woff2"); font-weight: 400 700; font-style: normal; font-display: swap; }
+    @font-face { font-family: "IBM Plex Mono"; src: url("assets/fonts/theme-demo/ibm-plex-mono-latin.woff2") format("woff2"); font-weight: 400 700; font-style: normal; font-display: swap; }
+    @font-face { font-family: "Geist"; src: url("assets/fonts/theme-demo/geist-latin.woff2") format("woff2"); font-weight: 400 700; font-style: normal; font-display: swap; }
+
     :root {
       --canvas: #e6e3da;
       --ink: #202827;
@@ -45,7 +49,7 @@
     .section-heading h2 { margin: .45rem 0 0; font-family: var(--display); font-size: clamp(2rem, 4vw, 3.7rem); font-weight: 400; letter-spacing: -.06em; line-height: .94; }
     .section-heading p:last-child { max-width: 25rem; margin-bottom: 0; color: var(--muted); font-size: .72rem; }
 
-    .theme-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; padding: 1rem 0 3rem; }
+    .theme-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; padding: 1rem 0 3rem; }
     .theme-card { min-width: 0; }
     .theme-card__head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .65rem 0 .55rem; border-top: 1px solid var(--ink); }
     .theme-card__head h3 { margin: 0; font-family: var(--display); font-size: 1.35rem; font-weight: 400; letter-spacing: -.035em; }
@@ -59,17 +63,17 @@
     .swatch--dark-bg { background: var(--dark-bg); }
     .swatch--dark-accent { background: var(--dark-accent); }
 
-    .mini-site { --mini-bg: var(--light-bg); --mini-ink: var(--light-ink); --mini-muted: var(--light-muted); --mini-line: var(--light-line); --mini-accent: var(--light-accent); --mini-display: var(--card-display); --mini-body: var(--card-body); min-height: 345px; padding: 1rem; color: var(--mini-ink); background: var(--mini-bg); border: 1px solid var(--mini-line); transition: color .2s ease, background .2s ease, border-color .2s ease; }
+    .mini-site { --mini-bg: var(--light-bg); --mini-ink: var(--light-ink); --mini-muted: var(--light-muted); --mini-line: var(--light-line); --mini-accent: var(--light-accent); --mini-display: var(--card-display); --mini-body: var(--card-body); --mini-mono: var(--card-mono, var(--card-body)); min-height: 345px; padding: 1rem; color: var(--mini-ink); background: var(--mini-bg); border: 1px solid var(--mini-line); transition: color .2s ease, background .2s ease, border-color .2s ease; }
     body[data-mode="dark"] .mini-site { --mini-bg: var(--dark-bg); --mini-ink: var(--dark-ink); --mini-muted: var(--dark-muted); --mini-line: var(--dark-line); --mini-accent: var(--dark-accent); }
-    .mini-nav { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: .8rem; border-bottom: 1px solid var(--mini-line); color: var(--mini-muted); font: 700 .52rem var(--mini-body); letter-spacing: .09em; text-transform: uppercase; }
+    .mini-nav { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: .8rem; border-bottom: 1px solid var(--mini-line); color: var(--mini-muted); font: 500 .52rem var(--mini-mono); letter-spacing: .09em; text-transform: uppercase; }
     .mini-nav strong { color: var(--mini-ink); font: .8rem var(--mini-display); letter-spacing: -.02em; text-transform: none; }
     .mini-hero { padding: 2.7rem 0 2rem; border-bottom: 1px solid var(--mini-line); }
-    .mini-hero__label { margin-bottom: .7rem; color: var(--mini-accent); font: 700 .52rem var(--mini-body); letter-spacing: .1em; text-transform: uppercase; }
+    .mini-hero__label { margin-bottom: .7rem; color: var(--mini-accent); font: 500 .52rem var(--mini-mono); letter-spacing: .1em; text-transform: uppercase; }
     .mini-hero h4 { max-width: 520px; margin: 0; color: var(--mini-ink); font: 400 clamp(2.25rem, 5vw, 4rem)/.86 var(--mini-display); letter-spacing: -.075em; }
     .mini-hero h4 em { color: var(--mini-accent); font-style: italic; }
     .mini-work { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; padding-top: 1rem; }
     .mini-work__item { padding-top: .55rem; border-top: 1px solid var(--mini-ink); }
-    .mini-work__item small { display: block; margin-bottom: .35rem; color: var(--mini-accent); font: 700 .49rem var(--mini-body); letter-spacing: .09em; text-transform: uppercase; }
+    .mini-work__item small { display: block; margin-bottom: .35rem; color: var(--mini-accent); font: 500 .49rem var(--mini-mono); letter-spacing: .09em; text-transform: uppercase; }
     .mini-work__item h5 { margin: 0; color: var(--mini-ink); font: 400 1rem/1 var(--mini-display); letter-spacing: -.035em; }
     .mini-work__item p { margin: .45rem 0 0; color: var(--mini-muted); font: .62rem/1.45 var(--mini-body); }
     .theme-card__caption { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin-top: .65rem; color: var(--muted); font-size: .64rem; }
@@ -83,7 +87,8 @@
     .type-sample p { margin: 0; color: var(--muted); font-family: var(--sample-body); font-size: .72rem; line-height: 1.55; }
     .type-sample--old { --sample-display: "Iowan Old Style", Baskerville, Georgia, serif; --sample-body: "Avenir Next", "Helvetica Neue", Arial, sans-serif; }
     .type-sample--book { --sample-display: Baskerville, "Times New Roman", serif; --sample-body: "Helvetica Neue", Arial, sans-serif; }
-    .type-sample--technical { --sample-display: Charter, Georgia, serif; --sample-body: "SF Mono", "Roboto Mono", Menlo, monospace; }
+    .type-sample--technical { --sample-display: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif; --sample-body: "IBM Plex Mono", "SF Mono", Menlo, monospace; }
+    .type-sample--geist { --sample-display: "Geist", "Helvetica Neue", Arial, sans-serif; --sample-body: "IBM Plex Mono", "SF Mono", Menlo, monospace; }
     .foot { display: flex; justify-content: space-between; gap: 1rem; padding: 1rem 0 2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .61rem; }
     .foot a { color: var(--ink); font-weight: 700; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .25rem; }
 
@@ -111,18 +116,18 @@
         <div class="intro__copy">
           <p class="eyebrow">Theme / type studies</p>
           <h1>Quiet palettes,<br>clear signals.</h1>
-          <p>Four restrained directions for the research and visual archive. The layouts stay constant so the difference comes from color, contrast, and type rather than decoration.</p>
+          <p>One current baseline and two focused alternatives for the research and visual archive. The layout stays constant so color, contrast, and type can be judged without decorative noise.</p>
         </div>
         <aside class="intro__note">
           <p>Compare the same<br>small interface in<br>light and dark.</p>
-          <small>Current site palette is shown first. The other three are alternatives, not applied to the main archive.</small>
+          <small>Current site first. Archive Signal and Cobalt Field use locally hosted IBM Plex and Geist fonts; neither is applied to the main archive.</small>
         </aside>
       </section>
 
       <section>
         <div class="section-heading">
-          <div><p class="eyebrow">01 / Color directions</p><h2>Four ways to set the temperature.</h2></div>
-          <p>Muted colors, strong text contrast, no gradients. Click Light or Dark above to compare the same composition across every option.</p>
+          <div><p class="eyebrow">01 / Color directions</p><h2>Three directions, one archive.</h2></div>
+          <p>Neutral substrates, one dominant ink, and one controlled signal color. Click Light or Dark to compare the same composition.</p>
         </div>
         <div class="theme-grid">
           <article class="theme-card">
@@ -135,40 +140,32 @@
           </article>
 
           <article class="theme-card">
-            <div class="theme-card__head"><span class="theme-card__number">02</span><h3>Chalk / cobalt</h3><span class="theme-card__meta">Cool</span></div>
-            <div class="theme-card__swatches" style="--light-bg:#f1f2ef;--light-ink:#18232b;--light-accent:#2d6483;--dark-bg:#141c22;--dark-accent:#87c0db"><i class="swatch swatch--bg"></i><i class="swatch swatch--ink"></i><i class="swatch swatch--accent"></i><i class="swatch swatch--dark-bg"></i><i class="swatch swatch--dark-accent"></i></div>
-            <div class="mini-site" style="--light-bg:#f1f2ef;--light-ink:#18232b;--light-muted:#68767d;--light-line:rgba(24,35,43,.2);--light-accent:#2d6483;--dark-bg:#141c22;--dark-ink:#edf3f4;--dark-muted:#a8b9bd;--dark-line:rgba(237,243,244,.24);--dark-accent:#87c0db;--card-display:Baskerville,'Times New Roman',serif;--card-body:'Helvetica Neue',Arial,sans-serif">
+            <div class="theme-card__head"><span class="theme-card__number">02</span><h3>Archive / signal</h3><span class="theme-card__meta">Recommended</span></div>
+            <div class="theme-card__swatches" style="--light-bg:#e9e9e5;--light-ink:#30343a;--light-accent:#c83232;--dark-bg:#24272b;--dark-accent:#ee6b63"><i class="swatch swatch--bg"></i><i class="swatch swatch--ink"></i><i class="swatch swatch--accent"></i><i class="swatch swatch--dark-bg"></i><i class="swatch swatch--dark-accent"></i></div>
+            <div class="mini-site" style="--light-bg:#e9e9e5;--light-ink:#30343a;--light-muted:#676a70;--light-line:rgba(48,52,58,.22);--light-accent:#c83232;--dark-bg:#24272b;--dark-ink:#f0f0eb;--dark-muted:#b6b7b7;--dark-line:rgba(240,240,235,.24);--dark-accent:#ee6b63;--card-display:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;--card-body:'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;--card-mono:'IBM Plex Mono','SF Mono',Menlo,monospace">
               <div class="mini-nav"><strong>Felix</strong><span>Research · Visuals</span></div><div class="mini-hero"><div class="mini-hero__label">Researcher / data scientist</div><h4>Seeing <em>society</em><br>through <em>data.</em></h4></div><div class="mini-work"><div class="mini-work__item"><small>01 / Research</small><h5>Women poets &amp; literary recognition</h5><p>Historical data, networks, and literary visibility.</p></div><div class="mini-work__item"><small>02 / Visual</small><h5>City data visual</h5><p>Urban space across China.</p></div></div>
             </div>
-            <div class="theme-card__caption"><div><strong>Character</strong>Cooler, precise, cartographic</div><div><strong>Type</strong>Baskerville + neutral grotesk</div></div>
+            <div class="theme-card__caption"><div><strong>Character</strong>Research archive, precise, calm</div><div><strong>Type</strong>Old-style serif + IBM Plex</div></div>
           </article>
 
           <article class="theme-card">
-            <div class="theme-card__head"><span class="theme-card__number">03</span><h3>Lichen / oxide</h3><span class="theme-card__meta">Organic</span></div>
-            <div class="theme-card__swatches" style="--light-bg:#edf0e7;--light-ink:#1b2620;--light-accent:#778b38;--dark-bg:#172019;--dark-accent:#b7cf63"><i class="swatch swatch--bg"></i><i class="swatch swatch--ink"></i><i class="swatch swatch--accent"></i><i class="swatch swatch--dark-bg"></i><i class="swatch swatch--dark-accent"></i></div>
-            <div class="mini-site" style="--light-bg:#edf0e7;--light-ink:#1b2620;--light-muted:#6d786e;--light-line:rgba(27,38,32,.2);--light-accent:#778b38;--dark-bg:#172019;--dark-ink:#edf2e7;--dark-muted:#a5b2a0;--dark-line:rgba(237,242,231,.24);--dark-accent:#b7cf63;--card-display:Charter,Georgia,serif;--card-body:'Avenir Next','Helvetica Neue',Arial,sans-serif">
+            <div class="theme-card__head"><span class="theme-card__number">03</span><h3>Cobalt / field</h3><span class="theme-card__meta">Most technical</span></div>
+            <div class="theme-card__swatches" style="--light-bg:#fafaf7;--light-ink:#19264a;--light-accent:#c65f38;--dark-bg:#151b2c;--dark-accent:#ed8361"><i class="swatch swatch--bg"></i><i class="swatch swatch--ink"></i><i class="swatch swatch--accent"></i><i class="swatch swatch--dark-bg"></i><i class="swatch swatch--dark-accent"></i></div>
+            <div class="mini-site" style="--light-bg:#fafaf7;--light-ink:#19264a;--light-muted:#5e6880;--light-line:rgba(25,38,74,.2);--light-accent:#c65f38;--dark-bg:#151b2c;--dark-ink:#f6f5ef;--dark-muted:#adb5c8;--dark-line:rgba(246,245,239,.22);--dark-accent:#ed8361;--card-display:'Geist','Helvetica Neue',Arial,sans-serif;--card-body:'Geist','Helvetica Neue',Arial,sans-serif;--card-mono:'IBM Plex Mono','SF Mono',Menlo,monospace">
               <div class="mini-nav"><strong>Felix</strong><span>Research · Visuals</span></div><div class="mini-hero"><div class="mini-hero__label">Researcher / data scientist</div><h4>Seeing <em>society</em><br>through <em>data.</em></h4></div><div class="mini-work"><div class="mini-work__item"><small>01 / Research</small><h5>Women poets &amp; literary recognition</h5><p>Historical data, networks, and literary visibility.</p></div><div class="mini-work__item"><small>02 / Visual</small><h5>City data visual</h5><p>Urban space across China.</p></div></div>
             </div>
-            <div class="theme-card__caption"><div><strong>Character</strong>Quieter, geographic, distinctive</div><div><strong>Type</strong>Charter + humanist sans</div></div>
+            <div class="theme-card__caption"><div><strong>Character</strong>Analytic, urban, forward</div><div><strong>Type</strong>Geist + IBM Plex Mono</div></div>
           </article>
 
-          <article class="theme-card">
-            <div class="theme-card__head"><span class="theme-card__number">04</span><h3>Porcelain / plum</h3><span class="theme-card__meta">Cultural</span></div>
-            <div class="theme-card__swatches" style="--light-bg:#f1eff2;--light-ink:#28222d;--light-accent:#765a80;--dark-bg:#1c1820;--dark-accent:#c39bcf"><i class="swatch swatch--bg"></i><i class="swatch swatch--ink"></i><i class="swatch swatch--accent"></i><i class="swatch swatch--dark-bg"></i><i class="swatch swatch--dark-accent"></i></div>
-            <div class="mini-site" style="--light-bg:#f1eff2;--light-ink:#28222d;--light-muted:#756f78;--light-line:rgba(40,34,45,.2);--light-accent:#765a80;--dark-bg:#1c1820;--dark-ink:#f1edf3;--dark-muted:#b7abb9;--dark-line:rgba(241,237,243,.24);--dark-accent:#c39bcf;--card-display:'Iowan Old Style',Baskerville,Georgia,serif;--card-body:'Helvetica Neue',Arial,sans-serif">
-              <div class="mini-nav"><strong>Felix</strong><span>Research · Visuals</span></div><div class="mini-hero"><div class="mini-hero__label">Researcher / data scientist</div><h4>Seeing <em>society</em><br>through <em>data.</em></h4></div><div class="mini-work"><div class="mini-work__item"><small>01 / Research</small><h5>Women poets &amp; literary recognition</h5><p>Historical data, networks, and literary visibility.</p></div><div class="mini-work__item"><small>02 / Visual</small><h5>City data visual</h5><p>Urban space across China.</p></div></div>
-            </div>
-            <div class="theme-card__caption"><div><strong>Character</strong>Literary, soft, slightly nocturnal</div><div><strong>Type</strong>Old-style serif + clean sans</div></div>
-          </article>
         </div>
       </section>
 
       <section class="type-section">
-        <div class="section-heading"><div><p class="eyebrow">02 / Type pairings</p><h2>Three quiet voices.</h2></div><p>All use system stacks, so the archive remains fast and does not depend on a font service.</p></div>
+        <div class="section-heading"><div><p class="eyebrow">02 / Type pairings</p><h2>Three voices for an analytic introduction.</h2></div><p>IBM Plex and Geist are self-hosted in this demo, so their actual letterforms can be compared without a runtime font service.</p></div>
         <div class="type-grid">
-          <article class="type-sample type-sample--old"><span class="type-label">Old style / humanist</span><h3>Seeing society through data.</h3><p>Best fit for the current editorial direction: literary without feeling ornamental, with a practical sans for metadata and links.</p></article>
-          <article class="type-sample type-sample--book"><span class="type-label">Book / neutral</span><h3>Seeing society through data.</h3><p>More restrained and institutional. Strong for an academic archive that should feel quiet, clear, and established.</p></article>
-          <article class="type-sample type-sample--technical"><span class="type-label">Editorial / technical</span><h3>Seeing society through data.</h3><p>Serif titles with a compact mono voice for labels. Good if the research and data pipeline should feel more explicit.</p></article>
+          <article class="type-sample type-sample--old"><span class="type-label">Current / editorial</span><h3>Seeing society through data.</h3><p>Best if the archive remains primarily literary and visual. Keep the old-style display, but accept that system sans rendering differs across devices.</p></article>
+          <article class="type-sample type-sample--technical"><span class="type-label">IBM Plex / recommended</span><h3>Risk, evidence, and method.</h3><p>IBM Plex Sans for the self-introduction and IBM Plex Mono for exams, methods, dates, and tags. The most balanced research-and-technology option.</p></article>
+          <article class="type-sample type-sample--geist"><span class="type-label">Geist / most technical</span><h3>Data, models, and systems.</h3><p>Geist makes the introduction more software-native; IBM Plex Mono preserves a precise information layer. Strongest contrast with the current editorial voice.</p></article>
         </div>
       </section>
     </main>
