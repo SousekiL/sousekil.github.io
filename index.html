@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Felix Liu — research, data visualization, and quantitative risk.">
-  <meta name="theme-color" content="#f3f0ea">
+  <meta name="theme-color" content="#f4f1eb">
   <title>Felix Liu — Research &amp; Visual Practice</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="homepage.css">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
@@ -29,8 +30,9 @@
       </div>
 
       <div class="hero__copy">
-        <h1>Seeing <em>society</em> through <em>data.</em></h1>
-        <p class="hero__intro">I work across computational social science, urban data, extreme-value risk, and decision-oriented analytics, turning complex evidence into research, tools, and visual systems. I am open to data science, actuarial, and risk analytics roles.</p>
+        <h1>Seeing <em>society</em><br>through <em>data.</em></h1>
+        <p class="hero__intro">I study society, cities, and risk through data. My work brings computational social science and quantitative methods into research, interactive tools, and visual stories.</p>
+        <p class="hero__availability">Open to data science, actuarial &amp; risk analytics roles.</p>
         <div class="hero__links"><a class="button button--dark" href="#research">View research <span>↓</span></a><a class="underlink" href="#visualizations">See visual work <span>↘</span></a></div>
       </div>
       <aside class="hero__aside">
@@ -63,9 +65,9 @@
         <p class="tag-filter__status" data-tag-filter-status aria-live="polite">Showing all research projects</p>
       </details>
       <div class="research-grid">
-        <article class="research-card" data-tags="CBDB|MQWW|Double LASSO|Bayesian MCMC|Historical network analysis" data-categories="Computational history|Social observation">
+        <article class="research-card research-card--featured" data-tags="CBDB|MQWW|Double LASSO|Bayesian MCMC|Historical network analysis" data-categories="Computational history|Social observation">
           <a class="research-card__media" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer"><img src="images/research/women-poets-effects.png" alt="Bootstrap effect distributions for a study of women poets" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>01</span> Computational history</p><h3>Women poets and literary recognition in imperial China</h3><p>How did social capital and networks shape whether women poets gained durable literary visibility? Linked historical data, Double LASSO, and Bayesian MCMC.</p><div class="item-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://github.com/SousekiL/women-poets-imperial-china" target="_blank" rel="noreferrer">Code ↗</a></div></div>
+          <div class="research-card__body"><p class="item-meta"><span>01</span> Selected research · Computational history</p><h3>Women poets and literary recognition in imperial China</h3><p>How did social capital and networks shape whether women poets gained durable literary visibility? Linked historical data, Double LASSO, and Bayesian MCMC.</p><div class="item-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://github.com/SousekiL/women-poets-imperial-china" target="_blank" rel="noreferrer">Code ↗</a></div></div>
         </article>
 
         <article class="research-card" data-tags="Arbitrum|Gitcoin|Optimism|Uniswap|Dune|Regression discontinuity|Cryptocurrency log returns" data-categories="Actuarial research">
@@ -129,12 +131,28 @@
         </article>
       </div>
 
-      <div class="section section--ways" id="ways">
+      <section class="motion-showcase" aria-labelledby="motion-title">
+        <div class="section-heading"><div><p class="section-label">Motion studies</p><h2 id="motion-title">Geography in motion.</h2></div><p class="section-heading__note">Two visual stories, from coastal lights to summer storms.</p></div>
+        <div class="motion-feature-grid">
+          <article class="motion-feature">
+            <video controls preload="none" playsinline poster="images/motion-previews/taiwan-coastal-lights.jpg" aria-label="Play Taiwan coastal lights visualization"><source src="videos/motion/taiwan-coastal-lights.mp4" type="video/mp4">Your browser does not support embedded video. <a href="videos/motion/taiwan-coastal-lights.mp4">Open video</a>.</video>
+            <div class="motion-feature__copy"><p class="item-meta">01 / Coastal geography</p><h3>Taiwan <br>coastal lights.</h3><p class="motion-feature__subtitle" lang="zh-Hant">臺灣燈塔與航標</p><p>A moving portrait of lighthouses and navigation lights around Taiwan, Penghu, and nearby islands.</p><p class="motion-feature__note">Published light cycles, with stylized beams.</p><a class="underlink" href="videos/motion/taiwan-coastal-lights.mp4" target="_blank">Open video ↗</a><span class="motion-runtime">30 seconds · 1080 × 1920</span></div>
+          </article>
+          <article class="motion-feature">
+            <video controls preload="none" playsinline poster="images/motion-previews/china-lightning.jpg" aria-label="Play Lightning season in China visualization"><source src="videos/motion/china-lightning.mp4" type="video/mp4">Your browser does not support embedded video. <a href="videos/motion/china-lightning.mp4">Open video</a>.</video>
+            <div class="motion-feature__copy"><p class="item-meta">02 / Weather &amp; climate</p><h3>Lightning <br>season in China.</h3><p class="motion-feature__subtitle" lang="zh-Hans">中国雷季</p><p>A summer of satellite-detected optical lightning events unfolds across China, from June to August 2023.</p><p class="motion-feature__note">FY-4A LMI observations · 8 km grid.</p><a class="underlink" href="videos/motion/china-lightning.mp4" target="_blank">Open video ↗</a><span class="motion-runtime">20 seconds · 1080 × 1920</span></div>
+          </article>
+        </div>
+      </section>
+
+      <details class="archive-disclosure" id="ways">
+      <summary><span><span class="section-label">Visual archive</span><strong>Ways of looking.</strong></span><span class="archive-disclosure__cue">Explore 25 visual studies <b>+</b></span></summary>
+      <div class="archive-disclosure__content">
       <div class="section-heading section-heading--tight">
-        <div><h2>Ways of looking.</h2></div>
+        <div><p class="section-label">Cities, landscapes &amp; lives</p></div>
         <a class="underlink" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer">View the complete archive <span>↗</span></a>
       </div>
-      <div class="city-contact-sheet" aria-label="City built-space timeline contact sheet">
+      <h3 class="series-title">01 / Built-space timelines</h3><div class="city-contact-sheet" aria-label="City built-space timeline contact sheet">
         <a href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/building-age/beijing-2024.webp" alt="Beijing built-space timeline"><span>Beijing</span></a>
         <a href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/building-age/shanghai-2018.webp" alt="Shanghai built-space timeline"><span>Shanghai</span></a>
         <a href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/building-age/shenzhen-2018.webp" alt="Shenzhen built-space timeline"><span>Shenzhen</span></a>
@@ -147,7 +165,7 @@
         <a href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/building-age/lhasa-2024.webp" alt="Lhasa built-space timeline"><span>Lhasa</span></a>
       </div>
       <div class="ways-image-group">
-        <div class="ways-gallery ways-gallery--five" aria-label="Dialect relief and Yangtze basin visual studies">
+        <h3 class="series-title">02 / Dialects &amp; watersheds</h3><div class="ways-gallery ways-gallery--five" aria-label="Dialect relief and Yangtze basin visual studies">
           <a class="ways-gallery__item" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/dialect/chinese-dialect-relief.png" alt="Chinese dialect relief map"><span>Dialect relief / China</span></a>
           <a class="ways-gallery__item" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/watershed/01-hydrology-gray.png" alt="Yangtze basin hydrology in grayscale"><span>Hydrology / grayscale</span></a>
           <a class="ways-gallery__item" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/watershed/02-hydrology-color.png" alt="Yangtze basin terrain and hydrology"><span>Terrain / hydrology</span></a>
@@ -157,7 +175,7 @@
         <div class="ways-row-footer"><span>Dialect relief / China · Yangtze basin / four studies</span><button class="motion-link" type="button" data-open-video="dialect">Watch dialect motion ↗</button><button class="motion-link" type="button" data-open-video="yangtze">Watch Yangtze motion ↗</button></div>
       </div>
       <div class="ways-image-group">
-        <div class="ways-gallery ways-gallery--five" aria-label="Five city population field visualizations">
+        <h3 class="series-title">03 / Urban population fields</h3><div class="ways-gallery ways-gallery--five" aria-label="Five city population field visualizations">
           <a class="ways-gallery__item" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/population-3d/city-snapshots/dalian-official-labeled.webp" alt="Dalian urban population field"><span>Dalian</span></a>
           <a class="ways-gallery__item" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/population-3d/city-snapshots/guangzhou-official-labeled.webp" alt="Guangzhou urban population field"><span>Guangzhou</span></a>
           <a class="ways-gallery__item" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/population-3d/city-snapshots/hong-kong-official-labeled.webp" alt="Hong Kong urban population field"><span>Hong Kong</span></a>
@@ -167,7 +185,7 @@
         <div class="ways-row-footer"><span>Urban population fields / five cities</span><a class="motion-link" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer">Open archive ↗</a></div>
       </div>
       <div class="ways-image-group">
-        <div class="ways-gallery ways-gallery--five" aria-label="Life expectancy motion studies, 1950 to 2023">
+        <h3 class="series-title">04 / Life expectancy</h3><div class="ways-gallery ways-gallery--five" aria-label="Life expectancy motion studies, 1950 to 2023">
           <button class="ways-gallery__item ways-gallery__item--motion" type="button" data-open-video="life-expectancy" aria-label="Open life expectancy motion studies"><img src="images/city-data-visual/life-expectancy/china-life-expectancy-2023.jpg" alt="China life expectancy animation frame from 2023" loading="lazy"><span>China</span></button>
           <button class="ways-gallery__item ways-gallery__item--motion" type="button" data-open-video="life-expectancy" aria-label="Open life expectancy motion studies"><img src="images/city-data-visual/life-expectancy/mongolia-life-expectancy-2023.jpg" alt="Mongolia life expectancy animation frame from 2023" loading="lazy"><span>Mongolia</span></button>
           <button class="ways-gallery__item ways-gallery__item--motion" type="button" data-open-video="life-expectancy" aria-label="Open life expectancy motion studies"><img src="images/city-data-visual/life-expectancy/north-korea-life-expectancy-2023.jpg" alt="North Korea life expectancy animation frame from 2023" loading="lazy"><span>North Korea</span></button>
@@ -179,6 +197,7 @@
       <div class="city-motion-index"><div><p class="item-meta"><span>Motion</span> Urban growth studies</p><p>Seven short demos from the city building-age series, kept together as one moving layer of the archive.</p></div><button class="motion-link" type="button" data-open-video="city">Watch city timelines ↗</button></div>
       <div class="ways-footnote"><span>Built-space timelines / 10 cities</span><span>Selected image set from the City Data Visual repository</span><a href="https://github.com/SousekiL/city-data-visual#license-and-attribution" target="_blank" rel="noreferrer">Sources &amp; attribution ↗</a></div>
       </div>
+      </details>
     </section>
 
     <section class="section section--photography layout-wide" id="photography">
@@ -200,7 +219,7 @@
 
   </main>
 
-  <footer class="site-footer site-footer--minimal layout-wide"><small>© Felix Liu · Research / visual practice</small><a href="theme-demos.html">Theme &amp; type studies ↗</a></footer>
+  <footer class="site-footer site-footer--minimal layout-wide"><small>© Felix Liu · Research / visual practice</small><a href="mailto:wfliu127@gmail.com">Get in touch ↗</a></footer>
 
   <dialog class="video-modal" id="video-modal" aria-labelledby="video-modal-title">
     <div class="modal-header"><div><p class="section-label">Motion studies</p><h2 id="video-modal-title">Moving images</h2></div><button class="modal-close" type="button" data-close-video>Close <span>×</span></button></div>
