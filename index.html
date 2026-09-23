@@ -7,16 +7,16 @@
   <meta name="theme-color" content="#f5f3ed">
   <title>Felix Liu — Research &amp; Visual Practice</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="homepage.css?v=20260920b">
+  <link rel="stylesheet" href="homepage.css?v=20260923">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="Felix, home"><span>FELIX</span><small>WEIFENG LIU</small></a>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="#ai-practice">AI practice</a>
       <a href="#research">Research</a>
       <a href="#visualizations">Visualizations</a>
+      <a href="#tools">Tools</a>
       <a href="#photography">Photography</a>
     </nav>
     <button class="theme-toggle" type="button" aria-label="Switch color theme" aria-pressed="false"><span class="theme-toggle__dot"></span><span class="theme-toggle__label">Dark</span></button>
@@ -24,15 +24,15 @@
 
   <main id="top">
     <section class="hero hero--portrait-home layout-wide">
-      <p class="eyebrow">Researcher / data scientist / visual maker</p>
+      <p class="eyebrow">Researcher /<br class="mobile-break"> data scientist /<br class="mobile-break"> visual maker</p>
 
       <div class="hero__portrait">
-        <div class="portrait-slot"><img src="images/profile/felix-portrait.png" width="1086" height="1448" alt="Felix Liu in graduation attire"></div>
+        <div class="portrait-slot"><img src="images/profile/felix-portrait.webp" width="720" height="960" alt="Felix Liu in graduation attire" fetchpriority="high"></div>
       </div>
 
       <div class="hero__copy">
         <h1>Seeing <em>society</em><br>through <em>data.</em></h1>
-        <p class="hero__intro">I study society, cities, and risk through data. My work brings computational social science and quantitative methods into research, interactive tools, and visual stories.</p>
+        <p class="hero__intro">From extreme rainfall and on-chain voting to the networks of women poets in imperial China, I use statistical models, maps, and code to ask how risk and social structure take shape — and turn the answers into papers, interactive tools, and visual stories.</p>
         <p class="hero__availability">Open to data science, actuarial &amp; risk analytics roles.</p>
         <div class="hero__links"><a class="button button--dark" href="#research">View research <span>↓</span></a><a class="underlink" href="#visualizations">See visual work <span>↘</span></a></div>
       </div>
@@ -51,41 +51,6 @@
       </aside>
     </section>
 
-    <section class="section section--ai layout-wide" id="ai-practice" aria-labelledby="ai-practice-title">
-      <div class="section-heading">
-        <div><p class="section-label">AI in practice</p><h2 id="ai-practice-title">AI-assisted work.</h2></div>
-        <p class="section-heading__note">Selected visual projects, tools, and experiments developed with AI.</p>
-      </div>
-      <div class="ai-practice-groups">
-        <section class="ai-practice-group" aria-labelledby="ai-visual-work">
-          <h3 class="ai-practice-group__heading" id="ai-visual-work"><span>01</span> Visual work</h3>
-          <div class="ai-practice-list">
-            <article class="ai-practice-entry">
-              <p class="item-meta">Data visualization</p>
-              <h4>Data, maps, and moving images.</h4>
-              <p>Data-driven projects developed with AI across analysis, code, cartography, and motion.</p>
-              <div class="item-links" aria-label="AI-assisted visual work">
-                <a href="#visualizations">Interactive projects ↘</a>
-                <a href="#geography-motion">Geography in motion ↘</a>
-                <a href="#ways">Ways of looking ↘</a>
-              </div>
-            </article>
-          </div>
-        </section>
-        <section class="ai-practice-group" aria-labelledby="ai-tools">
-          <h3 class="ai-practice-group__heading" id="ai-tools"><span>02</span> Tools &amp; plugins</h3>
-          <div class="ai-practice-list">
-            <article class="ai-practice-entry">
-              <p class="item-meta">Browser extension · Beta</p>
-              <h4>Caption Harbor.</h4>
-              <p>A local-first YouTube learning extension for bilingual captions, optional transcription, contextual AI explanations, vocabulary, and notes beside the video.</p>
-              <div class="item-links"><a href="https://chromewebstore.google.com/detail/caption-harbor/kopjchpnhjdekbjljikkjcebojcalmil" target="_blank" rel="noreferrer">Chrome Web Store ↗</a><a href="https://github.com/SousekiL/caption-harbor" target="_blank" rel="noreferrer">View on GitHub ↗</a></div>
-            </article>
-          </div>
-        </section>
-      </div>
-    </section>
-
     <section class="section layout-wide" id="research">
       <div class="section-heading">
         <div><p class="section-label">Research</p><h2>Questions, methods, results.</h2></div>
@@ -95,51 +60,47 @@
         <span>Research areas</span>
         <div class="research-categories__options" data-category-filter-options></div>
       </div>
-      <details class="tag-filter">
-        <summary><span>Skills &amp; methods</span><strong>Filter research projects</strong></summary>
-        <div class="tag-filter__options" data-tag-filter-options></div>
-        <p class="tag-filter__status" data-tag-filter-status aria-live="polite">Showing all research projects</p>
-      </details>
-      <div class="research-grid">
-        <article class="research-card research-card--featured" data-tags="CBDB|MQWW|Double LASSO|Bayesian MCMC|Historical network analysis" data-categories="Computational history|Social observation">
-          <a class="research-card__media" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer"><img src="images/research/women-poets-effects.png" alt="Bootstrap effect distributions for a study of women poets" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>01</span> Selected research · Computational history</p><h3>Women poets and literary recognition in imperial China</h3><p>How did social capital and networks shape whether women poets gained durable literary visibility? Linked historical data, Double LASSO, and Bayesian MCMC.</p><div class="item-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://github.com/SousekiL/women-poets-imperial-china" target="_blank" rel="noreferrer">Code ↗</a></div></div>
-        </article>
-
-        <article class="research-card" data-tags="Arbitrum|Gitcoin|Optimism|Uniswap|Dune|Regression discontinuity|Cryptocurrency log returns" data-categories="Actuarial research">
+      <div class="research-group" data-research-group>
+        <h3 class="series-title research-group__title">Papers &amp; studies</h3>
+        <div class="research-grid">
+        <article class="research-card research-card--featured" data-tags="Arbitrum|Gitcoin|Optimism|Uniswap|Dune|Regression discontinuity|Cryptocurrency log returns" data-categories="Actuarial research">
           <a class="research-card__media" href="https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit" target="_blank" rel="noreferrer"><img src="images/research/dao-governance-rdd.png" alt="Research slide showing a regression discontinuity design for DAO governance" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>02</span> Governance / financial economics</p><h3>On-chain and off-chain vote divergence in DAOs</h3><p>When the same proposal meets two voting systems, how does institutional design shape participation, disagreement, and the value created by governance?</p><div class="item-links"><a href="https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit" target="_blank" rel="noreferrer">Slides ↗</a></div></div>
+          <div class="research-card__body"><p class="item-meta"><span>01</span> Governance / financial economics</p><h3>On-chain and off-chain vote divergence in DAOs</h3><p>When the same proposal meets two voting systems, how does institutional design shape participation, disagreement, and the value created by governance?</p><div class="item-links"><a href="https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit" target="_blank" rel="noreferrer">Slides ↗</a></div></div>
         </article>
-
         <article class="research-card" data-tags="GEV|POT–GPD|EVT|99% VaR|99% ES|Return-level analysis" data-categories="Actuarial research">
           <a class="research-card__media" href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit" target="_blank" rel="noreferrer"><img src="images/research/extreme-return-levels.png" alt="Comparison of GEV and GPD return-level estimates for Beijing precipitation" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>03</span> Climate risk / EVT</p><h3>Extreme precipitation risk in Beijing, 1960–2024</h3><p>Compared GEV block maxima with POT–GPD threshold models to study rare rainfall events and long-horizon return levels.</p><div class="item-links"><a href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit" target="_blank" rel="noreferrer">Slides ↗</a><a href="https://github.com/SousekiL/climate-data-analysis" target="_blank" rel="noreferrer">Code ↗</a></div></div>
+          <div class="research-card__body"><p class="item-meta"><span>02</span> Climate risk / EVT</p><h3>Extreme precipitation risk in Beijing, 1960–2024</h3><p>Compared GEV block maxima with POT–GPD threshold models to study rare rainfall events and long-horizon return levels.</p><div class="item-links"><a href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit" target="_blank" rel="noreferrer">Slides ↗</a><a href="https://github.com/SousekiL/climate-data-analysis" target="_blank" rel="noreferrer">Code ↗</a></div></div>
         </article>
-
+        <article class="research-card" data-tags="CBDB|MQWW|Double LASSO|Bayesian MCMC|Historical network analysis" data-categories="Computational history|Social observation">
+          <a class="research-card__media" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer"><img src="images/research/women-poets-effects.png" alt="Bootstrap effect distributions for a study of women poets" loading="lazy"></a>
+          <div class="research-card__body"><p class="item-meta"><span>03</span> Computational history</p><h3>Women poets and literary recognition in imperial China</h3><p>How did social capital and networks shape whether women poets gained durable literary visibility? Linked historical data, Double LASSO, and Bayesian MCMC.</p><div class="item-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://github.com/SousekiL/women-poets-imperial-china" target="_blank" rel="noreferrer">Code ↗</a></div></div>
+        </article>
+        </div>
+      </div>
+      <div class="research-group" data-research-group>
+        <h3 class="series-title research-group__title">Public writing <span>· Chinese articles with English previews</span></h3>
+        <div class="research-grid">
         <article class="research-card" data-tags="Gaode Map POI|400 m hexagonal grids|OpenStreetMap|Population-weighted route sampling|Detour index" data-categories="Spatial analysis|Social observation">
           <a class="research-card__media" href="#translation-modal" data-open-translation="beijing" aria-label="Open English preview: Why does everywhere feel far away in Beijing?"><img src="images/research/beijing-urban-comparison.png" alt="Urban service density comparison between Beijing and Shanghai" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>04</span> Urban data / spatial analysis</p><h3>Why does everywhere feel far away in Beijing?</h3><p>An open-data comparison of Beijing and Shanghai, examining service density, transit access, roads, and the urban form behind everyday distance.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="beijing">English preview ↗</button><a href="https://mp.weixin.qq.com/s/ywQC_EmsF2VAiZprDFxhjg" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
+          <div class="research-card__body"><p class="item-meta"><span>04</span> Urban data / spatial analysis</p><h3>Why does everywhere feel far away in Beijing?</h3><p>An open-data comparison of Beijing and Shanghai, examining service density, transit access, roads, and the urban form behind everyday distance.</p><p class="research-card__finding">Finding: Beijing’s services are more dispersed and its average detour index higher than Shanghai’s in the study window.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="beijing">English preview ↗</button><a href="https://mp.weixin.qq.com/s/ywQC_EmsF2VAiZprDFxhjg" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
         </article>
-
-        <article class="research-card" data-tags="CBDB|Ming Qing Women’s Writings|Name-presence rate|Descriptive statistics|Character-frequency analysis" data-categories="Computational history|Social observation">
-          <a class="research-card__media" href="#translation-modal" data-open-translation="women-names" aria-label="Open English preview: Women’s names in ancient China"><img src="images/research/women-names.jpg" alt="Historical data visualization about women's names in ancient China" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>05</span> Historical data / public writing</p><h3>Women’s names in ancient China</h3><p>Using a historical database, this short study traces patterns in the names preserved for women in ancient China. It also presents descriptive statistics across dynasties, asking how unevenly women appear in the surviving historical record.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="women-names">English preview ↗</button><a href="https://mp.weixin.qq.com/s/RdEKaUdwB51W1mP4QlPahg" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
-        </article>
-
         <article class="research-card" data-tags="Score-frequency tables|One-point gap influence|Beta distribution fitting|High-score concentration|985 opportunity ratio" data-categories="Social observation">
           <a class="research-card__media" href="#translation-modal" data-open-translation="gaokao" aria-label="Open English preview: Gaokao competition structure across provinces"><img src="images/research/gaokao-competition.png" alt="Heatmap of one-point influence rates across Chinese provinces and score segments" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>06</span> Education data / competition structure</p><h3>Gaokao competition structure across provinces</h3><p>A distribution-based analysis of score density, high-score concentration, and the relative supply of top-university seats across China.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="gaokao">English preview ↗</button><a href="https://mp.weixin.qq.com/s/-fgxo9zde0oz6jZsVOZfww" target="_blank" rel="noreferrer">Original Chinese ↗</a><a href="https://github.com/SousekiL/gaokao-competition-analysis" target="_blank" rel="noreferrer">Project repository ↗</a></div></div>
+          <div class="research-card__body"><p class="item-meta"><span>05</span> Education data / competition structure</p><h3>Gaokao competition structure across provinces</h3><p>A distribution-based analysis of score density, high-score concentration, and the relative supply of top-university seats across China.</p><p class="research-card__finding">Finding: high-pressure provinces split into two structures — narrow versus wide access to top-university seats.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="gaokao">English preview ↗</button><a href="https://mp.weixin.qq.com/s/-fgxo9zde0oz6jZsVOZfww" target="_blank" rel="noreferrer">Original Chinese ↗</a><a href="https://github.com/SousekiL/gaokao-competition-analysis" target="_blank" rel="noreferrer">Project repository ↗</a></div></div>
         </article>
-
+        <article class="research-card" data-tags="CBDB|Ming Qing Women’s Writings|Name-presence rate|Descriptive statistics|Character-frequency analysis" data-categories="Computational history|Social observation">
+          <a class="research-card__media" href="#translation-modal" data-open-translation="women-names" aria-label="Open English preview: Women’s names in ancient China"><img src="images/research/women-names.jpg" alt="Historical data visualization about women's names in ancient China" loading="lazy"></a>
+          <div class="research-card__body"><p class="item-meta"><span>06</span> Historical data</p><h3>Women’s names in ancient China</h3><p>Descriptive statistics across dynasties on how often women appear, and are named, in the surviving historical record.</p><p class="research-card__finding">Finding: named women are a small share of the women the database records at all.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="women-names">English preview ↗</button><a href="https://mp.weixin.qq.com/s/RdEKaUdwB51W1mP4QlPahg" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
+        </article>
         <article class="research-card" data-tags="Dialect classification|Dialect-distance measure|Population-weighted distance|Road-distance measure|Clustering analysis" data-categories="Historical geography|Spatial analysis|Social observation">
           <a class="research-card__media" href="#translation-modal" data-open-translation="administrative" aria-label="Open English preview: Administrative borders vs. cultural boundaries"><img src="images/research/administrative-cultural-boundaries.png" alt="Chinese dialect regions crossing administrative boundaries" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>07</span> Historical geography</p><h3>Administrative borders vs. cultural boundaries</h3><p>A historical-geography study of the differences between formal administrative divisions and the cultural boundaries that emerged across China.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="administrative">English preview ↗</button><a href="https://mp.weixin.qq.com/s/vBkheQzxthUI0SXJ5R11TA" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
+          <div class="research-card__body"><p class="item-meta"><span>07</span> Historical geography</p><h3>Administrative borders vs. cultural boundaries</h3><p>A historical-geography study of the differences between formal administrative divisions and the cultural boundaries that emerged across China.</p><p class="research-card__finding">Finding: one province often holds several cultural regions, while connected areas are split by borders.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="administrative">English preview ↗</button><a href="https://mp.weixin.qq.com/s/vBkheQzxthUI0SXJ5R11TA" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
         </article>
-
         <article class="research-card" data-tags="CBDB|Modern-area geocoding|Latitude distribution|Mean latitude / longitude|TGI index" data-categories="Historical geography|Spatial analysis|Computational history">
           <a class="research-card__media" href="#translation-modal" data-open-translation="cultural-center" aria-label="Open English preview: China’s cultural center moves south"><img src="images/research/cultural-center-southward-shift.png" alt="Historical map showing the southward movement of China’s cultural center" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>08</span> Historical geography</p><h3>China’s cultural center moves south</h3><p>A spatial study of the southward movement of cultural influence, approached through the geography of imperial examination success.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="cultural-center">English preview ↗</button><a href="https://mp.weixin.qq.com/s/si1moQsclpiP2ZB9_VWV6g" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
+          <div class="research-card__body"><p class="item-meta"><span>08</span> Historical geography</p><h3>China’s cultural center moves south</h3><p>A spatial study of the southward movement of cultural influence, approached through the geography of imperial examination success.</p><p class="research-card__finding">Finding: the recorded center shifts from the north in Sui–Tang toward the lower Yangtze by the Song.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="cultural-center">English preview ↗</button><a href="https://mp.weixin.qq.com/s/si1moQsclpiP2ZB9_VWV6g" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
         </article>
+        </div>
       </div>
     </section>
 
@@ -240,6 +201,12 @@
           <h3 class="series-title">05 / AI + Blender relief atlas</h3>
           <p>Four terrain studies built through an AI-assisted workflow, from geospatial preparation and composition to Blender shading and final cartographic refinement.</p>
         </div>
+        <ol class="blender-method" aria-label="Working method">
+          <li><span>01</span><strong>Terrain data</strong>DEM clipping, reprojection, and vertical exaggeration</li>
+          <li><span>02</span><strong>Composition</strong>Framing, extent, and color studies drafted with AI</li>
+          <li><span>03</span><strong>Blender render</strong>Displacement, lighting, and shaded relief</li>
+          <li><span>04</span><strong>Cartographic finish</strong>Labels, borders, and color correction</li>
+        </ol>
         <div class="blender-map-grid" aria-label="AI-assisted Blender relief maps">
           <figure class="blender-map blender-map--china">
             <a href="images/ai-blender-maps/china-relief-atlas.webp" target="_blank"><img src="images/ai-blender-maps/china-relief-atlas.webp" alt="Vintage shaded-relief atlas map of China" loading="lazy"></a>
@@ -258,12 +225,27 @@
             <figcaption><strong>Leizhou &amp; Hainan</strong><span>Topographic study · Qiongzhou Strait</span></figcaption>
           </figure>
         </div>
-        <div class="ways-row-footer"><span>AI-assisted cartography · Blender terrain studies</span><a class="motion-link" href="#ai-practice">Read the working method ↗</a></div>
+        <div class="ways-row-footer"><span>AI-assisted cartography · Blender terrain studies · click a map for full size</span></div>
       </div>
       <div class="city-motion-index"><div><p class="item-meta"><span>Motion</span> Urban growth studies</p><p>Seven short demos from the city building-age series, kept together as one moving layer of the archive.</p></div><button class="motion-link" type="button" data-open-video="city">Watch city timelines ↗</button></div>
       <div class="ways-footnote"><span>Built-space timelines / 10 cities</span><span>Selected image set from the City Data Visual repository</span><a href="https://github.com/SousekiL/city-data-visual#license-and-attribution" target="_blank" rel="noreferrer">Sources &amp; attribution ↗</a></div>
       </div>
       </details>
+    </section>
+
+    <section class="section section--tools layout-wide" id="tools" aria-labelledby="tools-title">
+      <div class="section-heading">
+        <div><p class="section-label">Tools</p><h2 id="tools-title">Small tools, built with AI.</h2></div>
+        <p class="section-heading__note">Utilities I design and maintain alongside the research, developed with AI from prototype to release.</p>
+      </div>
+      <div class="tool-list">
+        <article class="tool-entry">
+          <p class="item-meta">Browser extension · Beta</p>
+          <h3>Caption Harbor.</h3>
+          <p>A local-first YouTube learning extension for bilingual captions, optional transcription, contextual AI explanations, vocabulary, and notes beside the video.</p>
+          <div class="item-links"><a href="https://chromewebstore.google.com/detail/caption-harbor/kopjchpnhjdekbjljikkjcebojcalmil" target="_blank" rel="noreferrer">Chrome Web Store ↗</a><a href="https://github.com/SousekiL/caption-harbor" target="_blank" rel="noreferrer">View on GitHub ↗</a></div>
+        </article>
+      </div>
     </section>
 
     <section class="section section--photography layout-wide" id="photography">
@@ -372,6 +354,6 @@
       </div>
     </article>
   </dialog>
-  <script src="script.js?v=20260920"></script>
+  <script src="script.js?v=20260923"></script>
 </body>
 </html>

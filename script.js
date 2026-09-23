@@ -32,6 +32,9 @@
       card.hidden = !visible;
       if (visible) visibleCount += 1;
     });
+    document.querySelectorAll('[data-research-group]').forEach((group) => {
+      group.hidden = !group.querySelector('.research-card:not([hidden])');
+    });
     tagFilterOptions?.querySelectorAll('[data-filter-tag]').forEach((button) => {
       button.setAttribute('aria-pressed', String(button.dataset.filterTag === activeTag));
     });
