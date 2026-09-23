@@ -1,7 +1,6 @@
 /* Homepage layout, typography, and responsive visual archive. */
-:root { --paper:#f5f3ed; --paper-deep:#e8ebe5; --ink:#292d32; --muted:#626a67; --signal:#3d755d; --line:rgba(41,45,50,.19); }
 body::before { display:none; }
-.site-header { min-height:84px; background:rgba(245,243,237,.94); }
+.site-header { min-height:84px; background:color-mix(in srgb, var(--paper) 94%, transparent); }
 .wordmark span { font-size:1.55rem; }
 .wordmark small { font-size:.65rem; }
 .site-nav a, .theme-toggle { font-family:var(--sans); font-size:.8rem; letter-spacing:.02em; text-transform:none; }
@@ -116,8 +115,7 @@ body::before { display:none; }
 .modal-close { font-size:.8rem; min-height:44px; }
 .translation-copy p { font-size:1rem; }
 .translation-copy h3 { line-height:1.15; letter-spacing:-.03em; }
-body.theme-dark { --paper:#0d1117; --paper-deep:#161d22; --ink:#eef3f1; --muted:#aab8b4; --line:rgba(238,243,241,.2); --signal:#458588; --blue:#8ba9af; }
-body.theme-dark .site-header { background:rgba(13,17,23,.93); }
+body.theme-dark .hero--portrait-home .portrait-slot img { filter:brightness(.88); }
 @media (max-width:1050px) {
  .hero--portrait-home { grid-template-areas:"eyebrow portrait" "copy portrait" "profile profile"; grid-template-columns:minmax(0,1fr) 230px; column-gap:2.5rem; row-gap:1rem; }
  .hero--portrait-home .hero__portrait { width:100%; }

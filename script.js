@@ -2,17 +2,27 @@
   const body = document.body;
   const themeToggle = document.querySelector('.theme-toggle');
   const themeLabel = document.querySelector('.theme-toggle__label');
-  const savedTheme = window.localStorage.getItem('felix-theme');
+  const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+  let savedTheme = null;
+  try { savedTheme = window.localStorage.getItem('felix-theme'); } catch { /* storage blocked */ }
 
   const setTheme = (dark) => {
     body.classList.toggle('theme-dark', dark);
     themeToggle?.setAttribute('aria-pressed', String(dark));
     if (themeLabel) themeLabel.textContent = dark ? 'Light' : 'Dark';
-    window.localStorage.setItem('felix-theme', dark ? 'dark' : 'light');
+    themeColorMeta?.setAttribute('content', getComputedStyle(body).getPropertyValue('--paper').trim());
   };
 
-  setTheme(savedTheme === 'dark');
-  themeToggle?.addEventListener('click', () => setTheme(!body.classList.contains('theme-dark')));
+  // An explicit choice wins; otherwise follow the system setting, live.
+  setTheme(savedTheme ? savedTheme === 'dark' : systemDark.matches);
+  systemDark.addEventListener('change', (event) => { if (!savedTheme) setTheme(event.matches); });
+  themeToggle?.addEventListener('click', () => {
+    const dark = !body.classList.contains('theme-dark');
+    savedTheme = dark ? 'dark' : 'light';
+    try { window.localStorage.setItem('felix-theme', savedTheme); } catch { /* storage blocked */ }
+    setTheme(dark);
+  });
 
   const tagFilterOptions = document.querySelector('[data-tag-filter-options]');
   const categoryFilterOptions = document.querySelector('[data-category-filter-options]');
