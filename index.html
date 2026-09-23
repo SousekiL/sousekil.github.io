@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Felix Liu — research, data visualization, and quantitative risk.">
-  <meta name="theme-color" content="#f4f1eb">
+  <meta name="description" content="Felix Liu — AI-assisted research, data visualization, and quantitative risk.">
+  <meta name="theme-color" content="#f5f3ed">
   <title>Felix Liu — Research &amp; Visual Practice</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" href="homepage.css?v=20260920b">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="Felix, home"><span>FELIX</span><small>WEIFENG LIU</small></a>
     <nav class="site-nav" aria-label="Main navigation">
+      <a href="#ai-practice">AI practice</a>
       <a href="#research">Research</a>
       <a href="#visualizations">Visualizations</a>
       <a href="#photography">Photography</a>
@@ -48,6 +49,41 @@
           <div class="profile-links"><a href="mailto:wfliu127@gmail.com">Email ↗</a><a href="https://github.com/SousekiL" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/wfliu127/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
         </div>
       </aside>
+    </section>
+
+    <section class="section section--ai layout-wide" id="ai-practice" aria-labelledby="ai-practice-title">
+      <div class="section-heading">
+        <div><p class="section-label">AI in practice</p><h2 id="ai-practice-title">AI-assisted work.</h2></div>
+        <p class="section-heading__note">Selected visual projects, tools, and experiments developed with AI.</p>
+      </div>
+      <div class="ai-practice-groups">
+        <section class="ai-practice-group" aria-labelledby="ai-visual-work">
+          <h3 class="ai-practice-group__heading" id="ai-visual-work"><span>01</span> Visual work</h3>
+          <div class="ai-practice-list">
+            <article class="ai-practice-entry">
+              <p class="item-meta">Data visualization</p>
+              <h4>Data, maps, and moving images.</h4>
+              <p>Data-driven projects developed with AI across analysis, code, cartography, and motion.</p>
+              <div class="item-links" aria-label="AI-assisted visual work">
+                <a href="#visualizations">Interactive projects ↘</a>
+                <a href="#geography-motion">Geography in motion ↘</a>
+                <a href="#ways">Ways of looking ↘</a>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="ai-practice-group" aria-labelledby="ai-tools">
+          <h3 class="ai-practice-group__heading" id="ai-tools"><span>02</span> Tools &amp; plugins</h3>
+          <div class="ai-practice-list">
+            <article class="ai-practice-entry">
+              <p class="item-meta">Browser extension · Beta</p>
+              <h4>Caption Harbor.</h4>
+              <p>A local-first YouTube learning extension for bilingual captions, optional transcription, contextual AI explanations, vocabulary, and notes beside the video.</p>
+              <div class="item-links"><a href="https://github.com/SousekiL/caption-harbor" target="_blank" rel="noreferrer">View on GitHub ↗</a></div>
+            </article>
+          </div>
+        </section>
+      </div>
     </section>
 
     <section class="section layout-wide" id="research">
@@ -131,7 +167,7 @@
         </article>
       </div>
 
-      <section class="motion-showcase" aria-labelledby="motion-title">
+      <section class="motion-showcase" id="geography-motion" aria-labelledby="motion-title">
         <div class="section-heading"><div><p class="section-label">Motion studies</p><h2 id="motion-title">Geography in motion.</h2></div><p class="section-heading__note">Two visual stories, from coastal lights to summer storms.</p></div>
         <div class="motion-feature-grid">
           <article class="motion-feature">
@@ -146,7 +182,7 @@
       </section>
 
       <details class="archive-disclosure" id="ways">
-      <summary><span><span class="section-label">Visual archive</span><strong>Ways of looking.</strong></span><span class="archive-disclosure__cue">Explore 25 visual studies <b>+</b></span></summary>
+      <summary><span><span class="section-label">Visual archive</span><strong>Ways of looking.</strong></span><span class="archive-disclosure__cue">Explore 29 visual studies <b>+</b></span></summary>
       <div class="archive-disclosure__content">
       <div class="section-heading section-heading--tight">
         <div><p class="section-label">Cities, landscapes &amp; lives</p></div>
@@ -193,6 +229,31 @@
           <button class="ways-gallery__item ways-gallery__item--motion" type="button" data-open-video="life-expectancy" aria-label="Open life expectancy motion studies"><img src="images/city-data-visual/life-expectancy/japan-life-expectancy-2023.jpg" alt="Japan life expectancy animation frame from 2023" loading="lazy"><span>Japan</span></button>
         </div>
         <div class="ways-row-footer"><span>Life expectancy / five country series · 1950–2023</span><button class="motion-link" type="button" data-open-video="life-expectancy">Watch motion studies ↗</button></div>
+      </div>
+      <div class="ways-image-group ways-image-group--blender">
+        <div class="blender-series-heading">
+          <h3 class="series-title">05 / AI + Blender relief atlas</h3>
+          <p>Four terrain studies built through an AI-assisted workflow, from geospatial preparation and composition to Blender shading and final cartographic refinement.</p>
+        </div>
+        <div class="blender-map-grid" aria-label="AI-assisted Blender relief maps">
+          <figure class="blender-map blender-map--china">
+            <a href="images/ai-blender-maps/china-relief-atlas.webp" target="_blank"><img src="images/ai-blender-maps/china-relief-atlas.webp" alt="Vintage shaded-relief atlas map of China" loading="lazy"></a>
+            <figcaption><strong>China / a relief atlas</strong><span>Vintage shaded relief · provincial color study</span></figcaption>
+          </figure>
+          <figure class="blender-map blender-map--strait">
+            <a href="images/ai-blender-maps/fujian-taiwan-relief.webp" target="_blank"><img src="images/ai-blender-maps/fujian-taiwan-relief.webp" alt="Shaded-relief map of Fujian and Taiwan across the Taiwan Strait" loading="lazy"></a>
+            <figcaption><strong>Fujian &amp; Taiwan</strong><span>Cross-strait terrain study</span></figcaption>
+          </figure>
+          <figure class="blender-map blender-map--shengsi">
+            <a href="images/ai-blender-maps/shengsi-archipelago-relief.webp" target="_blank"><img src="images/ai-blender-maps/shengsi-archipelago-relief.webp" alt="Blue shaded-relief map of the Shengsi Archipelago" loading="lazy"></a>
+            <figcaption><strong>Shengsi Archipelago</strong><span>Island relief · East China Sea</span></figcaption>
+          </figure>
+          <figure class="blender-map blender-map--leizhou">
+            <a href="images/ai-blender-maps/leizhou-hainan-relief.webp" target="_blank"><img src="images/ai-blender-maps/leizhou-hainan-relief.webp" alt="Blue shaded-relief map of the Leizhou Peninsula and Hainan Island" loading="lazy"></a>
+            <figcaption><strong>Leizhou &amp; Hainan</strong><span>Topographic study · Qiongzhou Strait</span></figcaption>
+          </figure>
+        </div>
+        <div class="ways-row-footer"><span>AI-assisted cartography · Blender terrain studies</span><a class="motion-link" href="#ai-practice">Read the working method ↗</a></div>
       </div>
       <div class="city-motion-index"><div><p class="item-meta"><span>Motion</span> Urban growth studies</p><p>Seven short demos from the city building-age series, kept together as one moving layer of the archive.</p></div><button class="motion-link" type="button" data-open-video="city">Watch city timelines ↗</button></div>
       <div class="ways-footnote"><span>Built-space timelines / 10 cities</span><span>Selected image set from the City Data Visual repository</span><a href="https://github.com/SousekiL/city-data-visual#license-and-attribution" target="_blank" rel="noreferrer">Sources &amp; attribution ↗</a></div>
@@ -306,6 +367,6 @@
       </div>
     </article>
   </dialog>
-  <script src="script.js"></script>
+  <script src="script.js?v=20260920"></script>
 </body>
 </html>

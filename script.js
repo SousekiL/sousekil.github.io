@@ -236,4 +236,16 @@
     if (event.target === translationModal) closeModal(translationModal);
   });
 
+  const visualArchive = document.querySelector('#ways');
+  const openVisualArchiveFromHash = () => {
+    if (window.location.hash === '#ways' && visualArchive) visualArchive.open = true;
+  };
+  document.querySelectorAll('a[href="#ways"]').forEach((link) => {
+    link.addEventListener('click', () => {
+      if (visualArchive) visualArchive.open = true;
+    });
+  });
+  window.addEventListener('hashchange', openVisualArchiveFromHash);
+  openVisualArchiveFromHash();
+
 })();
