@@ -19,7 +19,7 @@
   <title>Felix Liu — Research &amp; Visual Practice</title>
   <link rel="preload" href="assets/fonts/serif/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css?v=20260927">
-  <link rel="stylesheet" href="homepage.css?v=20260926">
+  <link rel="stylesheet" href="homepage.css?v=20260927">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
@@ -72,7 +72,7 @@
         <li class="capability">
           <h3>Spatial analysis</h3>
           <p>POI &amp; hexagonal grids · OpenStreetMap routing · geocoding &amp; historical gazetteers · dialect-distance clustering</p>
-          <div class="capability__links"><a href="#archive-beijing">Beijing vs. Shanghai</a><a href="#archive-borders">Borders vs. boundaries</a><a href="#archive-center">Cultural center</a></div>
+          <div class="capability__links"><a href="#work-beijing">Beijing vs. Shanghai</a><a href="#archive-borders">Borders vs. boundaries</a><a href="#archive-center">Cultural center</a></div>
         </li>
         <li class="capability">
           <h3>Networks &amp; historical data</h3>
@@ -82,12 +82,12 @@
         <li class="capability">
           <h3>Visualization &amp; motion</h3>
           <p>Canvas / D3 interactives · scroll-driven maps · Blender shaded relief · FFmpeg render pipelines · Skyfield ephemerides</p>
-          <div class="capability__links"><a href="#work-tang">Tang &amp; Song poets</a><a href="#work-moon">Moon calendar</a><a href="#work-blender">Relief atlas</a><a href="#ways">29 visual studies</a></div>
+          <div class="capability__links"><a href="#work-tang">Tang &amp; Song poets</a><a href="#work-moon">Moon calendar</a><a href="#ways-blender">Relief atlas</a><a href="#ways">29 visual studies</a></div>
         </li>
         <li class="capability">
           <h3>AI-assisted practice</h3>
           <p>Coding agents from prototype to release · data preparation and validation scripts · AI-drafted composition, hand-finished cartography</p>
-          <div class="capability__links"><a href="#archive-caption">Caption Harbor</a><a href="#work-moon">Moon calendar</a><a href="#work-blender">Relief atlas</a></div>
+          <div class="capability__links"><a href="#archive-caption">Caption Harbor</a><a href="#work-moon">Moon calendar</a><a href="#ways-blender">Relief atlas</a></div>
         </li>
       </ol>
     </section>
@@ -95,7 +95,7 @@
     <section class="section section--work layout-wide" id="work" aria-labelledby="work-title">
       <div class="section-heading">
         <div><p class="section-label">Selected work</p><h2 id="work-title">Highlight projects.</h2></div>
-        <p class="section-heading__note">Six projects across papers, maps, motion, and cartography. Everything else is in the archive below.</p>
+        <p class="section-heading__note">Six projects across papers, maps, urban data, and motion. Everything else is in the archive below.</p>
       </div>
       <div class="work-grid">
         <article class="work-card" id="work-evt">
@@ -143,13 +143,13 @@
           <div class="item-links"><button class="text-link" type="button" data-open-video="moon">Watch ↗</button><a href="videos/motion/moon-calendar-2026.mp4" target="_blank">Open video ↗</a></div>
         </article>
 
-        <article class="work-card" id="work-blender">
-          <a class="work-card__media" href="images/ai-blender-maps/china-relief-atlas.webp" target="_blank"><img src="images/ai-blender-maps/china-relief-atlas.webp" alt="Vintage shaded-relief atlas map of China" loading="lazy"></a>
-          <p class="item-meta">Cartography · AI-assisted, 2026</p>
-          <h3>AI + Blender relief atlas</h3>
-          <p>Four terrain studies: DEM preparation, AI-drafted composition and color, Blender shading, hand-finished cartography.</p>
-          <ul class="tags"><li>DEM</li><li>Blender</li><li>AI-assisted</li></ul>
-          <div class="item-links"><a href="#ways-blender" data-open-ways>Four maps ↘</a></div>
+        <article class="work-card" id="work-beijing">
+          <button class="work-card__media work-card__media--button" type="button" data-open-translation="beijing" aria-label="Open English preview: Why does everywhere feel far away in Beijing?"><img src="images/research/beijing-urban-comparison.webp" alt="Service density comparison between Beijing and Shanghai" loading="lazy"><span class="media-cue">English preview ↗</span></button>
+          <p class="item-meta">Urban data · article, 2022 data</p>
+          <h3>Why does everywhere feel far away in Beijing?</h3>
+          <p>Beijing inside the Fifth Ring vs. Shanghai inside the Outer Ring: services are more dispersed, population and commerce less aligned, and 10,000 sampled routes detour further.</p>
+          <ul class="tags"><li>Gaode POI</li><li>400 m hex grids</li><li>OSM routing</li></ul>
+          <div class="item-links"><button class="text-link" type="button" data-open-translation="beijing">English preview ↗</button><a href="https://mp.weixin.qq.com/s/ywQC_EmsF2VAiZprDFxhjg" target="_blank" rel="noreferrer">Original Chinese ↗</a></div>
         </article>
       </div>
     </section>
@@ -313,11 +313,11 @@
     <div class="photo-wall-grid" id="photo-wall-grid" aria-live="polite"></div>
   </dialog>
   <dialog class="translation-modal" id="translation-modal" aria-labelledby="translation-title">
-    <div class="modal-header"><div><p class="section-label">AI-assisted translation preview</p><h2 id="translation-title">English article previews</h2><p class="modal-subtitle">Concise reading copies · the original Chinese article remains authoritative</p></div><button class="modal-close" type="button" data-close-translation>Close <span>×</span></button></div>
+    <div class="modal-header"><div><p class="section-label">English preview · AI-assisted translation</p><h2 id="translation-title">English article preview</h2><p class="modal-subtitle">A short reading copy. The Chinese original is the authoritative version.</p></div><button class="modal-close" type="button" data-close-translation>Close <span>×</span></button></div>
 
     <article class="translation-panel" data-translation-panel="beijing" hidden>
       <div class="translation-layout">
-        <figure class="translation-figure"><img src="images/research/beijing-urban-comparison.png" alt="Urban service density comparison between Beijing and Shanghai"><figcaption>Article image · service density comparison between Beijing and Shanghai.</figcaption></figure>
+        <figure class="translation-figure"><img src="images/research/beijing-urban-comparison.webp" alt="Urban service density comparison between Beijing and Shanghai"><figcaption>Article image · service density comparison between Beijing and Shanghai.</figcaption></figure>
         <div class="translation-copy">
           <h3>Why does everywhere feel far away in Beijing?</h3>
           <div class="translation-tags" aria-label="Tools and methods"><span>Tools &amp; methods</span><b>Gaode Map POI</b><b>400 m hexagonal grids</b><b>OpenStreetMap</b><b>Population-weighted route sampling</b><b>Detour index</b></div>
@@ -385,6 +385,6 @@
       </div>
     </article>
   </dialog>
-  <script src="script.js?v=20260926"></script>
+  <script src="script.js?v=20260927"></script>
 </body>
 </html>

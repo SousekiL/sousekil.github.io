@@ -131,10 +131,14 @@
   };
 
   const openVideoModal = (group) => {
+    let single = false;
     document.querySelectorAll('[data-video-group-panel]').forEach((panel) => {
       panel.hidden = panel.dataset.videoGroupPanel !== group;
+      if (!panel.hidden) single = panel.classList.contains('video-group--single');
     });
+    videoModal?.classList.toggle('video-modal--single', single);
     showModal(videoModal);
+    if (videoModal) videoModal.scrollTop = 0;
   };
 
   // In-page links into the collapsed visual archive open it first so the jump lands.
@@ -237,6 +241,7 @@
     });
     if (translationTitle) translationTitle.textContent = translationTitles[key] || 'English article preview';
     showModal(translationModal);
+    translationModal.scrollTop = 0;
   };
 
   document.querySelectorAll('[data-open-translation]').forEach((button) => {
