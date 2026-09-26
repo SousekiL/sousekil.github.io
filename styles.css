@@ -11,7 +11,7 @@
   --ink: #292d32;
   --muted: #626a67;
   --line: rgba(41, 45, 50, .19);
-  --signal: #2f6b52;
+  --signal: #2f4a7a;
   --blue: #49566d;
   --serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   /* Type scale: every size on the homepage is one of these (see homepage.css). */
@@ -230,7 +230,7 @@ dd { margin: .3rem 0 0; color: var(--ink); font-size: .7rem; line-height: 1.6; }
 .site-footer--minimal a { color: var(--muted); font-size: .61rem; font-weight: 700; letter-spacing: .075em; text-decoration: underline; text-decoration-color: var(--signal); text-underline-offset: .25rem; text-transform: uppercase; }
 .site-footer--minimal a:hover { color: var(--signal); }
 
-body.theme-dark { --paper: #151714; --paper-deep: #1f221e; --ink: #ece9e1; --muted: #a9b3ac; --line: rgba(236, 233, 225, .2); --signal: #6fae8f; --blue: #8ba9af; color-scheme: dark; }
+body.theme-dark { --paper: #151714; --paper-deep: #1f221e; --ink: #ece9e1; --muted: #a9b3ac; --line: rgba(236, 233, 225, .2); --signal: #8fa8d6; --blue: #8ba9af; color-scheme: dark; }
 body.theme-dark::before { opacity: .2; }
 body.theme-dark .button { color: var(--paper); background: var(--ink); }
 body.theme-dark .button:hover { color: #fff; background: var(--signal); }
