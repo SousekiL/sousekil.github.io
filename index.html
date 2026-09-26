@@ -3,20 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Felix Liu — AI-assisted research, data visualization, and quantitative risk.">
+  <meta name="description" content="Felix Liu — statistical modelling, spatial analysis, data visualization, and AI-assisted practice. Research, interactive maps, motion studies, and tools.">
   <meta name="theme-color" content="#f5f3ed">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Felix Liu — Seeing society through data">
+  <meta property="og:description" content="Statistical modelling, spatial analysis, data visualization, and AI-assisted practice: papers, interactive maps, motion studies, and tools.">
+  <meta property="og:url" content="https://sousekil.github.io/">
+  <meta property="og:image" content="https://sousekil.github.io/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon-180x180.png">
   <title>Felix Liu — Research &amp; Visual Practice</title>
-  <link rel="stylesheet" href="styles.css?v=20260923b">
-  <link rel="stylesheet" href="homepage.css?v=20260924">
+  <link rel="preload" href="assets/fonts/serif/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=20260926">
+  <link rel="stylesheet" href="homepage.css?v=20260926">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="Felix, home"><span>FELIX</span><small>WEIFENG LIU</small></a>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="#research">Research</a>
-      <a href="#visualizations">Visualizations</a>
-      <a href="#tools">Tools</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#work">Selected work</a>
+      <a href="#archive">Archive</a>
       <a href="#photography">Photography</a>
     </nav>
     <button class="theme-toggle" type="button" aria-label="Switch color theme" aria-pressed="false"><span class="theme-toggle__dot"></span><span class="theme-toggle__label">Dark</span></button>
@@ -34,125 +46,156 @@
         <h1>Seeing <em>society</em><br>through <em>data.</em></h1>
         <p class="hero__intro">From extreme rainfall and on-chain voting to the networks of women poets in imperial China, I use statistical models, maps, and code to ask how risk and social structure take shape — and turn the answers into papers, interactive tools, and visual stories.</p>
         <p class="hero__availability">Open to data science, actuarial &amp; risk analytics roles.</p>
-        <div class="hero__links"><a class="button button--dark" href="#research">View research <span>↓</span></a><a class="underlink" href="#visualizations">See visual work <span>↘</span></a></div>
+        <div class="hero__links"><a class="button button--dark" href="#work">Selected work <span>↓</span></a><a class="underlink" href="#capabilities">What I work with <span>↘</span></a></div>
       </div>
       <aside class="hero__aside">
-
         <div class="hero__profile">
           <div class="profile-block"><span>Education</span><strong>Xi’an Jiaotong University<br>Nanjing University<br>University of Illinois Urbana-Champaign</strong></div>
           <div class="profile-block"><span>Fields</span><strong>Computational social science<br>Actuarial science</strong></div>
-          <div class="profile-block"><span>Interests</span><strong>Data visualization<br>AI-assisted creative coding</strong></div>
-          <div class="profile-list">
-            <div class="profile-block"><span>Stack</span><strong>Python · R · SQL<br>JavaScript · Git<br>GLMs · EVT · MCMC</strong></div>
-            <div class="profile-block"><span>Exams</span><strong>SOA P · FM · SRM · ASTAM</strong></div>
-          </div>
+          <div class="profile-block"><span>Exams</span><strong>SOA P · FM · SRM · ASTAM</strong></div>
           <div class="profile-links"><a href="mailto:wfliu127@gmail.com">Email ↗</a><a href="https://github.com/SousekiL" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/wfliu127/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
         </div>
       </aside>
     </section>
 
-    <section class="section layout-wide" id="research">
+    <section class="section section--capabilities layout-wide" id="capabilities" aria-labelledby="capabilities-title">
       <div class="section-heading">
-        <div><p class="section-label">Research</p><h2>Questions, methods, results.</h2></div>
-        <p class="section-heading__note">Selected studies from the archive, with the original paper, slides, or project notes attached.</p>
+        <div><p class="section-label">Capabilities</p><h2 id="capabilities-title">What I work with.</h2></div>
+        <p class="section-heading__note">Five things I do repeatedly, the methods behind each, and the projects on this page that show them.</p>
       </div>
-      <div class="research-categories" data-category-filter>
-        <span>Research areas</span>
-        <div class="research-categories__options" data-category-filter-options></div>
+      <ol class="capability-list">
+        <li class="capability">
+          <h3>Statistical modelling</h3>
+          <p>GLMs · extreme value theory (GEV, POT–GPD) · Bayesian MCMC · Double LASSO · regression discontinuity · R, Python</p>
+          <div class="capability__links"><a href="#work-evt">Extreme precipitation</a><a href="#work-dao">DAO vote divergence</a><a href="#work-poets">Women poets</a></div>
+        </li>
+        <li class="capability">
+          <h3>Spatial analysis</h3>
+          <p>POI &amp; hexagonal grids · OpenStreetMap routing · geocoding &amp; historical gazetteers · dialect-distance clustering</p>
+          <div class="capability__links"><a href="#archive-beijing">Beijing vs. Shanghai</a><a href="#archive-borders">Borders vs. boundaries</a><a href="#archive-center">Cultural center</a></div>
+        </li>
+        <li class="capability">
+          <h3>Networks &amp; historical data</h3>
+          <p>CBDB · Ming Qing Women’s Writings · record linkage · network construction and centrality · descriptive statistics across dynasties</p>
+          <div class="capability__links"><a href="#work-poets">Women poets network</a><a href="#archive-figures">Historical figures</a><a href="#archive-names">Women’s names</a></div>
+        </li>
+        <li class="capability">
+          <h3>Visualization &amp; motion</h3>
+          <p>Canvas / D3 interactives · scroll-driven maps · Blender shaded relief · FFmpeg render pipelines · Skyfield ephemerides</p>
+          <div class="capability__links"><a href="#work-tang">Tang &amp; Song poets</a><a href="#work-moon">Moon calendar</a><a href="#work-blender">Relief atlas</a><a href="#ways">29 visual studies</a></div>
+        </li>
+        <li class="capability">
+          <h3>AI-assisted practice</h3>
+          <p>Coding agents from prototype to release · data preparation and validation scripts · AI-drafted composition, hand-finished cartography</p>
+          <div class="capability__links"><a href="#archive-caption">Caption Harbor</a><a href="#work-moon">Moon calendar</a><a href="#work-blender">Relief atlas</a></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section section--work layout-wide" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><p class="section-label">Selected work</p><h2 id="work-title">Six projects, six methods.</h2></div>
+        <p class="section-heading__note">One project per capability, across papers, maps, motion, and cartography. Everything else is in the archive below.</p>
       </div>
-      <div class="research-group" data-research-group>
-        <h3 class="series-title research-group__title">Papers &amp; studies</h3>
-        <div class="research-grid">
-        <article class="research-card research-card--featured" data-tags="Arbitrum|Gitcoin|Optimism|Uniswap|Dune|Regression discontinuity|Cryptocurrency log returns" data-categories="Actuarial research">
-          <a class="research-card__media" href="https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit" target="_blank" rel="noreferrer"><img src="images/research/dao-governance-rdd.png" alt="Research slide showing a regression discontinuity design for DAO governance" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>01</span> Governance / financial economics</p><h3>On-chain and off-chain vote divergence in DAOs</h3><p>When the same proposal meets two voting systems, how does institutional design shape participation, disagreement, and the value created by governance?</p><div class="item-links"><a href="https://docs.google.com/document/d/1PDlFjb9F1Eynu3nKtXY0A4eieQ6z9cULwgklmYVSc-E/edit" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://docs.google.com/presentation/d/1YeGVDRZEyd_0hANWYfzB-NX_jd0AoRkSD42OIQcguJU/edit" target="_blank" rel="noreferrer">Slides ↗</a></div></div>
+      <div class="work-grid">
+        <article class="work-card" id="work-evt">
+          <a class="work-card__media" href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit" target="_blank" rel="noreferrer"><img src="images/research/extreme-return-levels.png" alt="Comparison of GEV and GPD return-level estimates for Beijing precipitation" loading="lazy"></a>
+          <p class="item-meta">Climate risk · study</p>
+          <h3>Extreme precipitation risk in Beijing, 1960–2024</h3>
+          <p>GEV block maxima against POT–GPD threshold models for rare rainfall and long-horizon return levels.</p>
+          <ul class="tags"><li>GEV</li><li>POT–GPD</li><li>99% VaR / ES</li></ul>
+          <div class="item-links"><a href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit" target="_blank" rel="noreferrer">Slides ↗</a><a href="https://github.com/SousekiL/climate-data-analysis" target="_blank" rel="noreferrer">Code ↗</a></div>
         </article>
-        <article class="research-card" data-tags="GEV|POT–GPD|EVT|99% VaR|99% ES|Return-level analysis" data-categories="Actuarial research">
-          <a class="research-card__media" href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit" target="_blank" rel="noreferrer"><img src="images/research/extreme-return-levels.png" alt="Comparison of GEV and GPD return-level estimates for Beijing precipitation" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>02</span> Climate risk / EVT</p><h3>Extreme precipitation risk in Beijing, 1960–2024</h3><p>Compared GEV block maxima with POT–GPD threshold models to study rare rainfall events and long-horizon return levels.</p><div class="item-links"><a href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit" target="_blank" rel="noreferrer">Slides ↗</a><a href="https://github.com/SousekiL/climate-data-analysis" target="_blank" rel="noreferrer">Code ↗</a></div></div>
+
+        <article class="work-card" id="work-dao">
+          <a class="work-card__media" href="files/papers/dao-vote-divergence-paper.pdf" target="_blank"><img src="images/research/dao-governance-rdd.png" alt="Research slide showing a regression discontinuity design for DAO governance" loading="lazy"></a>
+          <p class="item-meta">Governance · paper, iRisk Lab 2025</p>
+          <h3>On-chain and off-chain vote divergence in DAOs</h3>
+          <p>229 proposals across Uniswap, Arbitrum, Gitcoin, and Optimism. Governance effects persist, but divergence between the two votes weakens the value governance creates.</p>
+          <ul class="tags"><li>Regression discontinuity</li><li>Dune</li><li>Event returns</li></ul>
+          <div class="item-links"><a href="files/papers/dao-vote-divergence-paper.pdf" target="_blank">Paper (PDF) ↗</a><a href="files/papers/dao-vote-divergence-slides.pdf" target="_blank">Slides (PDF) ↗</a></div>
         </article>
-        <article class="research-card" data-tags="CBDB|MQWW|Double LASSO|Bayesian MCMC|Historical network analysis" data-categories="Computational history|Social observation">
-          <a class="research-card__media" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer"><img src="images/research/women-poets-effects.png" alt="Bootstrap effect distributions for a study of women poets" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>03</span> Computational history</p><h3>Women poets and literary recognition in imperial China</h3><p>How did social capital and networks shape whether women poets gained durable literary visibility? Linked historical data, Double LASSO, and Bayesian MCMC.</p><div class="item-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://github.com/SousekiL/women-poets-imperial-china" target="_blank" rel="noreferrer">Code ↗</a></div></div>
+
+        <article class="work-card" id="work-poets">
+          <a class="work-card__media work-card__media--triptych" href="https://sousekil.github.io/women-poets-imperial-china/" target="_blank" rel="noreferrer" aria-label="Open the women poets network visualization"><img src="images/project-previews/women-poets-network-bieji.webp" alt="" loading="lazy"><img src="images/project-previews/women-poets-network-heke.webp" alt="" loading="lazy"><img src="images/project-previews/women-poets-network-zongji.webp" alt="Women poets network visualization" loading="lazy"><span class="media-cue">Interactive ↗</span></a>
+          <p class="item-meta">Computational history · paper + interactive</p>
+          <h3>Women poets and literary recognition in imperial China</h3>
+          <p>How social capital and networks shaped which women poets gained durable visibility — with the linked CBDB × MQWW network made explorable.</p>
+          <ul class="tags"><li>Double LASSO</li><li>Bayesian MCMC</li><li>Network analysis</li></ul>
+          <div class="item-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://sousekil.github.io/women-poets-imperial-china/" target="_blank" rel="noreferrer">Live network ↗</a><a href="https://github.com/SousekiL/women-poets-imperial-china" target="_blank" rel="noreferrer">Code ↗</a></div>
         </article>
-        </div>
-      </div>
-      <div class="research-group" data-research-group>
-        <h3 class="series-title research-group__title">Public writing <span>· Chinese articles with English previews</span></h3>
-        <div class="research-grid">
-        <article class="research-card" data-tags="Gaode Map POI|400 m hexagonal grids|OpenStreetMap|Population-weighted route sampling|Detour index" data-categories="Spatial analysis|Social observation">
-          <a class="research-card__media" href="#translation-modal" data-open-translation="beijing" aria-label="Open English preview: Why does everywhere feel far away in Beijing?"><img src="images/research/beijing-urban-comparison.png" alt="Urban service density comparison between Beijing and Shanghai" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>04</span> Urban data / spatial analysis</p><h3>Why does everywhere feel far away in Beijing?</h3><p>An open-data comparison of Beijing and Shanghai, examining service density, transit access, roads, and the urban form behind everyday distance.</p><p class="research-card__finding">Finding: Beijing’s services are more dispersed and its average detour index higher than Shanghai’s in the study window.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="beijing">English preview ↗</button><a href="https://mp.weixin.qq.com/s/ywQC_EmsF2VAiZprDFxhjg" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
+
+        <article class="work-card" id="work-tang">
+          <a class="work-card__media" href="https://sousekil.github.io/tang-poets-journeys/" target="_blank" rel="noreferrer"><img src="images/project-previews/tang-poets-journeys.webp" alt="Scroll-driven map tracing Tang and Song poets' travel routes across China" loading="lazy"><span class="media-cue">Interactive ↗</span></a>
+          <p class="item-meta">Historical geography · interactive map</p>
+          <h3>Journeys of Tang &amp; Song poets</h3>
+          <p>Where 360 poets actually went: some 14,000 recorded stops traced on a paper-textured map, scroll by scroll.</p>
+          <ul class="tags"><li>Scroll-driven map</li><li>Canvas</li><li>Bilingual</li></ul>
+          <div class="item-links"><a href="https://sousekil.github.io/tang-poets-journeys/" target="_blank" rel="noreferrer">Live project ↗</a><a href="https://github.com/SousekiL/tang-poets-journeys" target="_blank" rel="noreferrer">Repository ↗</a></div>
         </article>
-        <article class="research-card" data-tags="Score-frequency tables|One-point gap influence|Beta distribution fitting|High-score concentration|985 opportunity ratio" data-categories="Social observation">
-          <a class="research-card__media" href="#translation-modal" data-open-translation="gaokao" aria-label="Open English preview: Gaokao competition structure across provinces"><img src="images/research/gaokao-competition.png" alt="Heatmap of one-point influence rates across Chinese provinces and score segments" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>05</span> Education data / competition structure</p><h3>Gaokao competition structure across provinces</h3><p>A distribution-based analysis of score density, high-score concentration, and the relative supply of top-university seats across China.</p><p class="research-card__finding">Finding: high-pressure provinces split into two structures — narrow versus wide access to top-university seats.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="gaokao">English preview ↗</button><a href="https://mp.weixin.qq.com/s/-fgxo9zde0oz6jZsVOZfww" target="_blank" rel="noreferrer">Original Chinese ↗</a><a href="https://github.com/SousekiL/gaokao-competition-analysis" target="_blank" rel="noreferrer">Project repository ↗</a></div></div>
+
+        <article class="work-card" id="work-moon">
+          <button class="work-card__media work-card__media--button" type="button" data-open-video="moon" aria-label="Play Moon calendar 2026"><img src="images/project-previews/moon-calendar-wide.webp" alt="Full moon over a tide curve, from the Moon calendar 2026 video" loading="lazy"><span class="media-cue">Play · 2:41</span></button>
+          <p class="item-meta">Astronomy &amp; tides · motion, 2026</p>
+          <h3>Moon calendar 2026</h3>
+          <p>Summer solstice to the Mid-Autumn full moon: the moon’s phase over Hong Kong, the solar terms, and a rolling 24-hour tide at Quarry Bay.</p>
+          <ul class="tags"><li>Skyfield</li><li>HKO tides</li><li>FFmpeg pipeline</li></ul>
+          <div class="item-links"><button class="text-link" type="button" data-open-video="moon">Watch ↗</button><a href="videos/motion/moon-calendar-2026.mp4" target="_blank">Open video ↗</a></div>
         </article>
-        <article class="research-card" data-tags="CBDB|Ming Qing Women’s Writings|Name-presence rate|Descriptive statistics|Character-frequency analysis" data-categories="Computational history|Social observation">
-          <a class="research-card__media" href="#translation-modal" data-open-translation="women-names" aria-label="Open English preview: Women’s names in ancient China"><img src="images/research/women-names.jpg" alt="Historical data visualization about women's names in ancient China" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>06</span> Historical data</p><h3>Women’s names in ancient China</h3><p>Descriptive statistics across dynasties on how often women appear, and are named, in the surviving historical record.</p><p class="research-card__finding">Finding: named women are a small share of the women the database records at all.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="women-names">English preview ↗</button><a href="https://mp.weixin.qq.com/s/RdEKaUdwB51W1mP4QlPahg" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
+
+        <article class="work-card" id="work-blender">
+          <a class="work-card__media" href="images/ai-blender-maps/china-relief-atlas.webp" target="_blank"><img src="images/ai-blender-maps/china-relief-atlas.webp" alt="Vintage shaded-relief atlas map of China" loading="lazy"></a>
+          <p class="item-meta">Cartography · AI-assisted, 2026</p>
+          <h3>AI + Blender relief atlas</h3>
+          <p>Four terrain studies: DEM preparation, AI-drafted composition and color, Blender shading, hand-finished cartography.</p>
+          <ul class="tags"><li>DEM</li><li>Blender</li><li>AI-assisted</li></ul>
+          <div class="item-links"><a href="#ways-blender" data-open-ways>Four maps ↘</a></div>
         </article>
-        <article class="research-card" data-tags="Dialect classification|Dialect-distance measure|Population-weighted distance|Road-distance measure|Clustering analysis" data-categories="Historical geography|Spatial analysis|Social observation">
-          <a class="research-card__media" href="#translation-modal" data-open-translation="administrative" aria-label="Open English preview: Administrative borders vs. cultural boundaries"><img src="images/research/administrative-cultural-boundaries.png" alt="Chinese dialect regions crossing administrative boundaries" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>07</span> Historical geography</p><h3>Administrative borders vs. cultural boundaries</h3><p>A historical-geography study of the differences between formal administrative divisions and the cultural boundaries that emerged across China.</p><p class="research-card__finding">Finding: one province often holds several cultural regions, while connected areas are split by borders.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="administrative">English preview ↗</button><a href="https://mp.weixin.qq.com/s/vBkheQzxthUI0SXJ5R11TA" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
-        </article>
-        <article class="research-card" data-tags="CBDB|Modern-area geocoding|Latitude distribution|Mean latitude / longitude|TGI index" data-categories="Historical geography|Spatial analysis|Computational history">
-          <a class="research-card__media" href="#translation-modal" data-open-translation="cultural-center" aria-label="Open English preview: China’s cultural center moves south"><img src="images/research/cultural-center-southward-shift.png" alt="Historical map showing the southward movement of China’s cultural center" loading="lazy"></a>
-          <div class="research-card__body"><p class="item-meta"><span>08</span> Historical geography</p><h3>China’s cultural center moves south</h3><p>A spatial study of the southward movement of cultural influence, approached through the geography of imperial examination success.</p><p class="research-card__finding">Finding: the recorded center shifts from the north in Sui–Tang toward the lower Yangtze by the Song.</p><div class="item-links"><button class="text-link" type="button" data-open-translation="cultural-center">English preview ↗</button><a href="https://mp.weixin.qq.com/s/si1moQsclpiP2ZB9_VWV6g" target="_blank" rel="noreferrer">Original Chinese ↗</a></div></div>
-        </article>
-        </div>
       </div>
     </section>
 
-    <section class="section section--visualizations layout-wide" id="visualizations">
+    <section class="section section--archive layout-wide" id="archive" aria-labelledby="archive-title">
       <div class="section-heading">
-        <div><p class="section-label">Visualizations</p><h2>Projects that let data speak.</h2></div>
-        <p class="section-heading__note">Interactive projects and visual research objects. Open a project to explore the data, not just the picture.</p>
-      </div>
-      <div class="visual-project-grid">
-        <article class="visual-project">
-          <a class="visual-project__media visual-project__media--triptych" href="https://sousekil.github.io/women-poets-imperial-china/" target="_blank" rel="noreferrer" aria-label="Open Women poets and literary recognition visualization">
-            <img src="images/project-previews/women-poets-network-bieji.webp" alt="Women poets network visualization focused on individual collections" loading="lazy"><img src="images/project-previews/women-poets-network-heke.webp" alt="Women poets network visualization focused on kinship" loading="lazy"><img src="images/project-previews/women-poets-network-zongji.webp" alt="Women poets network visualization focused on collected works" loading="lazy"><span class="media-cue">Open interactive ↗</span>
-          </a>
-          <div class="visual-project__body"><p class="item-meta"><span>01</span> Computational history</p><h3>Women poets &amp; literary recognition visualization</h3><p>A visual companion to the research: historical figures, social ties, kinship, and literary collections made explorable.</p><div class="item-links"><a href="https://sousekil.github.io/women-poets-imperial-china/" target="_blank" rel="noreferrer">Live project ↗</a><a href="https://github.com/SousekiL/women-poets-imperial-china" target="_blank" rel="noreferrer">Repository ↗</a></div></div>
-        </article>
-
-        <article class="visual-project">
-          <a class="visual-project__media visual-project__media--landscape" href="https://sousekil.github.io/historical-figures-network/" target="_blank" rel="noreferrer"><img src="images/project-previews/historical-figures-network-article.png" alt="Historical figures relationship network visualization" loading="lazy"><span class="media-cue">Open interactive ↗</span></a>
-          <div class="visual-project__body"><p class="item-meta"><span>02</span> Quantitative history</p><h3>Historical figures network visualization</h3><p>A searchable network of relationships between historical figures, built from CBDB records and designed for tracing connections across time.</p><div class="item-links"><a href="https://sousekil.github.io/historical-figures-network/" target="_blank" rel="noreferrer">Live project ↗</a><a href="https://mp.weixin.qq.com/s/X6hEO87wlwo-ZMJGOgDUaQ" target="_blank" rel="noreferrer">Article ↗</a><a href="https://github.com/SousekiL/historical-figures-network" target="_blank" rel="noreferrer">Repository ↗</a></div></div>
-        </article>
-
-        <article class="visual-project">
-          <a class="visual-project__media visual-project__media--triptych visual-project__media--city" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer" aria-label="Open City Data Visual archive"><img src="images/city-data-visual/building-age/beijing-2024.webp" alt="Beijing built-space timeline" loading="lazy"><img src="images/city-data-visual/building-age/shanghai-2018.webp" alt="Shanghai built-space timeline" loading="lazy"><img src="images/city-data-visual/building-age/shenzhen-2018.webp" alt="Shenzhen built-space timeline" loading="lazy"><span class="media-cue">Open archive ↗</span></a>
-          <div class="visual-project__body"><p class="item-meta"><span>03</span> Urban data</p><h3>City data visual: urban space visualization</h3><p>A growing visual archive of built space, population fields, cultural geography, terrain, and hydrology across China.</p><div class="item-links"><a href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer">Complete archive ↗</a><a href="https://github.com/SousekiL/city-data-visual#methods-and-sources" target="_blank" rel="noreferrer">Methods &amp; sources ↗</a></div></div>
-        </article>
-
-        <article class="visual-project">
-          <a class="visual-project__media visual-project__media--landscape" href="https://sousekil.github.io/tang-poets-journeys/" target="_blank" rel="noreferrer"><img src="images/project-previews/tang-poets-journeys.webp" alt="Scroll-driven map tracing Tang and Song poets' travel routes across China" loading="lazy"><span class="media-cue">Open interactive ↗</span></a>
-          <div class="visual-project__body"><p class="item-meta"><span>04</span> Historical geography</p><h3>Journeys of Tang &amp; Song poets</h3><p>A scroll-driven bilingual map of where 360 poets actually went — some 14,000 recorded stops traced on a paper-textured map, scroll by scroll, poet by poet.</p><div class="item-links"><a href="https://sousekil.github.io/tang-poets-journeys/" target="_blank" rel="noreferrer">Live project ↗</a><a href="https://github.com/SousekiL/tang-poets-journeys" target="_blank" rel="noreferrer">Repository ↗</a></div></div>
-        </article>
+        <div><p class="section-label">Archive</p><h2 id="archive-title">Everything else.</h2></div>
+        <p class="section-heading__note">All research, writing, visual work, and tools, in compact form. Chinese articles open with an English preview.</p>
       </div>
 
-      <section class="motion-showcase" id="geography-motion" aria-labelledby="motion-title">
-        <div class="section-heading"><div><p class="section-label">Motion studies</p><h2 id="motion-title">Geography in motion.</h2></div><p class="section-heading__note">Three visual stories: coastal lights, summer storms, and a season of moons.</p></div>
-        <div class="motion-feature-grid">
-          <article class="motion-feature">
-            <video controls preload="none" playsinline poster="images/motion-previews/taiwan-coastal-lights.jpg" aria-label="Play Taiwan coastal lights visualization"><source src="videos/motion/taiwan-coastal-lights.mp4" type="video/mp4">Your browser does not support embedded video. <a href="videos/motion/taiwan-coastal-lights.mp4">Open video</a>.</video>
-            <div class="motion-feature__copy"><p class="item-meta">01 / Coastal geography</p><h3>Taiwan <br>coastal lights.</h3><p class="motion-feature__subtitle" lang="zh-Hant">臺灣燈塔與航標</p><p>A moving portrait of lighthouses and navigation lights around Taiwan, Penghu, and nearby islands.</p><p class="motion-feature__note">Published light cycles, with stylized beams.</p><a class="underlink" href="videos/motion/taiwan-coastal-lights.mp4" target="_blank">Open video ↗</a><span class="motion-runtime">30 seconds · 1080 × 1920</span></div>
-          </article>
-          <article class="motion-feature">
-            <video controls preload="none" playsinline poster="images/motion-previews/china-lightning.jpg" aria-label="Play Lightning season in China visualization"><source src="videos/motion/china-lightning.mp4" type="video/mp4">Your browser does not support embedded video. <a href="videos/motion/china-lightning.mp4">Open video</a>.</video>
-            <div class="motion-feature__copy"><p class="item-meta">02 / Weather &amp; climate</p><h3>Lightning <br>season in China.</h3><p class="motion-feature__subtitle" lang="zh-Hans">中国雷季</p><p>A summer of satellite-detected optical lightning events unfolds across China, from June to August 2023.</p><p class="motion-feature__note">FY-4A LMI observations · 8 km grid.</p><a class="underlink" href="videos/motion/china-lightning.mp4" target="_blank">Open video ↗</a><span class="motion-runtime">20 seconds · 1080 × 1920</span></div>
-          </article>
-          <article class="motion-feature">
-            <video controls preload="none" playsinline poster="images/motion-previews/moon-calendar-2026.jpg" aria-label="Play Moon calendar 2026 visualization"><source src="videos/motion/moon-calendar-2026.mp4" type="video/mp4">Your browser does not support embedded video. <a href="videos/motion/moon-calendar-2026.mp4">Open video</a>.</video>
-            <div class="motion-feature__copy"><p class="item-meta">03 / Astronomy &amp; tides</p><h3>Moon <br>calendar 2026.</h3><p class="motion-feature__subtitle" lang="zh-Hans">月相 · 夏至至中秋</p><p>From the summer solstice to the Mid-Autumn full moon, day by day: the moon’s phase over Hong Kong, the solar terms, and a rolling 24-hour tide at Quarry Bay.</p><p class="motion-feature__note">HKO tide predictions &amp; lunar calendar · moon rendering from Star Walk.</p><a class="underlink" href="videos/motion/moon-calendar-2026.mp4" target="_blank">Open video ↗</a><span class="motion-runtime">2 min 41 s · 1080 × 1920</span></div>
-          </article>
-        </div>
-      </section>
+      <div class="archive-block">
+        <h3 class="archive-block__title">Research &amp; writing <span>8</span></h3>
+        <ol class="index-list">
+          <li class="index-row" id="archive-dao"><span class="index-row__kind">Paper</span><div class="index-row__main"><a href="#work-dao">On-chain and off-chain vote divergence in DAOs</a><small>Regression discontinuity · 229 proposals · four DAOs</small></div><div class="index-row__links"><a href="files/papers/dao-vote-divergence-paper.pdf" target="_blank">PDF ↗</a><a href="files/papers/dao-vote-divergence-slides.pdf" target="_blank">Slides ↗</a></div></li>
+          <li class="index-row" id="archive-evt"><span class="index-row__kind">Study</span><div class="index-row__main"><a href="#work-evt">Extreme precipitation risk in Beijing, 1960–2024</a><small>GEV vs. POT–GPD · 99% VaR / ES · return levels</small></div><div class="index-row__links"><a href="https://docs.google.com/presentation/d/1ycfQBVjlIzTE_0mT8Y5lUUNIm3GWILAnQglmU-RvkI4/edit" target="_blank" rel="noreferrer">Slides ↗</a><a href="https://github.com/SousekiL/climate-data-analysis" target="_blank" rel="noreferrer">Code ↗</a></div></li>
+          <li class="index-row" id="archive-poets"><span class="index-row__kind">Paper</span><div class="index-row__main"><a href="#work-poets">Women poets and literary recognition in imperial China</a><small>CBDB × MQWW · Double LASSO · Bayesian MCMC</small></div><div class="index-row__links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5072945" target="_blank" rel="noreferrer">SSRN ↗</a><a href="https://github.com/SousekiL/women-poets-imperial-china" target="_blank" rel="noreferrer">Code ↗</a></div></li>
+          <li class="index-row" id="archive-beijing"><span class="index-row__kind">Article</span><div class="index-row__main"><button class="text-link" type="button" data-open-translation="beijing">Why does everywhere feel far away in Beijing?</button><small>Gaode POI · 400 m hex grids · OSM routing · detour index — Beijing’s services are more dispersed and detours longer than Shanghai’s</small></div><div class="index-row__links"><button class="text-link" type="button" data-open-translation="beijing">English ↗</button><a href="https://mp.weixin.qq.com/s/ywQC_EmsF2VAiZprDFxhjg" target="_blank" rel="noreferrer">中文 ↗</a></div></li>
+          <li class="index-row" id="archive-gaokao"><span class="index-row__kind">Article</span><div class="index-row__main"><button class="text-link" type="button" data-open-translation="gaokao">Gaokao competition structure across provinces</button><small>Score-frequency tables · Beta fitting · 985 opportunity ratio — high-pressure provinces split into narrow- and wide-access structures</small></div><div class="index-row__links"><button class="text-link" type="button" data-open-translation="gaokao">English ↗</button><a href="https://mp.weixin.qq.com/s/-fgxo9zde0oz6jZsVOZfww" target="_blank" rel="noreferrer">中文 ↗</a><a href="https://github.com/SousekiL/gaokao-competition-analysis" target="_blank" rel="noreferrer">Code ↗</a></div></li>
+          <li class="index-row" id="archive-names"><span class="index-row__kind">Article</span><div class="index-row__main"><button class="text-link" type="button" data-open-translation="women-names">Women’s names in ancient China</button><small>CBDB · name-presence rate · character frequency — named women are a small share of the women recorded at all</small></div><div class="index-row__links"><button class="text-link" type="button" data-open-translation="women-names">English ↗</button><a href="https://mp.weixin.qq.com/s/RdEKaUdwB51W1mP4QlPahg" target="_blank" rel="noreferrer">中文 ↗</a></div></li>
+          <li class="index-row" id="archive-borders"><span class="index-row__kind">Article</span><div class="index-row__main"><button class="text-link" type="button" data-open-translation="administrative">Administrative borders vs. cultural boundaries</button><small>Dialect distance · road distance · clustering — one province often holds several cultural regions</small></div><div class="index-row__links"><button class="text-link" type="button" data-open-translation="administrative">English ↗</button><a href="https://mp.weixin.qq.com/s/vBkheQzxthUI0SXJ5R11TA" target="_blank" rel="noreferrer">中文 ↗</a></div></li>
+          <li class="index-row" id="archive-center"><span class="index-row__kind">Article</span><div class="index-row__main"><button class="text-link" type="button" data-open-translation="cultural-center">China’s cultural center moves south</button><small>CBDB · geocoding · latitude distribution · TGI — the recorded center shifts from the north in Sui–Tang to the lower Yangtze by the Song</small></div><div class="index-row__links"><button class="text-link" type="button" data-open-translation="cultural-center">English ↗</button><a href="https://mp.weixin.qq.com/s/si1moQsclpiP2ZB9_VWV6g" target="_blank" rel="noreferrer">中文 ↗</a></div></li>
+        </ol>
+      </div>
+
+      <div class="archive-block">
+        <h3 class="archive-block__title">Visual &amp; motion <span>7</span></h3>
+        <ol class="index-list index-list--thumbs">
+          <li class="index-row"><a class="index-row__thumb" href="https://sousekil.github.io/women-poets-imperial-china/" target="_blank" rel="noreferrer"><img src="images/project-previews/women-poets-network-zongji.webp" alt="" loading="lazy"></a><div class="index-row__main"><a href="https://sousekil.github.io/women-poets-imperial-china/" target="_blank" rel="noreferrer">Women poets network</a><small>Interactive · CBDB × MQWW · kinship, social ties, collections</small></div><div class="index-row__links"><a href="https://sousekil.github.io/women-poets-imperial-china/" target="_blank" rel="noreferrer">Live ↗</a><a href="https://github.com/SousekiL/women-poets-imperial-china" target="_blank" rel="noreferrer">Code ↗</a></div></li>
+          <li class="index-row" id="archive-figures"><a class="index-row__thumb" href="https://sousekil.github.io/historical-figures-network/" target="_blank" rel="noreferrer"><img src="images/project-previews/historical-figures-network-article.png" alt="" loading="lazy"></a><div class="index-row__main"><a href="https://sousekil.github.io/historical-figures-network/" target="_blank" rel="noreferrer">Historical figures network</a><small>Interactive · searchable relationships across CBDB records</small></div><div class="index-row__links"><a href="https://sousekil.github.io/historical-figures-network/" target="_blank" rel="noreferrer">Live ↗</a><a href="https://mp.weixin.qq.com/s/X6hEO87wlwo-ZMJGOgDUaQ" target="_blank" rel="noreferrer">Article ↗</a><a href="https://github.com/SousekiL/historical-figures-network" target="_blank" rel="noreferrer">Code ↗</a></div></li>
+          <li class="index-row"><a class="index-row__thumb" href="https://sousekil.github.io/tang-poets-journeys/" target="_blank" rel="noreferrer"><img src="images/project-previews/tang-poets-journeys.webp" alt="" loading="lazy"></a><div class="index-row__main"><a href="https://sousekil.github.io/tang-poets-journeys/" target="_blank" rel="noreferrer">Journeys of Tang &amp; Song poets</a><small>Interactive · scroll-driven bilingual map · 360 poets, ~14,000 stops</small></div><div class="index-row__links"><a href="https://sousekil.github.io/tang-poets-journeys/" target="_blank" rel="noreferrer">Live ↗</a><a href="https://github.com/SousekiL/tang-poets-journeys" target="_blank" rel="noreferrer">Code ↗</a></div></li>
+          <li class="index-row"><a class="index-row__thumb" href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer"><img src="images/city-data-visual/building-age/shanghai-2018.webp" alt="" loading="lazy"></a><div class="index-row__main"><a href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer">City data visual</a><small>Archive · built space, population fields, terrain, hydrology · <a href="#ways">29 studies on this page</a></small></div><div class="index-row__links"><a href="https://github.com/SousekiL/city-data-visual" target="_blank" rel="noreferrer">Repository ↗</a><a href="https://github.com/SousekiL/city-data-visual#methods-and-sources" target="_blank" rel="noreferrer">Methods ↗</a></div></li>
+          <li class="index-row"><button class="index-row__thumb" type="button" data-open-video="taiwan" aria-label="Play Taiwan coastal lights"><img src="images/motion-previews/taiwan-coastal-lights.jpg" alt="" loading="lazy"></button><div class="index-row__main"><button class="text-link" type="button" data-open-video="taiwan">Taiwan coastal lights</button><small>Motion · lighthouses and navigation lights, published light cycles · 0:30</small></div><div class="index-row__links"><button class="text-link" type="button" data-open-video="taiwan">Watch ↗</button></div></li>
+          <li class="index-row"><button class="index-row__thumb" type="button" data-open-video="lightning" aria-label="Play Lightning season in China"><img src="images/motion-previews/china-lightning.jpg" alt="" loading="lazy"></button><div class="index-row__main"><button class="text-link" type="button" data-open-video="lightning">Lightning season in China</button><small>Motion · FY-4A LMI optical lightning events, June–August 2023 · 0:20</small></div><div class="index-row__links"><button class="text-link" type="button" data-open-video="lightning">Watch ↗</button></div></li>
+          <li class="index-row"><button class="index-row__thumb" type="button" data-open-video="moon" aria-label="Play Moon calendar 2026"><img src="images/motion-previews/moon-calendar-2026.jpg" alt="" loading="lazy"></button><div class="index-row__main"><button class="text-link" type="button" data-open-video="moon">Moon calendar 2026</button><small>Motion · moon phase, solar terms, Quarry Bay tide · 2:41</small></div><div class="index-row__links"><button class="text-link" type="button" data-open-video="moon">Watch ↗</button></div></li>
+        </ol>
+      </div>
+
+      <div class="archive-block">
+        <h3 class="archive-block__title">Tools <span>1</span></h3>
+        <ol class="index-list">
+          <li class="index-row" id="archive-caption"><span class="index-row__kind">Extension</span><div class="index-row__main"><a href="https://chromewebstore.google.com/detail/caption-harbor/kopjchpnhjdekbjljikkjcebojcalmil" target="_blank" rel="noreferrer">Caption Harbor</a><small>Local-first YouTube learning extension: bilingual captions, transcription, contextual AI explanations, vocabulary and notes · beta, built with AI from prototype to release</small></div><div class="index-row__links"><a href="https://chromewebstore.google.com/detail/caption-harbor/kopjchpnhjdekbjljikkjcebojcalmil" target="_blank" rel="noreferrer">Chrome Web Store ↗</a><a href="https://github.com/SousekiL/caption-harbor" target="_blank" rel="noreferrer">GitHub ↗</a></div></li>
+        </ol>
+      </div>
 
       <details class="archive-disclosure" id="ways">
-      <summary><span><span class="section-label">Visual archive</span><strong>Ways of looking.</strong></span><span class="archive-disclosure__cue">Explore 29 visual studies <b>+</b></span></summary>
+      <summary><span><span class="section-label">Visual archive</span><strong>Ways of looking.</strong></span><span class="archive-disclosure__cue">29 visual studies <b>+</b></span></summary>
       <div class="archive-disclosure__content">
       <div class="section-heading section-heading--tight">
         <div><p class="section-label">Cities, landscapes &amp; lives</p></div>
@@ -200,7 +243,7 @@
         </div>
         <div class="ways-row-footer"><span>Life expectancy / five country series · 1950–2023</span><button class="motion-link" type="button" data-open-video="life-expectancy">Watch motion studies ↗</button></div>
       </div>
-      <div class="ways-image-group ways-image-group--blender">
+      <div class="ways-image-group ways-image-group--blender" id="ways-blender">
         <div class="blender-series-heading">
           <h3 class="series-title">05 / AI + Blender relief atlas</h3>
           <p>Four terrain studies built through an AI-assisted workflow, from geospatial preparation and composition to Blender shading and final cartographic refinement.</p>
@@ -237,36 +280,17 @@
       </details>
     </section>
 
-    <section class="section section--tools layout-wide" id="tools" aria-labelledby="tools-title">
-      <div class="section-heading">
-        <div><p class="section-label">Tools</p><h2 id="tools-title">Small tools, built with AI.</h2></div>
-        <p class="section-heading__note">Utilities I design and maintain alongside the research, developed with AI from prototype to release.</p>
-      </div>
-      <div class="tool-list">
-        <article class="tool-entry">
-          <p class="item-meta">Browser extension · Beta</p>
-          <h3>Caption Harbor.</h3>
-          <p>A local-first YouTube learning extension for bilingual captions, optional transcription, contextual AI explanations, vocabulary, and notes beside the video.</p>
-          <div class="item-links"><a href="https://chromewebstore.google.com/detail/caption-harbor/kopjchpnhjdekbjljikkjcebojcalmil" target="_blank" rel="noreferrer">Chrome Web Store ↗</a><a href="https://github.com/SousekiL/caption-harbor" target="_blank" rel="noreferrer">View on GitHub ↗</a></div>
-        </article>
-      </div>
-    </section>
-
     <section class="section section--photography layout-wide" id="photography">
-      <div class="section-heading section-heading--tight"><div><p class="section-label">Photography</p><h2>Elsewhere.</h2></div><p class="section-heading__note">Eleven city archives. Click a city to open its full photography wall.</p></div>
+      <div class="section-heading section-heading--tight"><div><p class="section-label">Photography</p><h2>Elsewhere.</h2></div><p class="section-heading__note">Eleven city archives. Click a city to open its wall.</p></div>
       <div class="photography-grid">
         <button class="city-photo-card" type="button" data-photo-city="new-york"><img src="images/photography-wall/new-york/DSCF0187.webp" alt="New York photograph" loading="lazy"><span>New York</span><small data-photo-count="new-york">10 photographs</small></button>
-        <button class="city-photo-card" type="button" data-photo-city="chicago"><img src="images/photography-wall/chicago/DSCF9938.webp" alt="Chicago photograph" loading="lazy"><span>Chicago</span><small data-photo-count="chicago">8 photographs</small></button>
-        <button class="city-photo-card" type="button" data-photo-city="florida"><img src="images/photography-wall/florida/DSCF9518.webp" alt="Florida photograph" loading="lazy"><span>Florida</span><small data-photo-count="florida">8 photographs</small></button>
         <button class="city-photo-card" type="button" data-photo-city="shanghai"><img src="images/photography-wall/shanghai/253587A5-4E01-4C67-8E2A-9FDE853715A0-6124-00000154E47F6357.webp" alt="Shanghai photograph" loading="lazy"><span>Shanghai</span><small data-photo-count="shanghai">14 photographs</small></button>
         <button class="city-photo-card" type="button" data-photo-city="tokyo"><img src="images/photography-wall/tokyo/5A466EB3-FC7A-4673-A46C-CF9F9DF119A6.webp" alt="Tokyo photograph" loading="lazy"><span>Tokyo</span><small data-photo-count="tokyo">10 photographs</small></button>
-        <button class="city-photo-card" type="button" data-photo-city="osaka"><img src="images/photography-wall/osaka/714EFAD1-26CC-4D60-957D-905DCD1D19FB.webp" alt="Osaka photograph" loading="lazy"><span>Osaka</span><small data-photo-count="osaka">6 photographs</small></button>
+        <button class="city-photo-card" type="button" data-photo-city="chicago"><img src="images/photography-wall/chicago/DSCF9938.webp" alt="Chicago photograph" loading="lazy"><span>Chicago</span><small data-photo-count="chicago">8 photographs</small></button>
         <button class="city-photo-card" type="button" data-photo-city="sapporo"><img src="images/photography-wall/sapporo/299f4715423962689c4e1c687fd25c.webp" alt="Sapporo photograph" loading="lazy"><span>Sapporo</span><small data-photo-count="sapporo">6 photographs</small></button>
         <button class="city-photo-card" type="button" data-photo-city="lijiang"><img src="images/photography-wall/lijiang/e6b72b2d6fdef51c6fc72fe4b1c8c7.webp" alt="Lijiang photograph" loading="lazy"><span>Lijiang</span><small data-photo-count="lijiang">6 photographs</small></button>
-        <button class="city-photo-card" type="button" data-photo-city="hangzhou"><img src="images/photography-wall/hangzhou/bdbb665944f83acf899462612f673f.webp" alt="Hangzhou photograph" loading="lazy"><span>Hangzhou</span><small data-photo-count="hangzhou">9 photographs</small></button>
-        <button class="city-photo-card" type="button" data-photo-city="nanjing"><img src="images/photography-wall/nanjing/d294c94fa45361d0eb421e179d1f61.webp" alt="Nanjing photograph" loading="lazy"><span>Nanjing</span><small data-photo-count="nanjing">3 photographs</small></button>
-        <button class="city-photo-card" type="button" data-photo-city="kunshan"><img src="images/photography-wall/kunshan/3ea353a64d476c165dee114a507281.webp" alt="Kunshan photograph" loading="lazy"><span>Kunshan</span><small data-photo-count="kunshan">4 photographs</small></button>
       </div>
+      <p class="photography-more"><span>Also</span><button class="text-link" type="button" data-photo-city="florida">Florida</button><button class="text-link" type="button" data-photo-city="osaka">Osaka</button><button class="text-link" type="button" data-photo-city="hangzhou">Hangzhou</button><button class="text-link" type="button" data-photo-city="nanjing">Nanjing</button><button class="text-link" type="button" data-photo-city="kunshan">Kunshan</button></p>
     </section>
 
   </main>
@@ -279,6 +303,9 @@
     <section class="video-group video-group--single" data-video-group-panel="yangtze" hidden><div class="video-group__intro"><p class="item-meta"><span>02</span> Regional geography</p><h3>Yangtze basin / four studies</h3><p>A moving sequence across terrain, hydrology, population, and the basin’s urban corridor.</p></div><div class="motion-grid"><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/watershed/02-hydrology-color.png"><source src="videos/motion/yangtze-basin-motion.mp4" type="video/mp4"></video><p>Yangtze basin / four studies</p></article></div></section>
     <section class="video-group video-group--city" data-video-group-panel="city" hidden><div class="video-group__intro"><p class="item-meta"><span>03</span> Urban growth</p><h3>Building-age timelines</h3><p>Seven city demos from the urban expansion series.</p></div><div class="motion-grid"><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/building-age/shenzhen-2018.webp"><source src="videos/motion/shenzhen-building-age.mp4" type="video/mp4"></video><p>Shenzhen</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/building-age/shanghai-2018.webp"><source src="videos/motion/shanghai-building-age.mp4" type="video/mp4"></video><p>Shanghai</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/building-age/xian-2024.webp"><source src="videos/motion/xian-building-age.mp4" type="video/mp4"></video><p>Xi’an</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/building-age/beijing-2024.webp"><source src="videos/motion/beijing-building-age.mp4" type="video/mp4"></video><p>Beijing</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/building-age/nanjing-2018.webp"><source src="videos/motion/nanjing-building-age-01.mp4" type="video/mp4"></video><p>Nanjing / 01</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/building-age/hangzhou-2024.webp"><source src="videos/motion/hangzhou-building-age.mp4" type="video/mp4"></video><p>Hangzhou</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/building-age/nanjing-2018.webp"><source src="videos/motion/nanjing-building-age-02.mp4" type="video/mp4"></video><p>Nanjing / 02</p></article></div></section>
     <section class="video-group video-group--life" data-video-group-panel="life-expectancy" hidden><div class="video-group__intro"><p class="item-meta"><span>Life expectancy</span> Motion studies</p><h3>Five country series, 1950–2023</h3><p>Five annual life-expectancy animations presented side by side.</p></div><div class="motion-grid"><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/life-expectancy/china-life-expectancy-2023.jpg"><source src="videos/motion/life-expectancy/china-life-expectancy-1950-2023.mp4" type="video/mp4"></video><p>China</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/life-expectancy/mongolia-life-expectancy-2023.jpg"><source src="videos/motion/life-expectancy/mongolia-life-expectancy-1950-2023.mp4" type="video/mp4"></video><p>Mongolia</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/life-expectancy/north-korea-life-expectancy-2023.jpg"><source src="videos/motion/life-expectancy/north-korea-life-expectancy-1950-2023.mp4" type="video/mp4"></video><p>North Korea</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/life-expectancy/south-korea-life-expectancy-2023.jpg"><source src="videos/motion/life-expectancy/south-korea-life-expectancy-1950-2023.mp4" type="video/mp4"></video><p>South Korea</p></article><article class="motion-card"><video controls preload="none" playsinline poster="images/city-data-visual/life-expectancy/japan-life-expectancy-2023.jpg"><source src="videos/motion/life-expectancy/japan-life-expectancy-1950-2023.mp4" type="video/mp4"></video><p>Japan</p></article></div></section>
+    <section class="video-group video-group--single" data-video-group-panel="taiwan" hidden><div class="video-group__intro"><p class="item-meta">Coastal geography</p><h3>Taiwan coastal lights</h3><p>A moving portrait of lighthouses and navigation lights around Taiwan, Penghu, and nearby islands. Published light cycles, stylized beams. 30 s · 1080 × 1920.</p></div><div class="motion-grid"><article class="motion-card"><video controls preload="none" playsinline poster="images/motion-previews/taiwan-coastal-lights.jpg"><source src="videos/motion/taiwan-coastal-lights.mp4" type="video/mp4"></video><p>臺灣燈塔與航標</p></article></div></section>
+    <section class="video-group video-group--single" data-video-group-panel="lightning" hidden><div class="video-group__intro"><p class="item-meta">Weather &amp; climate</p><h3>Lightning season in China</h3><p>A summer of satellite-detected optical lightning events across China, June to August 2023. FY-4A LMI observations, 8 km grid. 20 s · 1080 × 1920.</p></div><div class="motion-grid"><article class="motion-card"><video controls preload="none" playsinline poster="images/motion-previews/china-lightning.jpg"><source src="videos/motion/china-lightning.mp4" type="video/mp4"></video><p>中国雷季</p></article></div></section>
+    <section class="video-group video-group--single" data-video-group-panel="moon" hidden><div class="video-group__intro"><p class="item-meta">Astronomy &amp; tides</p><h3>Moon calendar 2026</h3><p>From the summer solstice to the Mid-Autumn full moon: the moon’s phase over Hong Kong, the solar terms, and a rolling 24-hour tide at Quarry Bay. HKO tide predictions and lunar calendar; moon rendering from Star Walk. 2 min 41 s · 1080 × 1920.</p></div><div class="motion-grid"><article class="motion-card"><video controls preload="none" playsinline poster="images/motion-previews/moon-calendar-2026.jpg"><source src="videos/motion/moon-calendar-2026.mp4" type="video/mp4"></video><p>月相 · 夏至至中秋</p></article></div></section>
   </dialog>
 
   <dialog class="photo-wall-modal" id="photo-wall-modal" aria-labelledby="photo-wall-title">
@@ -358,6 +385,6 @@
       </div>
     </article>
   </dialog>
-  <script src="script.js?v=20260923b"></script>
+  <script src="script.js?v=20260926"></script>
 </body>
 </html>

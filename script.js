@@ -137,6 +137,11 @@
     showModal(videoModal);
   };
 
+  // In-page links into the collapsed visual archive open it first so the jump lands.
+  document.querySelectorAll('a[href^="#ways"]').forEach((link) => {
+    link.addEventListener('click', () => { const ways = document.querySelector('#ways'); if (ways) ways.open = true; });
+  });
+
   document.querySelectorAll('[data-open-video]').forEach((button) => {
     button.addEventListener('click', () => openVideoModal(button.dataset.openVideo));
   });
