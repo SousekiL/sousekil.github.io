@@ -154,6 +154,12 @@ body::before { display:none; }
 .video-group--single .motion-card { border-top:0; }
 .video-group--single .motion-card p { text-align:center; }
 .motion-card video { max-height:70vh; }
+/* landscape films: 16:9 video on top, intro below */
+.video-group--wide { display:grid; grid-template-columns:1fr; gap:1.1rem; }
+.video-group--wide .motion-grid { grid-template-columns:1fr; }
+.video-group--wide .motion-card { border-top:0; }
+.video-group--wide .motion-card video { aspect-ratio:16 / 9; width:min(100%, calc(70vh * 16 / 9)); height:auto; margin:0 auto; }
+.video-group--wide .video-group__intro { max-width:46rem; margin:0; }
 body.theme-dark .hero--portrait-home .portrait-slot img { filter:brightness(.88); }
 #top { scroll-margin-top:90px; }
 
