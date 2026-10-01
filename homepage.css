@@ -11,6 +11,11 @@ body::before { display:none; }
 .site-nav { gap:1.8rem; }
 .site-nav a, .theme-toggle { font-family:var(--sans); font-size:var(--t-sm); letter-spacing:.01em; text-transform:none; }
 .theme-toggle { min-height:44px; }
+.header-tools { display:flex; align-items:center; justify-self:end; gap:1.4rem; }
+.lang-toggle { display:flex; align-items:center; gap:.35rem; min-height:44px; padding:0; border:0; background:none; color:var(--muted); font-family:var(--sans); font-size:var(--t-sm); cursor:pointer; }
+.lang-toggle span[lang] { padding-bottom:.1rem; border-bottom:2px solid transparent; }
+.lang-toggle[data-active="en"] span[lang="en"], .lang-toggle[data-active="zh"] span[lang="zh-Hans"] { color:var(--ink); border-bottom-color:var(--signal); }
+@media (hover:hover) { .lang-toggle:hover { color:var(--signal); } }
 
 /* Shared type */
 .eyebrow, .section-label, .item-meta, .profile-block span, .media-cue, .ways-row-footer > span, .ways-footnote, .modal-close, .modal-subtitle, .motion-card p, .site-footer--minimal small, .archive-disclosure__cue, .series-title, .index-row__kind { font-size:var(--t-xs); letter-spacing:.08em; }
@@ -177,7 +182,7 @@ body.theme-dark .hero--portrait-home .portrait-slot img { filter:brightness(.88)
  .site-header { grid-template-columns:1fr auto; padding-top:.9rem; row-gap:.5rem; }
  .site-nav { display:flex; justify-content:space-between; grid-row:2; grid-column:1/-1; gap:.7rem; width:100%; padding:.4rem 0 .75rem; }
  .site-nav a { min-height:32px; display:flex; align-items:center; }
- .theme-toggle { grid-column:2; grid-row:1; }
+ .header-tools { grid-column:2; grid-row:1; gap:1rem; }
  .hero--portrait-home { padding-top:2.5rem; grid-template-columns:minmax(0,1fr) 170px; column-gap:1.5rem; }
  .hero--portrait-home > .eyebrow { white-space:normal; }
  .section, .section--visualizations, .section--photography { padding-top:3.5rem; scroll-margin-top:8rem; }
