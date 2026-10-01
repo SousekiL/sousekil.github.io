@@ -60,6 +60,10 @@ body::before { display:none; }
 .work-card__media:hover img { transform:scale(1.025); }
 .work-card__media--triptych { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.25rem; background:#182220; }
 .work-card__media--triptych img { min-width:0; }
+.work-card__media--quad { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:repeat(2,minmax(0,1fr)); gap:.25rem; background:#182220; cursor:default; }
+.work-card__media--quad a { display:block; min-width:0; min-height:0; overflow:hidden; }
+.work-card__media--quad:hover img { transform:none; }
+.work-card__media--quad a:hover img { transform:scale(1.04); }
 .work-card h3 { margin:.4rem 0 0; font-family:var(--serif); font-size:var(--t-xl); font-weight:400; letter-spacing:-.025em; line-height:1.15; }
 .work-card > p:not(.item-meta) { margin:.5rem 0 0; color:var(--muted); font-size:var(--t-base); line-height:1.55; }
 .work-card .item-links { margin-top:auto; padding-top:.5rem; }
