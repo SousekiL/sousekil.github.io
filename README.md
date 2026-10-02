@@ -15,7 +15,7 @@
 
 - [Women poets & literary recognition visualization](https://sousekil.github.io/women-poets-imperial-china/)
 - [Historical figures network visualization](https://sousekil.github.io/historical-figures-network/) · [article](https://mp.weixin.qq.com/s/X6hEO87wlwo-ZMJGOgDUaQ)
-- [City data visual: urban space visualization](https://github.com/SousekiL/city-data-visual)
+- [City data visual: urban space visualization](https://github.com/SousekiL/dataviz-studio)
 
 ## Photography
 
